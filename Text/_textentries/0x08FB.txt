@@ -1,0 +1,30 @@
+According to legend, the Sacred Stones [.]
+have sealed evil away from the world.[.][A]
+Four of the five stones have been destroyed,
+leaving only the last stone intact.[.][A]
+
+The last stone must be protected to stave[.]
+off the Demon King's restoration.[.][A]
+[LoadOverworldFaces]Ephraim and company challenge the demons of 
+Darkling Woods.[.][A]
+[LoadOverworldFaces]According to legend,[A]
+
+the original possessors of the Sacred Stones
+defeated the Demon King in Darkling Woods.[A]
+
+His foul blood seeped into the land,
+corrupting every seed and every root.[.][A]
+
+The once-pristine forest was transformed by[.]
+the flood of disease and venom.[.][A]
+
+Legend says the Demon King's corpse lies [.]
+there still, not dead but dreaming.[.][A]
+
+Dreaming of when the last stone is crushed,[.][A]
+and he will rise from his bed of rocks and [.]
+worms and return to the surface.[A]
+[LoadOverworldFaces]Deep within Darkling Woods, misshapen beasts
+roam in ever-growing numbers...[.][A]
+as if answering some unheard call.[A]
+[LoadOverworldFaces][X]

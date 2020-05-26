@@ -1,0 +1,7 @@
+[MR][LoadCurrent]
+[ML][Load][Uncle]
+I'll tell you a secret.[AN]
+That armoury seems to have[N]
+connections with the rebels.[AN]
+If you're going to visit it,[N]
+be extra careful.[A][X]

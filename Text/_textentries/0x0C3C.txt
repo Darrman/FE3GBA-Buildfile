@@ -1,0 +1,1 @@
+[ToggleSmile][OpenMidRight][LoadFace][0x23][0x01][OpenMidRight]Navarre[ToggleMouthMove]...[.][ToggleMouthMove][N]Save me[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]

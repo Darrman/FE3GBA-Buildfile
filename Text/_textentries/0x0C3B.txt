@@ -1,0 +1,1 @@
+[OpenMidRight][LoadFace][0x22][0x01][OpenMidRight]Prince Marth[.][ToggleMouthMove]...[.][ToggleMouthMove][N]Don't die.[A][CloseEyes][X]

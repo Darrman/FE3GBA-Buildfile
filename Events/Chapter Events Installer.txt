@@ -1,0 +1,33 @@
+
+  ALIGN 4
+  #include "Ch1.txt"
+
+  ALIGN 4
+  #include "Ch2.txt"
+
+  ALIGN 4
+  #include "Ch3.txt"
+
+  ALIGN 4
+  #include "Ch4.txt"
+
+  ALIGN 4
+  #include "Ch5.txt"
+
+  ALIGN 4
+  #include "Ch6.txt"
+
+  ALIGN 4
+  #include "Ch7.txt"
+
+  ALIGN 4
+  #include "Ch8.txt"
+
+  ALIGN 4
+  #include "Anti-Hayden.txt"
+
+  ALIGN 4
+  #include "skip WM.txt"
+  
+  ALIGN 4
+  #include "Debug.txt"

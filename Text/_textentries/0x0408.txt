@@ -1,0 +1,2 @@
+Grants +10% accuracy and critical[N]
+to all nearby units.[.][X]

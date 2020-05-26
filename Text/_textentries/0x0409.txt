@@ -1,0 +1,2 @@
+Restores all HP to the user at the[N]
+start of every turn.[.][X]

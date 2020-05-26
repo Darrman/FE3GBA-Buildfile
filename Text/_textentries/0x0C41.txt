@@ -1,0 +1,2 @@
+[OpenMidRight][LoadFace][0x26][0x01][OpenMidRight]Maria[ToggleMouthMove]... [.][ToggleMouthMove][A]
+I'm sorry[ToggleMouthMove]... [ToggleMouthMove][A][X]

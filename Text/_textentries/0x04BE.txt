@@ -1,0 +1,2 @@
+Allows all allies[N]
+to move again.[.][X]

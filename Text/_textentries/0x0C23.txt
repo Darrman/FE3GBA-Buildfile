@@ -1,0 +1,4 @@
+[OpenMidRight][LoadFace][Marth][OpenMidRight]Forgive me[.][ToggleMouthMove]... [N][ToggleMouthMove]my friends...[A][OpenMidRight][CloseEyes][....][N]
+[OpenMidRight][LoadFace][Sheeda]
+Ah, Lord Marth...[N]
+How could you die...[A][X]

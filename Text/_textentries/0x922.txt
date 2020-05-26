@@ -1,0 +1,8 @@
+[MR][LoadCurrent]
+[ML][Load][Aunt]
+What's going to happen to Macedonia now?[N]
+First they said Prince Misheil died, then[AN]
+Princess Maria went missing... And now[N]
+Princess Minerva has been captured, and[AN]
+her life is in danger. Ah... This country[N]
+won't become like Grunia, right...?[A][X]

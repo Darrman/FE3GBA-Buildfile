@@ -1,0 +1,2 @@
+Magic wielders able to bypass enemy[N]
+defences, but are very frail.[X]

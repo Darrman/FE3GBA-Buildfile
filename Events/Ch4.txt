@@ -1,0 +1,196 @@
+#include EAstdlib.event
+
+EventPointerTable(0x14,Chapter4)
+
+ORG 0xE81800
+
+Chapter4:
+POIN Ch4TurnBasedEvents
+POIN Ch4CharacterBasedEvents
+POIN Ch4LocationBasedEvents
+POIN Ch4MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN Ch4TrapData Ch4TrapData
+POIN Ch4Units Ch4Units
+POIN $0 $0 $0 $0 $0 $0
+POIN Ch4BeginningScene Ch4EndingScene
+
+Ch4Units:
+UNIT Marth Lord 0x00 Level(1, Ally, 0) [4,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Arran Lord 0x00 Level(1, Ally, 0) [5,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Doga Lord 0x00 Level(1, Ally, 0) [3,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Gordon Lord 0x00 Level(1, Ally, 0) [4,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Ryan Lord 0x00 Level(1, Ally, 0) [3,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Luke Lord 0x00 Level(1, Ally, 0) [2,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Rody Lord 0x00 Level(1, Ally, 0) [3,23] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Cecil Lord 0x00 Level(1, Ally, 0) [6,23] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Malliesia Lord 0x00 Level(1, Ally, 0) [7,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Katua Lord 0x00 Level(1, Ally, 0) [7,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Warren Lord 0x00 Level(1, Ally, 0) [5,24] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Linda Lord 0x00 Level(1, Ally, 0) [5,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Paola Lord 0x00 Level(1, Ally, 0) [2,24] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Julian Lord 0x00 Level(1, Ally, 0) [3,25] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Matthis Lord 0x00 Level(1, Ally, 0) [4,24] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+
+Ch4TurnBasedEvents:
+TurnEventPlayer(0x0,EventAfterExitingCh4PrepScreen,1)
+END_MAIN
+
+Ch4CharacterBasedEvents:
+CharacterEventBothWays(0xC,SiriusTalk,Ogma,Sirius)
+END_MAIN
+
+Ch4LocationBasedEvents:
+Village(0xA,ShaverVillage,1,29)
+Village(0xB,KashimVillage,23,3)
+Seize(0x00,Ch4EndingScene,30,18)
+House(0x00,Ch4House1,10,25)
+House(0x00,Ch4House2,14,15)
+House(0x00,Ch4House3,25,4)
+END_MAIN
+
+Ch4MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+Ch4TrapData:
+END_MAIN
+
+ALIGN 4
+
+Ch4BeginningScene:
+LOAD1 0x1 Ch4Bad
+LOAD1 0x1 Ch4Bad2
+FADU 10
+MUSC 0x14
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+TEXTSHOW Ch4Opening
+TEXTEND
+GotoPrepScreen
+ENDB
+
+Ch4EndingScene:
+LOAD1 0x1 SheedaRecruit
+MUSC 0x32
+Text(Ch4Ending)
+REMA
+MNC2 0x04
+ENDA
+
+// Events
+EventAfterExitingCh4PrepScreen:
+LOAD1 0x1 OgmaPeople
+MUSC 0x26
+Text(Ch4Start)
+REMA
+ENDA
+
+SiriusTalk:
+MUSC 0x30
+Text(RecruitingSirius)
+REMA
+TurnAlly(Sirius)
+ENDA
+
+ShaverVillage:
+Text(Ch4ShaverVillage)
+REMA
+SVAL 0x3 Shaver
+GIVEITEMTO 0xFFFF
+ENDA
+
+KashimVillage:
+MUSC 0x30
+LOAD1 0x1 KashimRecruit
+Text(RecruitingKashim)
+REMA
+ENDA
+
+Ch4House1:
+Text(Ch4HouseOne)
+REMA
+ENDA
+
+Ch4House2:
+Text(Ch4HouseTwo)
+REMA
+ENDA
+
+Ch4House3:
+Text(Ch4HouseThree)
+REMA
+ENDA
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+OgmaPeople:
+UNIT Ogma Mercenary Marth Level(7, Ally, 0) [26,6] 0x00 0x00 0x0 0x00 [SteelSword] NoAI 
+UNIT Yumina Cleric Marth Level(2, Ally, 0) [25,6] 0x00 0x00 0x0 0x00 [Rescue, Heal] NoAI 
+UNIT Yubello Mage Marth Level(1, Ally, 0) [26,5] 0x00 0x00 0x0 0x00 [Fire] NoAI 
+UNIT Sirius Paladin Marth Level(4, NPC, 0) [26,8] 0x00 0x00 0x0 0x00 [IronLance, IronSword] GuardTileAI 
+UNIT
+
+KashimRecruit:
+UNIT Kashim Hunter Marth Level(7, Ally, 0) [23,4] 0x00 0x00 0x0 0x00 [KillerBow] NoAI 
+UNIT
+
+SheedaRecruit:
+UNIT Sheeda PegasusKnight Marth Level(4, Ally, 0) [30,16] 0x00 0x00 0x0 0x00 [KillerLance,IronSword] NoAI
+UNIT
+
+Ch4Bad:
+UNIT Gile Pirate 0x00 Level(10, Enemy, 1) [30,18] 0x2 0x00 0x0 0x00 [SilverAxe] GuardTileAI 
+UNIT Viking Brigand Gile Level(3, Enemy, 1) [7,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Brigand Gile Level(3, Enemy, 1) [6,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Brigand Gile Level(3, Enemy, 1) [7,15] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Brigand Gile Level(3, Enemy, 1) [11,15] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Brigand Gile Level(3, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Brigand Gile Level(3, Enemy, 1) [8,17] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Pirate Gile Level(3, Enemy, 1) [25,11] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Pirate Gile Level(3, Enemy, 1) [24,11] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Pirate Gile Level(3, Enemy, 1) [23,11] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Pirate Gile Level(3, Enemy, 1) [26,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Pirate Gile Level(3, Enemy, 1) [23,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Pirate Gile Level(3, Enemy, 1) [24,9] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT
+
+Ch4Bad2:
+UNIT Viking Pirate 0x00 Level(3, Enemy, 1) [27,13] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Viking Hunter 0x00 Level(3, Enemy, 1) [28,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT Viking Hunter 0x00 Level(3, Enemy, 1) [27,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT Viking Hunter 0x00 Level(3, Enemy, 1) [29,11] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT Viking Hunter 0x00 Level(3, Enemy, 1) [28,12] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT Viking Hunter 0x00 Level(5, Enemy, 1) [28,18] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT Viking Hunter 0x00 Level(5, Enemy, 1) [27,18] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT Viking Pirate 0x00 Level(5, Enemy, 1) [28,16] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT Viking Pirate 0x00 Level(5, Enemy, 1) [29,18] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT Viking Pirate 0x00 Level(5, Enemy, 1) [29,19] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT Viking Thief 0x00 Level(5, Enemy, 1) [16,9] 0x00 0x00 0x0 0x00 [SteelSword] StealingThiefAI 
+UNIT Viking Thief 0x00 Level(1, Enemy, 1) [3,30] 0x2 0x00 0x0 0x00 [Armourslayer] BrigandAI 
+UNIT Viking Thief 0x00 Level(1, Enemy, 1) [17,1] 0x2 0x00 0x0 0x00 [DevilSword] BrigandAI 
+UNIT
+
+Ch4Reinforcements:
+//UNIT Viking Pirate Gile Level(5, Enemy, 1) [23,10] 0x00 0x00 0x0 0x00 [HandAxe] PursueWithoutHeedAI 
+//UNIT Viking Pirate Gile Level(5, Enemy, 1) [4,16] 0x00 0x00 0x0 0x00 [HandAxe] PursueWithoutHeedAI 
+//UNIT Viking Pirate Gile Level(5, Enemy, 1) [9,15] 0x00 0x00 0x0 0x00 [HandAxe] PursueWithoutHeedAI 
+//UNIT Viking Hunter Gile Level(5, Enemy, 1) [6,14] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT
+
+// Shop Data
+
+MESSAGE Events end at offset currentOffset

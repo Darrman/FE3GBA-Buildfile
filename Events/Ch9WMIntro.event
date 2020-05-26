@@ -1,0 +1,40 @@
+
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.0.0.0                              //
+// Game: FE8                                      //
+// File: fe8_clean.gba                            //
+// Offset: $A3A620                                //
+//                                                //
+////////////////////////////////////////////////////
+
+
+
+ORG $A3A620
+STAL 6
+WM_MOVECAM 0x0 0xFFFF 0xFFFF 0x54 0x98 0x3C 0x0
+WM_WAITFORCAM
+CALL 0xA3974C
+WM_TEXTSTART
+WM_TEXT 0x8E4
+TEXTEND
+WM_SHOWPORTRAIT 0x2 1332
+STAL 6 46
+TEXTCONT
+TEXTEND
+WM_MOVESPRITETO 0x0 0x0 0x2 0x6 0x7 0xFFF8 0x0
+TEXTCONT
+TEXTEND
+TEXTCONT
+TEXTEND
+WM_WAITFORSPRITES 0x0 0xFFFF 0xFFFF
+WM_REMOVETEXT
+STAL 2 20
+FADI 16
+REMSPRITE 0x2
+ENDA
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $A3A6B0 - currentOffset

@@ -1,0 +1,2 @@
+Increases movement by[N][.]
+4 points. Vanishes after use.[.][X]

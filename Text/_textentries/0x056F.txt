@@ -1,0 +1,2 @@
+Weapon triangle disadvantage.[N][.]
+Hit % and power decrease.[.][X]

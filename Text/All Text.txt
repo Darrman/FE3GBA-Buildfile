@@ -1,0 +1,5335 @@
+#0x00CD
+Aquarius[X]
+
+#0x00CE
+Pisces[X]
+
+#0x00CF
+Aries[X]
+
+#0x00D0
+Taurus[X]
+
+#0x00D1
+Gemini[X]
+
+#0x00D2
+Cancer[X]
+
+#0x00D3
+Leo[X]
+
+#0x00D4
+Virgo[X]
+
+#0x00D5
+Libra[X]
+
+#0x00D6
+Scorpio[X]
+
+#0x00D7
+Sagittarius[X]
+
+#0x00D8
+Capricorn[X]
+
+#0x00D9
+Star Orb[X]
+
+#0x00DA
+Light Orb[X]
+
+#0x00DB
+Earth Orb[X]
+
+#0x00DC
+Life Orb[X]
+
+#0x00DD
+Dark Orb[X]
+
+#0x00DE DebugEntry
+[OpenLeft][LoadFace][0x64][0x01]
+Welcome to debug mode![A][X]
+
+#0x00DF
+--[X]
+
+#0x00E0
+--[X]
+
+#0x00E1
+--[X]
+
+#0x00E2
+--[X]
+
+#0x00E3
+--[X]
+
+#0x00E4
+--[X]
+
+#0x00E5
+--[X]
+
+#0x00E6
+--[X]
+
+#0x00E7
+--[X]
+
+#0x00E8
+--[X]
+
+#0x00E9
+--[X]
+
+#0x00EA
+--[X]
+
+#0x00EB
+--[X]
+
+#0x00EC
+--[X]
+
+#0x00ED
+--[X]
+
+#0x00EE
+--[X]
+
+#0x00EF
+--[X]
+
+#0x00F0
+--[X]
+
+#0x00F1
+--[X]
+
+#0x00F2
+--[X]
+
+#0x00F3
+--[X]
+
+#0x00F4
+--[X]
+
+#0x00F5
+--[X]
+
+#0x00F6
+--[X]
+
+#0x00F7
+--[X]
+
+#0x00F8
+--[X]
+
+#0x00F9
+--[X]
+
+#0x00FA
+--[X]
+
+#0x00FB
+--[X]
+
+#0x00FC
+--[X]
+
+#0x00FD
+--[X]
+
+#0x00FE
+--[X]
+
+#0x00FF
+--[X]
+
+#0x0100
+ Dismount[X]
+
+#0x0101
+ Mount[X]
+
+#0x0102
+Get off your horse and[N]
+move around on foot.[X]
+
+#0x0103
+Climb back up on your[N]
+horse and move faster.[X]
+
+#0x0104
+--[X]
+
+#0x0105
+--[X]
+
+#0x0106
+--[X]
+
+#0x0107
+--[X]
+
+#0x0108
+--[X]
+
+#0x0109
+--[X]
+
+#0x010A
+--[X]
+
+#0x010B
+--[X]
+
+#0x010C
+--[X]
+
+#0x010D
+--[X]
+
+#0x010E
+--[X]
+
+#0x010F
+--[X]
+
+#0x0110
+--[X]
+
+#0x0111
+--[X]
+
+#0x0112
+--[X]
+
+#0x0113
+--[X]
+
+#0x0114
+--[X]
+
+#0x0115
+--[X]
+
+#0x0116
+--[X]
+
+#0x0117
+--[X]
+
+#0x0118
+--[X]
+
+#0x0119
+--[X]
+
+#0x011A
+--[X]
+
+#0x011B
+--[X]
+
+#0x011C
+--[X]
+
+#0x011D
+--[X]
+
+#0x011E
+--[X]
+
+#0x011F
+--[X]
+
+#0x0120
+--[X]
+
+#0x0121
+--[X]
+
+#0x0122
+--[X]
+
+#0x0123
+--[X]
+
+#0x0124
+--[X]
+
+#0x0125
+--[X]
+
+#0x0126
+--[X]
+
+#0x0127
+--[X]
+
+#0x0128
+--[X]
+
+#0x0129
+--[X]
+
+#0x012A
+--[X]
+
+#0x012B
+--[X]
+
+#0x012C
+--[X]
+
+#0x012D
+--[X]
+
+#0x012E
+--[X]
+
+#0x012F
+--[X]
+
+#0x0130
+--[X]
+
+#0x0131
+--[X]
+
+#0x0132
+--[X]
+
+#0x0133
+--[X]
+
+#0x0134
+--[X]
+
+#0x0135
+--[X]
+
+#0x0136
+--[X]
+
+#0x0137
+--[X]
+
+#0x0138
+--[X]
+
+#0x0139
+--[X]
+
+#0x013A
+--[X]
+
+#0x013B
+--[X]
+
+#0x013C
+--[X]
+
+#0x013D
+--[X]
+
+#0x013E
+--[X]
+
+#0x013F
+--[X]
+
+
+#0x0149 EasyModeDescription
+A simple game for[N][.]
+newcomers. Enemies[N]
+are weak and units[N]
+come back to life[N]
+if defeated.[X]
+
+#0x014A NormalModeDescription
+The standard game[.][N]
+mode. Enemies are[.][N]
+at a similar level[.][N]
+to the original[N]
+game.[.][X]
+
+#0x014B HardModeDescription
+A sterner challenge[N]
+aimed at veterans.[N]
+Enemy quantity and[N]
+quality up, and move[N]
+as soon as they show.[X]
+
+#0x014C
+0[.][X]
+
+#0x014D
+1[.][X]
+
+#0x014E
+2[.][X]
+
+#0x014F
+3[.][X]
+
+#0x0150
+4[.][X]
+
+#0x0151
+5[.][X]
+
+#0x0152
+6[.][X]
+
+#0x0153
+7[.][X]
+
+#0x0154
+8[.][X]
+
+#0x0155
+9[.][X]
+
+#0x0156
+N/A[.][X]
+
+#0x0157
+Ch.[.][X]
+
+#0x0158
+x[.][X]
+
+#0x0159
+Final[.][X]
+
+#0x015A
+Prologue[X]
+
+#0x015B
+Side[X]
+
+#0x015C
+Alter[.][X]
+
+#0x015D
+Turns[.][X]
+
+#0x015E
+ [.][X]
+
+#0x015F
+Total Turns[.][X]
+
+#0x0160 Ch1Title
+The Grunian Expedition[X]
+
+#0x0161 Ch2Title
+Rebellion in Macedonia[.][X]
+
+#0x0162 Ch3Title
+Abducted Princess[.][X]
+
+#0x0163 Ch4Title
+Joy and Sorrow[X]
+
+#0x0164 Ch5Title
+Liberation of Grunia[.][X]
+
+#0x0165 Ch6Title
+The Nest of Vice[X]
+
+#0x0166 Ch7Title
+Scarlet Swordsman[X]
+
+#0x0167 Ch8Title
+Soulful Bridge[X]
+
+#0x0168
+Sanctuary of Sorcery[.][X]
+
+#0x0169
+Two Sorcerers[X]
+
+#0x016A
+Anri's Way[.][X]
+
+#0x016B
+Fire Dragon's Graveyard[.][X]
+
+#0x016C
+Frozen Land[X]
+
+#0x016D
+A Mystery Revealed[.][X]
+
+#0x016E
+Return of the Prince[X]
+
+#0x016F
+Reclaiming the Capital[.][X]
+
+#0x0170
+Setting Sun of Gra[X]
+
+#0x0171
+Battle of the Pass[X]
+
+#0x0172
+The Decisive Battle[.][X]
+
+#0x0173
+Dark Emperor[.][X]
+
+#0x0174
+Dragon's Dale[X]
+
+#0x0175
+Dragon's Altar[X]
+
+#0x0176
+Sacred Stone[X]
+
+#0x0177
+Fort Rigwald[X]
+
+#0x0178
+Turning Traitor[.][X]
+
+#0x0179
+Landing at Taizel[.][X]
+
+#0x017A
+Fluorspar's Oath[X]
+
+#0x017B
+Father and Son[X]
+
+#0x017C
+Scorched Sand[.][X]
+
+#0x017D
+Ruled by Madness[X]
+
+#0x017E
+River of Regrets[X]
+
+#0x017F
+Two Faces of Evil[.][X]
+
+#0x0180
+Last Hope[.][X]
+
+#0x0181
+Darkling Woods[X]
+
+#0x0182
+Sacred Stone[X]
+
+#0x0183
+Sacred Stone[X]
+
+#0x019C
+Survive[.][X]
+
+#0x019D
+Defeat boss[.][X]
+
+#0x019E
+Defeat enemy[X]
+
+#0x019F
+Seize gate[X]
+
+#0x01A0
+Seize gate[X]
+
+#0x01A1
+Seize throne[X]
+
+#0x01A2 Ch1Goal
+Reach the rebel's[N]
+castle and seize it.[X]
+
+#0x01A3 Ch2Goal
+Avoid death by dragon[N]
+knight and seize gate.[X]
+
+#0x01A4 Ch3Goal
+Walk around a big[N]
+circle and seize.[X]
+
+#0x01A5 Ch4Goal
+Fend off the pirate[N]
+assult and seize.[X]
+
+#0x01A6 Ch5Goal
+Reach Olbern Castle[N]
+and avoid George.[.][X]
+
+#0x01A7 Ch6Goal
+Kill Lang, commander of[N]
+the Grunia occupation.[.][X]
+
+#0x01A8 Ch7Goal
+Reach Raman Temple and[N]
+defeat the thieves.[X]
+
+#0x01A9 Ch8Goal
+Evade pursuit from Astria[N]
+and Hardin, and escape![.][X]
+
+#0x01AA
+Seize the castle
+gate[X]
+
+#0x01AB
+Seize the throne[X]
+
+#0x01AC
+Defeat all
+enemy units[.][X]
+
+#0x01AD
+Seize the castle
+gate[X]
+
+#0x01AE
+Defeat all monsters[.][X]
+
+#0x01AF
+Defeat all monsters[.][X]
+
+#0x01B0
+Survive for 11
+turns or defeat Aias[X]
+
+#0x01B1
+Seize the throne[X]
+
+#0x01B2
+Defeat all
+enemy units[.][X]
+
+#0x01B3
+Seize the throne[X]
+
+#0x01B4
+Defeat Lyon[.][X]
+
+#0x01B5
+Defeat all monsters[.][X]
+
+#0x01B6
+Guard Mansel for 13[.]
+turns/Defeat Riev[.][X]
+
+#0x01B7
+Seize the lair gate[.][X]
+
+#0x01B8
+Defeat Lyon[.][X]
+
+#0x01B9
+Defeat Fomortiis, the[.]
+Demon King[X]
+
+#0x01BA
+Seize the throne[X]
+
+#0x01BB
+Guard Duessel for 10
+turns/Defeat Beran[X]
+
+#0x01BC
+Defeat all monsters[.][X]
+
+#0x01BD
+Defeat boss[.][X]
+
+#0x01BE
+Defeat all
+enemy units[.][X]
+
+#0x01BF
+Seize the throne[X]
+
+#0x01C0
+Defeat all monsters[.][X]
+
+#0x01C1
+Left[X]
+
+#0x01C2
+Turn[X]
+
+#0x01C3
+Last Turn[.][X]
+
+#0x0212 MarthName
+Marth[X]
+
+#0x0213 AlanName
+Alan[X]
+
+#0x0214 DogaName
+Doga[.][X]
+
+#0x0215 GordonName
+Gordon[.][X]
+
+#0x0216 RyanName
+Ryan[.][X]
+
+#0x0217 LukeName
+Luke[.][X]
+
+#0x0218 RodyName
+Rody[X]
+
+#0x0219 CecilName
+Cecil[.][X]
+
+#0x021A MalliesiaName
+Malliesia[X]
+
+#0x021B KatuaName
+Katua[X]
+
+#0x021C WarrenName
+Warren[.][X]
+
+#0x021D LindaName
+Linda[X]
+
+#0x021E PaolaName
+Paola[.][X]
+
+#0x021F JulianName
+Julian[X]
+
+#0x0220 MachisName
+Machis[.][X]
+
+#0x0221 OgumaName
+Oguma[.][X]
+
+#0x0222 YuminaName
+Yumina[X]
+
+#0x0223 YubelloName
+Yubello[X]
+
+#0x0224 SiriusName
+Sirius[.][X]
+
+#0x0225 KashimName
+Kashim[.][X]
+
+#0x0226 SheedaName
+Sheeda[X]
+
+#0x0227 RicardoName
+Ricardo[X]
+
+#0x0228 SamtoName
+Samto[.][X]
+
+#0x0229 WendelName
+Wendel[X]
+
+#0x022A NavarreName
+Navarre[.][X]
+
+#0x022B FeenaName
+Feena[.][X]
+
+#0x022C KainName
+Kain[X]
+
+#0x022D BanutuName
+Banutu[X]
+
+#0x022E GeorgeName
+George[.][X]
+
+#0x022F MinervaName
+Minerva[.][X]
+
+#0x0230 MarichName
+Marich[.][X]
+
+#0x0231 EllereanName
+Ellerean[X]
+
+#0x0232 ChainyName
+Chainy[X]
+
+#0x0233 ChikiName
+Chiki[X]
+
+#0x0234 AbelName
+Abel[X]
+
+#0x0235 LawrenceName
+Lawrence[.][X]
+
+#0x0236 EstName
+Est[.][X]
+
+#0x0237 SheemaName
+Sheema[X]
+
+#0x0238 SamsonName
+Samson[X]
+
+#0x0239 RumelName
+Rumel[.][X]
+
+#0x023A RyukeName
+Ryuke[X]
+
+#0x023B GileName
+Gile[.][X]
+
+#0x023C TorasName
+Toras[X]
+
+#0x023D LangName
+Lang[X]
+
+#0x023E DahlName
+Dahl[X]
+
+#0x023F YodelName
+Yodel[X]
+
+#0x0240 EibelName
+Eibel[.][X]
+
+#0x0241 WillowName
+Willow[.][X]
+
+#0x0242 NailingName
+Nailing[X]
+
+#0x0243 HardinName
+Hardin[.][X]
+
+#0x0244 MidiaName
+Midia[X]
+
+#0x0245 GarnefName
+Garnef[X]
+
+#0x0246 RosheName
+Roshe[X]
+
+#0x0247 MediuthName
+Mediuth[X]
+
+#0x0248
+Beran[.][X]
+
+#0x0249
+O'Neill[.][X]
+
+#0x024A AstriaName
+Astria[X]
+
+#0x024B
+Zonta[.][X]
+
+#0x024C
+Vigarde[.][X]
+
+#0x024D AkaneiaName
+Akaneia[.][X]
+
+#0x024E GraName
+Gra[.][X]
+
+#0x024F BanditName
+Bandit[X]
+
+#0x0250 MacedoniaName
+Macedonia[X]
+
+#0x0251 OrleansName
+Orleans[.][X]
+
+#0x0252 KhadeinName
+Khadein[.][X]
+
+#0x0253 VikingName
+Viking[.][X]
+
+#0x0254 EnemyThiefName
+Thief[.][X]
+
+#0x0255 DarkBishopName
+Dark Bish.[.][X]
+
+#0x0256 BodyguardName
+Bodyguard[.][X]
+
+#0x0257 FireDragonName
+Fire Dragon[X]
+
+#0x0258 IceDragonName
+Ice Dragon[X]
+
+#0x0259 FlyingDragonName
+Flying Drgn[.][X]
+
+#0x025A EarthDragonName
+Earth Dragon[.][X]
+
+#0x025B RenaName
+Rena[X]
+
+#0x025C NinaName
+Nina[X]
+
+#0x025D
+Klimt[.][X]
+
+#0x025E
+Mansel[X]
+
+#0x025F
+Dara[X]
+
+#0x0260 MariaName
+Maria[.][X]
+
+#0x0261
+Messenger[.][X]
+
+#0x0262
+Frelian[.][X]
+
+#0x0263
+Rausten[.][X]
+
+#0x0264
+Citizen[.][X]
+
+#0x0265
+Renais Cit.[.][X]
+
+#0x0266 EllisName
+Ellis[X]
+
+#0x0267
+Enemy[.][X]
+
+#0x0268
+Wall[X]
+
+#0x0269
+Snag[X]
+
+#0x026A
+Mark[X]
+
+#0x026B
+Evil[X]
+
+#0x026C
+Summonern[.][X]
+
+#0x026D
+Summon[X]
+
+#0x026E MarthDesc
+The prince of Aritia and the descendant[N]
+of the legendary Anri. A kind person.[.][X]
+
+#0x026F AlanDesc
+The commander of the Aritian Knights.[N]
+He seems to be suffering from an illness...[X]
+
+#0x0270 DogaDesc
+An armoured knight of Aritia.[N]
+He is praised by his comrades[N]
+for his reliability.[X]
+
+#0x0271 GordonDesc
+Archer of Aritia. After the[N]
+War of Darkness, he studied archery[N]
+under George of Akaneia.[X]
+
+#0x0272 RyanDesc
+Archer of Aritia. He joined the army[N]
+after being inspired by his older[N]
+brother Gordon's exploits.[X]
+
+#0x0273 LukeDesc
+A knight of Aritia, a former gambler.[N]
+He considers fellow knight[N]
+Rody to be his rival.[X]
+
+#0x0274 RodyDesc
+Knight of Aritia. Like Luke, he became[N]
+a knight after the War of Darkness.[X]
+
+#0x0275 CecilDesc
+Female knight of Aritia. Her[N]
+comrades regard her as an agile[N]
+and swift attacker.[X]
+
+#0x0276 MalliesiaDesc
+A trainee sister who resides at Grunia.[N]
+She is Rena's apprentice.[X]
+
+#0x0277 KatuaDesc
+Member of Macedonia's White Knights.[N]
+She leads the Aritian army to[N]
+fight against the rebels.[X]
+
+#0x0278 WarrenDesc
+A Macedonian hunter who sided[N]
+with the rebels to earn gold.[X]
+
+#0x0279 LindaDesc
+Mage serving Akaneia. She delivers the[N]
+Fire Emblem to Marth on behalf of Nina.[X]
+
+#0x027A PaolaDesc
+Member of Macedonia's White Knights.[N]
+She joins the Aritian[N]
+army to rescue Minerva.[X]
+
+#0x027B JulianDesc
+Former member of the Samsian thieves.[N]
+He is searching for the missing Rena.[X]
+
+#0x027C MachisDesc
+Noble of Macedonia and Rena's[N]
+elder brother. He was forced[N]
+to join the rebel army.[X]
+
+#0x027D OgumaDesc
+Mercenary of Talis. He was sent[N]
+by his king to aid Grunia's[N]
+General Lawrence.[X]
+
+#0x027E YuminaDesc
+The young princess of Grunia[N]
+and Yubello's twin sister. She[N]
+is stubborn, but strong-willed.[X]
+
+#0x027F YubelloDesc
+The young prince of Grunia.[N]
+He is timid and doesn't like fighting.[X]
+
+#0x0280 SiriusDesc
+A mysterious masked knight.[N]
+He offers to aid Oguma and[N]
+the Grunian royal children.[X]
+
+#0x0281 KashimDesc
+Hunter of Talis. He traveled to[N]
+Macedonia to earn gold for his ill[N]
+mother... or so he says.[X]
+
+#0x0282 SheedaDesc
+Princess of Talis and Marth's fiancee.[N]
+She escapes from Aritia to warn Marth.[X]
+
+#0x0283 RicardoDesc
+A kid thief who adores Julian.[N]
+He was originally hoping to[N]
+travel the continent with him.[X]
+
+#0x0284 SamtoDesc
+A former pitfighter who was rescued[N]
+by Oguma. He often poses as the[N]
+infamous Navarre.[X]
+
+#0x0285 WendelDesc
+The Archbishop of Khadein.[N]
+He is traveling the continent[N]
+on a mission from Gato.[X]
+
+#0x0286 NavarreDesc
+A skilled swordfighter. He protects[N]
+Feena when she is attacked by thieves.[X]
+
+#0x0287 FeenaDesc
+A travelling dancer who[N]
+became seperated from her[N]
+troupe. Very talkative.[X]
+
+#0x0288 BanutuDesc
+An elder of the Fire Dragons.[N]
+He had his dragonstone stolen by a thief.[X]
+
+#0x0289 GeorgeDesc
+Noble of Akaneia and the[N]
+continent's greatest bowman. He[N]
+is also Gordon's tutor.[X]
+
+#0x028A MinervaDesc
+The ruling princess of Macedonia.[N]
+She was overthrown in a coup.[X]
+
+#0x028B MarichDesc
+Noble of Aritia and close[N]
+friend of Marth and Ellis. He is[N]
+currently studying at Khadein.[X]
+
+#0x028C EllereanDesc
+Wendel's pupil and Marich's[N]
+fellow student. He is jealous of[N]
+him because of Excalibur.[X]
+
+#0x028D ChainyDesc
+A mysterious youth who has[N]
+the power to mimic others.[N]
+He guides Marth to Gato's location.[X]
+
+#0x028E ChikiDesc
+Princess of the Divine Dragons.[N]
+She was sent to sleep to restrain[N]
+her innate powers.[X]
+
+#0x028F AbelDesc
+Veteran knight of Aritia. He is forced[N]
+to fight against his homeland.[X]
+
+#0x0290 EstDesc
+Member of Macedonia's White Knights.[N]
+She is taken hostage to control Abel.[X]
+
+#0x0291 AstriaDesc
+Leader of Akaneia's elite mercenaries.[N]
+He is extremely devoted to Nina.[X]
+
+#0x0292 SheemaDesc
+Princess of Gra; daughter of the late[N]
+King Jiol. She continues fighting[N]
+despite Aritia's superior might.[X]
+
+#0x0293 SamsonDesc
+A skilled mercenary hired by Sheema.[N]
+He offers to stay by her side until[N]
+the very end.[X]
+
+#0x0294 RosheDesc
+Member of the Wolf Knights. He joins[N]
+Marth's cause to apologise for[N]
+his comrades' actions.[X]
+
+#0x0295 MidiaDesc
+Noble of Akaneia. She raised[N]
+a rebellion against Hardin,[N]
+but was defeated and captured.[X]
+
+#0x0296 RenaDesc
+Noble of Macedonia. She was[N]
+captured by Garnef as a tool[N]
+to resurrect Mediuth.[X]
+
+#0x0297 MariaDesc
+Princess of Macedonia and[N]
+Minerva's younger sister.[N]
+She was captured by Garnef.[X]
+
+#0x0298 NinaDesc
+Empress of Akaneia and Hardin's wife.[N]
+She was handed to Garnef by Hardin.[X]
+
+#0x0299 EllisDesc
+Princess of Aritia and Marth's elder sister.[N]
+She was captured by Garnef[N]
+following Aritia's fall.[X]
+
+#0x029A KainDesc
+Veteran knight of Aritia. He[N]
+joins Marth's army when they[N]
+cross Cashmere Bridge.[X]
+
+#0x029B LawrenceDesc
+Guardian of Grunia's royal children.[N]
+His authority over Grunia was seized[N]
+by Hardin.[X]
+
+#0x029C RumelDesc
+Chapter 2 boss.[N]
+PLACEHOLDER[X]
+
+#0x029D RyukeDesc
+Chapter 3 boss.[N]
+PLACEHOLDER[X]
+
+#0x029E GileDesc
+Chapter 4 boss.[N]
+PLACEHOLDER[X]
+
+#0x029F TorasDesc
+Chapter 5 boss.[N]
+PLACEHOLDER[X]
+
+#0x02A0 LangDesc
+The leader of Akaneia's occupation army[N]
+in Grunia. Thoroughly corrupt.[X]
+
+#0x02A1 DahlDesc
+Chapter 7 boss.[N]
+PLACEHOLDER[X]
+
+#0x02A2 YodelDesc
+Chapter 9 boss.[N]
+PLACEHOLDER[X]
+
+#0x02A3 EibelDesc
+Chapter 15 boss.[N]
+PLACEHOLDER[X]
+
+#0x02A4 WillowDesc
+Chapter 16 boss.[N]
+PLACEHOLDER[X]
+
+#0x02A5 NailingDesc
+Chapter 19 boss.[N]
+PLACEHOLDER[X]
+
+#0x02A6 HardinDesc
+The first emperor of Akaneia. He[N]
+is possessed by the Dark Orb[N]
+and has lost his just heart.[X]
+
+#0x02A7 GarnefDesc
+An evil sorcerer whose spirit lives[N]
+on thanks to the Dark Orb. He wishes[N]
+to see the world destroyed.[X]
+
+#0x02A8 MediuthDesc
+Vanquished by Marth in the previous war,[N]
+he is reborn thanks to Garnef's efforts.[X]
+
+#0x02A9 BanditDesc
+A brigand staking out his turf.[.][X]
+
+#0x02AA MacedoniaDesc
+A soldier of Macedonia, renowned[N]
+for its proud Dragon Knights.[.][X]
+
+#0x02AB VikingDesc
+A member of the Macedonian Vikings,[N]
+feared by all who pass Holm Beach.[X]
+
+#0x02AC AkaneiaDesc
+A soldier of the Empire of Akaneia,[N]
+the strongest land on the continent.[.][X]
+
+#0x02AD EnemyThiefDesc
+A thief who seeks to cause havok.[.][X]
+
+#0x02AE KhadeinDesc
+A mage of Khadein, the Magic City.[N]
+No warrior can block their magic.[.][X]
+
+#0x02AF EnemyDragonDesc
+A dragon who has lost their mind[N]
+and succumbed to degeneration.[X]
+
+#0x02B0 DesertTribeDesc
+Savage barbarians roaming the desert[N]
+sands of Marmotord.[X]
+
+#0x02B1 FireTribeDesc
+Barbarians who rule the Flame Barrel.[N]
+They have no fear of Fire Dragons.[X]
+
+#0x02B2 IceTribeDesc
+Barbarians wandering around outside[N]
+the Ice Dragon's Temple.[X]
+
+#0x02B3 GraDesc
+Soldiers of Gra, the Land of Sorrow.[N]
+However, they are afraid of Aritia...[.][X]
+
+#0x02B4 OrleansDesc
+Soldiers of Orleans, Emperor Hardin's[N]
+homeland. These are the Wolf Knights.[X]
+
+#0x02B5 DarkBishopDesc
+An evil priest in the service of the
+Demon King, Garnef.[X]
+
+#0x02B6 BodyguardDesc
+Emperor Hardin's elite guards.[N]
+They will defend Pales to the end.[X]
+
+#0x02B7 MountainTribeDesc
+Barbarians who are roaming the[N]
+Macedonian border regions.[X]
+
+#0x02B8 WolfDesc
+Commander of the Wolf Knights.[N]
+Forever loyal to Emperor Hardin.[X]
+
+#0x02B9 ZagaroDesc
+Member of the Wolf Knights. He is[N]
+wary of the Aritian's intentions.[X]
+
+#0x02BA BirakuDesc
+A Wolf Knight. He is grateful to Hardin[N]
+for freeing him from slavery.[X]
+
+#0x02BB
+A knight of Rausten, sworn in service[.]
+to Mansel, the Divine Emperor.[X]
+
+#0x02BC
+A resident of the capital of Renais,
+which was seized by Novala.[.][X]
+
+#0x02BD
+A citizen living on the river Narube
+who has been caught up in the war.[X]
+
+#0x02BE
+Temp.: Enemy Boss[.][X]
+
+#0x02BF LordName
+Lord[X]
+
+#0x02C0
+Great Lord[X]
+
+#0x02C1 CavalierName
+Social Kn.[X]
+
+#0x02C2 PaladinName
+Paladin[.][X]
+
+#0x02C3 ArmourName
+Armour Kn.[X]
+
+#0x02C4 GeneralName
+General[.][X]
+
+#0x02C5 ThiefName
+Thief[.][X]
+
+#0x02C6 MercName
+Mercenary[.][X]
+
+#0x02C7 HeroName
+Hero[X]
+
+#0x02C8 MyrmName
+Myrmidon[X]
+
+#0x02C9 SwordmasterName
+Swordmaster[.][X]
+
+#0x02CA
+Assassin[X]
+
+#0x02CB ArcherName
+Archer[X]
+
+#0x02CC SniperName
+Sniper[X]
+
+#0x02CD HorsemanName
+Horseman[X]
+
+#0x02CE
+Wyvern Rider[X]
+
+#0x02CF DragonKnightName
+Dragon Kn.[.][X]
+
+#0x02D0
+Wyvern Kn.[X]
+
+#0x02D1 MageName
+Mage[X]
+
+#0x02D2 SageName
+Sage[X]
+
+#0x02D3
+Mage Knight[.][X]
+
+#0x02D4 BishopName
+Bishop[X]
+
+#0x02D5 HunterName	
+Hunter[.][X]
+
+#0x02D6
+Nmd Trooper[.][X]
+
+#0x02D7 MamkuteName
+Mamkute[X]
+
+#0x02D8
+Journeyman[X]
+
+#0x02D9
+Pupil[.][X]
+
+#0x02DA
+Recruit[.][X]
+
+#0x02DB
+Rogue[.][X]
+
+#0x02DC FighterName
+Fighter[.][X]
+
+#0x02DD WarriorName
+Warrior[.][X]
+
+#0x02DE BrigandName
+Brigand[.][X]
+
+#0x02DF BerserkerName
+Berserker[.][X]
+
+#0x02E0
+Great Knight[X]
+
+#0x02E1
+Shaman[X]
+
+#0x02E2
+Druid[.][X]
+
+#0x02E3
+Summoner[X]
+
+#0x02E4
+Monk[X]
+
+#0x02E5
+Bard[X]
+
+#0x02E6 PriestName
+Priest[X]
+
+#0x02E7 PegKnightName
+Pegasus Kn.[.][X]
+
+#0x02E8 FalcoknightName
+Falcoknight[.][X]
+
+#0x02E9 ClericName
+Sister[X]
+
+#0x02EA
+Troubadour[X]
+
+#0x02EB
+Valkyrie[X]
+
+#0x02EC DancerName
+Dancer[X]
+
+#0x02ED SoldierName
+Soldier[.][X]
+
+#0x02EE PirateName
+Pirate[X]
+
+#0x02EF
+Necromancer[.][X]
+
+#0x02F0
+Fleet[.][X]
+
+#0x02F1
+Phantom[.][X]
+
+#0x02F2 KnightName
+Knight[X]
+
+#0x02F3
+Knight[X]
+
+#0x02F4
+Bonewalker[X]
+
+#0x02F5
+Wight[.][X]
+
+#0x02F6 FireDragonClassName
+Fire Dragon[X]
+
+#0x02F7 IceDragonClassName
+Ice Dragon[X]
+
+#0x02F8 FlyingDragonClassName
+Flying Dragon[.][X]
+
+#0x02F9 DemonDragonClassName
+Demon Dragon[.][X]
+
+#0x02FA EarthDragonClassName
+Earth Dragon[.][X]
+
+#0x02FB
+Tarvos[X]
+
+#0x02FC
+Maelduin[X]
+
+#0x02FD
+Mogall[X]
+
+#0x02FE
+Arch Mogall[.][X]
+
+#0x02FF
+Gorgon[X]
+
+#0x0300
+Gorgon Egg[X]
+
+#0x0301
+Gargoyle[X]
+
+#0x0302
+Deathgoyle[X]
+
+#0x0303
+Draco Zombie[X]
+
+#0x0304
+Demon King[X]
+
+#0x0305
+Civilian[X]
+
+#0x0306
+Pontifex[X]
+
+#0x0307
+Queen[.][X]
+
+#0x0308
+Supply[X]
+
+#0x0309 LordDesc
+The Prince of Aritia, and the army's[N]
+leader. If he falls, the battle is lost.[.][X]
+
+#0x030A
+Noble heirs to a ruling house.
+They possess great potential.[.][X]
+
+#0x030B
+Mounted lords whose fine qualities
+set them apart from their peers.[X]
+
+#0x030C
+Mounted lords whose fine qualities
+set them apart from their peers.[X]
+
+#0x030D CavalierDesc
+Mounted knights with swift movement[N]
+and well-rounded abilities.[X]
+
+#0x030E PaladinDesc
+Experienced riders with superior[N]
+abilities to Social Knights.[.][X]
+
+#0x030F ArmourDesc
+Heavily armored knights with high[N]
+defence, but poor movement.[X]
+
+#0x0310 GeneralDesc
+Knights of great skill, with great[N]
+power and durability.[X]
+
+#0x0311 ThiefDesc
+Despite poor fighting skills, they[N]
+open chests and raid villages.[X]
+
+#0x0312 MercDesc
+With great skill and speed, these[N]
+hired swords excel at critical hits.[X]
+
+#0x0313 HeroDesc
+Swift and accurate, these experienced[N]
+mercenaries are very dangerous.[X]
+
+#0x0314 MyrmDesc
+Talented swordsmen skilled in swift[N][.]
+killing strokes, yet poor raw power.[.][X]
+
+#0x0315 SwordmasterDesc
+Lightning-fast swordsmen of peerless[N]
+and lethal skill. Incredible critical.[X]
+
+#0x0316 AssassinDesc
+Masters of the killing arts.[N]
+Able to slay foes with a single blow.[.][X]
+
+#0x0317 ArcherDesc
+Warriors who use bows to attack from[N]
+afar. High defence, but slow.[X]
+
+#0x0318 SniperDesc
+Archers of unparalleled accuracy.[N][.]
+The strongest bowmen.[X]
+
+#0x0319 HorsemanDesc
+An experienced hunter able to ride[N]
+horses and swing swords.[X]
+
+#0x031A WyvernDesc
+High-flying knights vulnerable only to[N]
+bows and magic. Solid defences.[X]
+
+#0x031B DragonDesc
+Powerful flying units, these dragon[N]
+riders have exceptional defence.[X]
+
+#0x031C
+Wyvern riders who can pierce enemy
+defenses. Equip: Lances. Skill: Pierce.[.][X]
+
+#0x031D MageDesc
+Magic wielders able to bypass enemy[N]
+defences, but are very frail.[X]
+
+#0x031E SageDesc
+The most powerful of magic users.[N]
+Possesses great raw magical power.[X]
+
+#0x031F MageKnDesc
+Knights trained in both anima and[.]
+staves. Equip: Anima, staves.[.][X]
+
+#0x0320 BishopDesc
+Experienced magic users capable of[N]
+using both tomes and staves.[X]
+
+#0x0321 HunterDesc
+A bow user who keeps to the shadows.[N]
+They are strong, but fragile.[X]
+
+#0x0322
+An honorific given to nomads of[.]
+great skill. Equip: Bows, swords.[.][X]
+
+#0x0323 MamkuteDesc
+A legendary race that can transform[N]
+into dragons. Once ruled the world.[.][X]
+
+#0x0324
+Young fighters with high
+expectations. Equip: Axes.[X]
+
+#0x0325
+Mages in training with lofty
+aspirations. Equip: Anima.[X]
+
+#0x0326
+Knaves who need no tools or keys to[.]
+open locks. Equip: Swords. Skill: Pick.[.][X]
+
+#0x0327 FighterDesc
+Axe-wielding units. Good strength,[N]
+bad defence, and absent from this game.[X]
+
+#0x0328 WarriorDesc
+Stalwart warriors whose power is[N]
+their pride. Exceptional vitality.[.][X]
+
+#0x0329 BrigandDesc
+Mighty mercenaries who thrive[N][.]
+in mountains, but lack skill.[X]
+
+#0x032A BerserkerDesc
+Brawlers capable of crossing rough[N]
+terrain, and excel at criticals.[X]
+
+#0x032B GreatKnDesc
+Knights with great mobility and[.]
+defense. Equip: Swords, lances, axes.[.][X]
+
+#0x032C ShamanDesc
+Wielders of magic who are stronger,[.]
+but slower, than mages. Equip: Dark.[X]
+
+#0x032D DruidDesc
+Foul heretics who use evil forbidden[N]
+magic. Quite resilient.[.][X]
+
+#0x032E
+Master sorcerers who summon fighters.[.]
+Equip: Dark, staves. Skill: Summon.[.][X]
+
+#0x032F
+Users of light magic with high
+resistance. Equip: Light.[.][X]
+
+#0x0330 PriestDesc
+Staff users capable of healing their[N]
+allies. Unable to attack.[.][X]
+
+#0x0331
+Musicians whose melodies aid
+allies. Unable to attack.[.][X]
+
+#0x0332
+Unproven knights with dreams
+of glory. Equip: Lances.[X]
+
+#0x0333 PegDesc
+Airborne knights who resist magic but[N]
+are weak against bows. Very fast.[.][X]
+
+#0x0334 FalcoDesc
+Swift sky warriors who shrug off[N]
+magic attacks and are hard to hit.[.][X]
+
+#0x0335 ClericDesc
+Staff users capable of healing their[N]
+allies. Unable to attack.[.][X]
+
+#0x0336 TroubDesc
+Maidens who wield staves from[.]
+horseback. Equip: Staves.[.][X]
+
+#0x0337 ValkDesc
+Battle maidens who wield both staves
+and light magic. Equip: Light, staves.[X]
+
+#0x0338 DancerDesc
+Dancers capable of revitalizing[N][.]
+their allies. Poor at fighting.[.][X]
+
+#0x0339 SoldierDesc
+Average soldiers possessing[N][.]
+no special abilities.[.][X]
+
+#0x033A PirateDesc
+Tough brawlers who call the[.]
+sea their home. They use axes.[X]
+
+#0x033B EmperorDesc
+The Emperor of Akaneia, who seeks[N]
+to defeat the Aritian Army.[X]
+
+#0x033C
+Warships that patrol the open seas.[.]
+They carry powerful ballistae.[X]
+
+#0x033D
+Phantom warriors who possess great
+strength but vanish when attacked.[X]
+
+#0x033E KnightDesc
+A knight who has dismounted. As a[N]
+result, they must now use swords.[X]
+
+#0x033F
+Reanimated corpses. They're not fast,[.]
+but their talons rend flesh with ease.[X]
+
+#0x0340
+Dead warriors given will by dark magic.[.]
+They wield a variety of weapons.[X]
+
+#0x0341
+Skeletons driven by terrible magic.[.]
+They can wield many weapons.[X]
+
+#0x0342 FireDragonDesc	
+A mighty dragon who breathes fire. No matter[N]
+what, no human can block their flames.[X]
+
+#0x0343 IceDragonDesc
+Dragons capable of channeling the power[N]
+of ice, living in Akaneia's far north.[X]
+
+#0x0344 FlyingDragonDesc
+Dragons with incredible momentum. They[N]
+can strike fear into any human.[X]
+
+#0x0345 DemonDragonDesc
+Fierce dragons with great magical power.[N]
+They have supreme magical defence.[X]
+
+#0x0346 EarthDragonDesc
+Vile dragons that emerged from the earth.[N]
+Their dark breath halves a man's strength.[X]
+
+#0x0347
+Vile man-beasts who thunder into
+combat with colossal axes.[X]
+
+#0x0348
+Immensely fast and strong creatures[.]
+who hunt with axes and bows.[X]
+
+#0x0349
+Perilous floating orbs filled with
+blighting dark magic.[.][X]
+
+#0x034A
+Mogall whose dread power exceeds
+that of their lesser cousins.[.][X]
+
+#0x034B
+Comely and cursed, these creatures
+turn all who behold them into stone.[X]
+
+#0x034C
+Eggs of lovely and deadly gorgons.[X]
+
+#0x034D
+Malignant fiends who hunt with
+lances. They ride on fell wings.[X]
+
+#0x034E
+Gargoyles empowered by magic. They
+are both swift and brutal.[X]
+
+#0x034F
+The revived corpse of a dragon. Its[.]
+putrid breath decays all it touches.[X]
+
+#0x0350
+This foul being is the master of the
+dark. Its power exceeds mortal ken.[.][X]
+
+#0x0351
+An innocent peasant lacking any[.]
+combat skills at all.[.][X]
+
+#0x0352
+Spiritual leader of Rausten. He claims
+ancestry with the saintly Latona.[.][X]
+
+#0x0353
+The kingdom's highest authority. She
+is a popular ruler of great virtue.[.][X]
+
+#0x0354 IronSwordName
+Iron Sword[X]
+
+#0x0355 SlimSwordName
+Slim Sword[X]
+
+#0x0356 SteelSwordName
+Steel Sword[.][X]
+
+#0x0357 SilverSwordName
+Silver Sword[X]
+
+#0x0358 IronBladeName
+Iron Blade[X]
+
+#0x0359 SteelBladeName
+Steel Blade[.][X]
+
+#0x035A SilverBladeName
+Silver Blade[X]
+
+#0x035B PoisonSwordName
+Poison Sword[X]
+
+#0x035C RapierName
+Rapier[X]
+
+#0x035D BraveSwordName
+Brave Sword[.][X]
+
+#0x035E MasterSwordName
+Master Swd.[X]
+
+#0x035F KillingEdgeName
+Killing Edge[X]
+
+#0x0360 ArmourKillerName
+Armour Killer[.][X]
+
+#0x0361 DragonKillerName
+Dragon Killer[X]
+
+#0x0362 ThunderSwordName
+Thunder Sword[.][X]
+
+#0x0363 RuneswordName
+Runesword[.][X]
+
+#0x0364 LancereaverName
+Lancereaver[.][X]
+
+#0x0365 DevilSwordName
+Devil Sword[.][X]
+
+#0x0366 FalchionName
+Falchion[.][X]
+
+#0x0367 MiracleSwordName
+Miracle[X]
+
+#0x0368 WindSwordName
+Wind Sword[X]
+
+#0x0369 IronLanceName
+Iron Lance[X]
+
+#0x036A SlimLanceName
+Slim Lance[X]
+
+#0x036B SteelLanceName
+Steel Lance[.][X]
+
+#0x036C SilverLanceName
+Silver Lance[X]
+
+#0x036D PoisonLanceName
+Toxin Lance[.][X]
+
+#0x036E BraveLanceName
+Brave Lance[.][X]
+
+#0x036F KillerLanceName
+Killer Lance[X]
+
+#0x0370 KnightKillerName
+Knight Killer[.][X]
+
+#0x0371 JavelinName
+Javelin[.][X]
+
+#0x0372 SpearName
+Spear[.][X]
+
+#0x0373 AxereaverName
+Axereaver[.][X]
+
+#0x0374 WingSpearName
+Wing Spear[.][X]
+
+#0x0375
+Siegmund[X]
+
+#0x0376 GradiusName
+Gradius[X]
+
+#0x0377
+Dragonspear[.][X]
+
+#0x0378
+Heavy Spear[.][X]
+
+#0x0379
+Short Spear[.][X]
+
+#0x037A IronAxeName
+Iron Axe[X]
+
+#0x037B SteelAxeName
+Steel Axe[.][X]
+
+#0x037C SilverAxeName
+Silver Axe[X]
+
+#0x037D
+Poison Axe[X]
+
+#0x037E BraveAxeName
+Brave Axe[.][X]
+
+#0x037F KillerAxeName
+Killer Axe[X]
+
+#0x0380
+Halberd[.][X]
+
+#0x0381 HammerName
+Hammer[X]
+
+#0x0382 DevilAxeName
+Devil Axe[.][X]
+
+#0x0383 HandAxeName
+Hand Axe[X]
+
+#0x0384
+Tomahawk[X]
+
+#0x0385
+Swordreaver[.][X]
+
+#0x0386 SwordKillerName
+Sword Killer[.][X]
+
+#0x0387
+Dragon Axe[X]
+
+#0x0388
+Battle Axe[X]
+
+#0x0389
+Hauteclere[X]
+
+#0x038A
+Hatchet[.][X]
+
+#0x038B IronBowName
+Iron Bow[X]
+
+#0x038C SteelBowName
+Steel Bow[.][X]
+
+#0x038D SilverBowName
+Silver Bow[X]
+
+#0x038E PoisonBowName
+Poison Bow[X]
+
+#0x038F KillerBowName
+Killer Bow[X]
+
+#0x0390 BraveBowName
+Brave Bow[.][X]
+
+#0x0391 ShortBowName
+Short Bow[.][X]
+
+#0x0392 LongbowName
+Longbow[.][X]
+
+#0x0393 QuickRainName
+Quick Rain[X]
+
+#0x0394 StonehedgeName
+Stonehedge[.][X]
+
+#0x0395 ThunderboltName
+Thunderbolt[.][X]
+
+#0x0396 PartiaName
+Partia[.][X]
+
+#0x0397 FireBreathName
+Fire Breath[X]
+
+#0x0398 MistBreathName
+Mist Breath[.][X]
+
+#0x0399
+Stone Shard[.][X]
+
+#0x039A DarkBreathName
+Dark Breath[.][X]
+
+#0x039B IceBreathName
+Ice Breath[.][X]
+
+#0x039C
+Nightmare[.][X]
+
+#0x039D
+Sharp Claw[X]
+
+#0x039E
+Rotten Claw[.][X]
+
+#0x039F
+Fetid Claw[X]
+
+#0x03A0
+Poison Claw[.][X]
+
+#0x03A1
+Lethal Talon[X]
+
+#0x03A2
+Fiery Fang[X]
+
+#0x03A3
+Hellfang[X]
+
+#0x03A4 LadySwordName
+Lady Sword[X]
+
+#0x03A5
+Bright Lance[X]
+
+#0x03A6
+Fiendcleaver[X]
+
+#0x03A7
+Beacon Bow[X]
+
+#0x03A8
+Emblem Seal[.][X]
+
+#0x03A9 FireName
+Fire[X]
+
+#0x03AA ThunderName
+Thunder[.][X]
+
+#0x03AB ElfireName
+Elfire[X]
+
+#0x03AC
+Aircalibur[X]
+
+#0x03AD ThoronName
+Thoron[.][X]
+
+#0x03AE BlizzardName
+Blizzard[X]
+
+#0x03AF ExcaliburName
+Excalibur[.][X]
+
+#0x03B0 LightningName
+Lightning[.][X]
+
+#0x03B1 MeteorName
+Meteor[.][X]
+
+#0x03B2 ShaverName
+Shaver[X]
+
+#0x03B3 PurgeName
+Purge[.][X]
+
+#0x03B4 AuraName
+Aura[X]
+
+#0x03B5 StarlightName
+Starlight[X]
+
+#0x03B6
+Flux[X]
+
+#0x03B7
+Luna[X]
+
+#0x03B8 ResireName
+Resire[.][X]
+
+#0x03B9 DulamName
+Dulam[.][X]
+
+#0x03BA
+Fenrir[X]
+
+#0x03BB MaphName
+Maph[X]
+
+#0x03BC FireEmblemName
+Fire Emblem[.][X]
+
+#0x03BD
+Stone[.][X]
+
+#0x03BE
+Evil Eye[X]
+
+#0x03BF
+Crimson Eye[.][X]
+
+#0x03C0
+Demon Surge[.][X]
+
+#0x03C1
+Shadowshot[X]
+
+#0x03C2 HealName
+Life[X]
+
+#0x03C3 MendName
+Relieve[X]
+
+#0x03C4 RecoverName
+Recover[.][X]
+
+#0x03C5 PhysicName
+Libro[X]
+
+#0x03C6 FortifyName
+Reserve[.][X]
+
+#0x03C7 RestoreName
+Restore[.][X]
+
+#0x03C8 SilenceName
+Silence[.][X]
+
+#0x03C9 SleepName
+Sleep[.][X]
+
+#0x03CA BerserkName
+Berserk[.][X]
+
+#0x03CB WarpName
+Warp[X]
+
+#0x03CC RescueName
+Rescue[X]
+
+#0x03CD
+Torch[.][X]
+
+#0x03CE HammerneName
+Hammerne[X]
+
+#0x03CF UnlockName
+Unlock[X]
+
+#0x03D0 BarrierName
+Magic Shield[.][X]
+
+#0x03D1 AgainName
+Again[X]
+
+#0x03D2
+Dance[.][X]
+
+#0x03D3
+Play[X]
+
+#0x03D4 AngelicRobeName
+Angelic Robe[X]
+
+#0x03D5 PowerRingName
+Power Ring[.][X]
+
+#0x03D6 SecretBookName
+Secret Book[.][X]
+
+#0x03D7 SpeedwingName
+Speed Ring[.][X]
+
+#0x03D8 GoddessIconName
+Goddess Icon[X]
+
+#0x03D9 DracoshieldName
+Dragon Shield[X]
+
+#0x03DA TalismanName
+Talisman[X]
+
+#0x03DB BootsName
+Boots[.][X]
+
+#0x03DC BodyRingName
+Body Ring[.][X]
+
+#0x03DD HeroCrestName
+Hero Crest[X]
+
+#0x03DE KnightCrestName
+Knight Crest[X]
+
+#0x03DF OrionsBoltName
+Orion's Bolt[X]
+
+#0x03E0 ElysianWhipName
+Elysian Whip[X]
+
+#0x03E1 GuidingRingName
+Guiding Ring[X]
+
+#0x03E2 ChestKeyName
+Chest Key[.][X]
+
+#0x03E3 DoorKeyName
+Door Key[X]
+
+#0x03E4 LockpickName
+Lockpick[X]
+
+#0x03E5 VulneraryName
+Vulnerary[.][X]
+
+#0x03E6 ElixirName
+Elixir[X]
+
+#0x03E7 PureWaterName
+Pure Water[X]
+
+#0x03E8 AntitoxinName
+Antitoxin[.][X]
+
+#0x03E9
+Torch[.][X]
+
+#0x03EA IotesShieldName
+Iote's Shield[.][X]
+
+#0x03EB MemberCardName
+Member Card[.][X]
+
+#0x03EC SilverCardName
+Silver Card[.][X]
+
+#0x03ED
+Gold Gem[X]
+
+#0x03EE
+Black Gem[.][X]
+
+#0x03EF
+White Gem[.][X]
+
+#0x03F0
+Blue Gem[X]
+
+#0x03F1
+Red Gem[.][X]
+
+#0x03F2
+Gold[X]
+
+#0x03F3
+Hoplon Guard[X]
+
+#0x03F4
+Master Seal[.][X]
+
+#0x03F5
+Metis's Tome[X]
+
+#0x03F6
+Ocean Seal[X]
+
+#0x03F7 FireGunName
+Fire Gun[.][X]
+
+#0x03F8 ElephantName
+Elephant[.][X]
+
+#0x03F9
+1 Gold[X]
+
+#0x03FA
+5 Gold[X]
+
+#0x03FB
+10 Gold[.][X]
+
+#0x03FC
+50 Gold[.][X]
+
+#0x03FD
+100 Gold[X]
+
+#0x03FE
+150 Gold[X]
+
+#0x03FF
+200 Gold[X]
+
+#0x0400
+3,000 Gold[X]
+
+#0x0401
+5,000 Gold[X]
+
+#0x0402
+Juna Fruit[X]
+
+#0x0403
+Dummy[.][X]
+
+#0x0404 NoDesc
+ [.][X]
+
+#0x0405 StarShardDesc
+Hold these and growths go up![.][X]
+
+#0x0406 StarOrbDesc
+Grants +30% to all growths.[N]
+Weapons become indestructible.[X]
+
+#0x0407 LightOrbDesc
+Pierces terrain bonuses, negates[N]
+criticals and the Dark Orb.[.][X]
+
+#0x0408 EarthOrbDesc
+Grants +10% accuracy and critical[N]
+to all nearby units.[.][X]
+
+#0x0409 LifeOrbDesc
+Restores all HP to the user at the[N]
+start of every turn.[.][X]
+
+#0x040A DarkOrbDesc
+Negates all enemy attacks, so the[N]
+user cannot be harmed in any way.[.][X]
+
+#0x040B PoisonWeaponDesc
+Coated in lethal poison.[X]
+
+#0x040C RapierDesc
+Eff. vs. S/A Knights. Marth/Feena.[.][X]
+
+#0x040D BraveWeaponDesc
+Can strike consecutively.[.][X]
+
+#0x040E KillerWeaponDesc
+Improves critical hit rate.[.][X]
+
+#0x040F MasterSwordDesc
+A powerful sword with high critical.[.][X]
+
+#0x0410 AntiArmourDesc
+Effective against armoured units.[X]
+
+#0x0411 AntiDragonDesc
+Effective against dragons.[X]
+
+#0x0412 ThunderSwordDesc
+Suffused with thunder magic.[X]
+
+#0x0413 RuneswordDesc
+Drains enemy HP into user.[.][X]
+
+#0x0414 LancereaverDesc
+Strong against lances.[X]
+
+#0x0415 AntiCavalryDesc
+Effective against cavalry.[X]
+
+#0x0416 FalchionDesc
+The divine blade, effective vs. dragons.[X]
+
+#0x0417 MiracleSwordDesc
+The mythical blade. 2x EXP.[X]
+
+#0x0418
+Capable of indirect attacks.[X]
+
+#0x0419 FireEmblemDesc
+The fabled Conqueror's Proof of Akaneia.[N]
+Its wielder can open all treasure chests.[.][X]
+
+#0x041A
+ [.][X]
+
+#0x041B
+ [.][X]
+
+#0x041C
+ [.][X]
+
+#0x041D
+Coated in lethal poison.[X]
+
+#0x041E
+Can strike consecutively.[.][X]
+
+#0x041F
+Improves critical hit rate.[.][X]
+
+#0x0420
+Effective against cavalry.[X]
+
+#0x0421 JavelinDesc
+Doubles as ranged attack.[.][X]
+
+#0x0422
+Doubles as ranged attack.[.][X]
+
+#0x0423
+Strong against axes.[X]
+
+#0x0424 WingSpearDesc
+Eff. vs. S/A Knights. Sheeda only.[X]
+
+#0x0425
+Only one legendary lance here.[.][X]
+
+#0x0426 GradiusDesc
+Said to crush rock. 2x EXP.[.][X]
+
+#0x0427
+Effective against wyverns.[X]
+
+#0x0428
+Effective against knights.[X]
+
+#0x0429
+Doubles as ranged attack.[.][X]
+
+#0x042A
+ [.][X]
+
+#0x042B
+ [.][X]
+
+#0x042C SilverAxeDesc
+Sells for a lot of gold.[.][X]
+
+#0x042D
+Coated in lethal poison.[X]
+
+#0x042E
+Can strike consecutively.[.][X]
+
+#0x042F
+Improves critical hit rate.[.][X]
+
+#0x0430
+Effective against cavalry.[X]
+
+#0x0431
+Effective against knights.[X]
+
+#0x0432 DevilWeaponDesc
+Might injure its wielder.[.][X]
+
+#0x0433
+Doubles as ranged attack.[.][X]
+
+#0x0434
+Doubles as ranged attack.[.][X]
+
+#0x0435 SwordreaverDesc
+Strong against swords.[X]
+
+#0x0436 SwordslayerDesc
+Good against swordfighters.[.][X]
+
+#0x0437 
+Effective against wyverns.[X]
+
+#0x0438 LegendaryAxeDesc
+Maybe this will be the Hauteclere?[X]
+
+#0x0439
+Strong, but difficult to wield.[.][X]
+
+#0x043A
+Lightweight and easy to hit with.[.][X]
+
+#0x043B
+ [.][X]
+
+#0x043C
+ [.][X]
+
+#0x043D
+ [.][X]
+
+#0x043E
+Coated in lethal poison.[X]
+
+#0x043F
+Improves critical hit rate.[.][X]
+
+#0x0440
+Can strike consecutively.[.][X]
+
+#0x0441
+Improves critical hit rate.[.][X]
+
+#0x0442 LongbowDesc
+Extended attack range.[X]
+
+#0x0443 BallistaDesc
+Long-range weapon.[X]
+
+#0x0444 IronBallistaDesc
+Super long-range weapon.[X]
+
+#0x0445
+Improves critical hit rate.[.][X]
+
+#0x0446 PartiaDesc
+Shoots flaming arrows at foes. 2x EXP.[.][X]
+
+#0x0447
+The breath of a dragon corpse.[N]
+It decays everything it touches. [.][X]
+
+#0x0448
+A stone that can transform a Mamkute[N][.]
+into their dragon form.[.][X]
+
+#0x0449
+DUMMY[.][X]
+
+#0x044A
+A malefic flash that destroys[.]
+everything it touches.[X]
+
+#0x044B
+A horrific blow that invites
+the destruction of all.[.][X]
+
+#0x044C
+Lulls all enemies within range
+into a deep slumber.[X]
+
+#0x044D
+A keen, flesh-tearing claw.[.][X]
+
+#0x044E
+A sharpened, decayed claw.[X]
+
+#0x044F
+A foul talon meant to rend flesh.[.][X]
+
+#0x0450
+A claw dripping with poison.[X]
+
+#0x0451
+A claw slathered in deadly poison.[X]
+
+#0x0452
+A sharp, piercing fang.[.][X]
+
+#0x0453
+A long, daggerlike fang.[X]
+
+#0x0454 LadySwordDesc
+Effective vs. bandits. Females only.[.][X]
+
+#0x0455
+Effective against monsters.[.][X]
+
+#0x0456
+Effective against monsters.[.][X]
+
+#0x0457
+Effective against monsters.[.][X]
+
+#0x0458 FireDesc
+Basic fire, eff. vs. ice dragons.[.][X]
+
+#0x0459 ThunderDesc
+Basic thunder, slight critical.[.][X]
+
+#0x045A ElfireDesc
+Moderate fire, eff. vs. ice dragons.[.][X]
+
+#0x045B ShaverDesc
+Effective versus fliers.[.][X]
+
+#0x045C ThoronDesc
+Strong thunder, with high accuracy.[X]
+
+#0x045D BlizzardDesc
+Ice magic, effective vs. fire dragons.[.][X]
+
+#0x045E ExcaliburDesc
+Effective vs. fliers. Marich only.[.][X]
+
+#0x045F LightningDesc
+Basic light magic.[.][X]
+
+#0x0460 MeteorDesc
+Fire magic able to strike from afar.[.][X]
+
+#0x0461 BolganoneDesc
+Strong fire, effective vs. ice dragons.[.][X]
+
+#0x0462 PurgeDesc
+Long-range magic attack.[X]
+
+#0x0463 AuraDesc
+The strongest light magic. Linda only.[.][X]
+
+#0x0464 StarlightDesc
+The ultimate magic, able to pierce Maph.[.][X]
+
+#0x0465
+ [.][X]
+
+#0x0466 LunaDesc
+Negates enemy resistance.[.][X]
+
+#0x0467 ResireDesc
+Drains enemy HP into caster.[X]
+
+#0x0468 DulamDesc
+Reduces enemy HP to one.[.][X]
+
+#0x0469
+ [.][X]
+
+#0x046A MaphDesc
+Renders the user immune to all harm...?[.][X]
+
+#0x046B
+ [.][X]
+
+#0x046C StoneDesc
+Turns targets to stone for a while.[.][X]
+
+#0x046D
+ [.][X]
+
+#0x046E
+ [.][X]
+
+#0x046F
+ [.][X]
+
+#0x0470
+Long-range dark magic bolt.[.][X]
+
+#0x0471 HealDesc
+Restores 10+Mag HP to an[N]
+adjacent ally.[X]
+
+#0x0472 MendDesc
+Restores 20+Mag HP to an[N]
+adjacent ally.[.][X]
+
+#0x0473 RecoverDesc
+Restores all HP to an[N]
+adjacent ally.[X]
+
+#0x0474 PhysicDesc
+Restores 10+Mag HP to a[N][.]
+distant ally.[X]
+
+#0x0475 FortifyDesc
+Restores 10+Mag HP to[N]
+all allies on the field.[.][X]
+
+#0x0476 RestoreDesc
+Returns allies to normal[N]
+condition. (Cures sleep, etc.)[X]
+
+#0x0477 SilenceDesc
+Halts all enemy magic[N][.]
+for several turns.[X]
+
+#0x0478 SleepDesc
+Puts enemies to sleep for[N][.]
+several turns.[X]
+
+#0x0479 BerserkDesc
+Sends enemies into a[N]
+berserker rage.[.][X]
+
+#0x047A WarpDesc
+Moves allies in adjacent[N]
+spaces instantly elsewhere.[.][X]
+
+#0x047B RescueDesc
+Brings a far away ally to the[N]
+caster. Yumina only.[X]
+
+#0x047C TorchDesc
+Lights an area. The light[N][.]
+grows weaker each turn.[.][X]
+
+#0x047D HammerneDesc
+Repairs an ally's weapon.[N]
+Malliesia only.[X]
+
+#0x047E UnlockDesc
+Unlocks doors, even from[N]
+a distance.[.][X]
+
+#0x047F BarrierDesc
+Increases magic resistance[N]
+of adjacent allies briefly.[.][X]
+
+#0x0480 AgainDesc
+Allows all allies to take[N]
+another turn in combat.[X]
+
+#0x0481
+A dance that allows[.][N]
+allies to move again.[.][X]
+
+#0x0482
+A song that allows[N]
+allies to move again.[.][X]
+
+#0x0483 AngelicRobeDesc
+Increases maximum HP by[N]
+7 points. Vanishes after use.[.][X]
+
+#0x0484 PowerRingDesc
+Increases strength by[.][N]
+4 points. Vanishes after use.[.][X]
+
+#0x0485 SecretBookDesc
+Increases skill by 5 points.[N]
+Vanishes after use.[.][X]
+
+#0x0486 SpeedwingDesc
+Increases speed by[N]
+5 points. Vanishes after use.[.][X]
+
+#0x0487 GoddessIconDesc
+Increases luck by[N][.]
+5 points. Vanishes after use.[.][X]
+
+#0x0488 DracoshieldDesc
+Increases defense by[N]
+4 points. Vanishes after use.[.][X]
+
+#0x0489 TalismanDesc
+Increases resistance by[N][.]
+3 points. Vanishes after use.[.][X]
+
+#0x048A BootsDesc
+Increases movement by[N][.]
+4 points. Vanishes after use.[.][X]
+
+#0x048B BodyRingDesc
+Increases constitution by[N][.]
+2 points. Vanishes after use.[.][X]
+
+#0x048C HeroCrestDesc
+For mercenaries[N]
+Lv. 10 and up.[.][X]
+
+#0x048D KnightCrestDesc
+For knights and cavaliers[N][.]
+Lv. 10 and up.[X]
+
+#0x048E OrionsBoltDesc
+For archers and hunters[N][.]
+Lv. 10 and up.[X]
+
+#0x048F ElysianWhipDesc
+For pegasus knights[N]
+Lv. 10 and up.[X]
+
+#0x0490 GuidingRingDesc
+For mages and sisters[N]
+Lv. 10 and up.[X]
+
+#0x0491 ChestKeyDesc
+Opens chests.[.][X]
+
+#0x0492 DoorKeyDesc
+Opens doors in[N]
+adjacent spaces.[X]
+
+#0x0493 LockpickDesc
+Opens doors and chests.[.][N]
+Usable only by thieves.[.][X]
+
+#0x0494 VulneraryDesc
+A light healing item that[N]
+restores 10 HP when used.[.][X]
+
+#0x0495 ElixirDesc
+A powerful solution that[N]
+restores all HP.[X]
+
+#0x0496 PureWaterDesc
+A draught that boosts Res.[N]
+Grows weaker each turn.[.][X]
+
+#0x0497 AntitoxinDesc
+A medicinal solution that[N][.]
+cures poison.[.][X]
+
+#0x0498 TorchItemDesc
+A staff with burning pitch.[N][.]
+Grows dimmer each turn.[.][X]
+
+#0x0499 IotesShieldDesc
+A royal treasure of Macedonia.[N]
+Nullifies arrow effectiveness.[X]
+
+#0x049A MemberCardDesc
+If someone with this card[N][.]
+stops in a suspicious space...[X]
+
+#0x049B SilverCardDesc
+A special card that reduces[N][.]
+the cost of all items by half.[X]
+
+#0x049C GoldGemDesc
+A valuable gemstone worth[N][.]
+20,000 gold.[X]
+
+#0x049D BlackGemDesc
+A valuable gemstone worth[N][.]
+15,000 gold.[X]
+
+#0x049E WhiteGemDesc
+A valuable gemstone worth[N][.]
+10,000 gold.[X]
+
+#0x049F BlueGemDesc
+A rare gemstone worth[N][.]
+5,000 gold.[.][X]
+
+#0x04A0 RedGemDesc
+An uncommon gemstone[N]
+worth 2,500 gold.[.][X]
+
+#0x04A1
+A bag full of money.[X]
+
+#0x04A2 MineDesc
+A trap that damages units[.]
+that step on it.[X]
+
+#0x04A3 LightRuneDesc
+A device that blocks units
+from entering spaces.[.][X]
+
+#0x04A4 HoplonGuardDesc
+A device that negates[N][.]
+enemy critical attacks.[.][X]
+
+#0x04A5 MasterSealDesc
+For some units Lv. 10 and up[N]
+who have not changed class.[.][X]
+
+#0x04A6 MetisTomeDesc
+Gives a little treat to the[N][.]
+unit that uses it.[X]
+
+#0x04A7 OceanSealDesc
+For use by thieves and[N]
+pirates Lv. 10 and up.[X]
+
+#0x04A8
+REPLACE[.][X]
+
+#0x04A9
+REPLACE[.][X]
+
+#0x04AA
+Give this to a worthy unit[N]
+and see what happens.[.][X]
+
+#0x04AB DummyDesc
+You shouldn't see this... [.][X]
+
+#0x04AC
+Draco Zombie only.[X]
+
+#0x04AD
+Mamkutes only.[X]
+
+#0x04AE
+Creatures only.[.][X]
+
+#0x04AF HealUsage
+Restores some HP.[.][X]
+
+#0x04B0 MendUsage
+Restores more HP.[.][X]
+
+#0x04B1 RecoverUsage
+Restores all HP.[X]
+
+#0x04B2 PhysicUsage
+Restores HP to[N]
+distant allies.[X]
+
+#0x04B3 FortifyUsage
+Restores HP to all[N]
+allies in one area.[X]
+
+#0x04B4 RestoreUsage
+Restores allies to[N]
+normal status.[X]
+
+#0x04B5 SilenceUsage
+Blocks enemy magic.[X]
+
+#0x04B6 SleepUsage
+Puts enemies to sleep.[X]
+
+#0x04B7 BerserkUsage
+Drives enemies to[N]
+attack wildly in a[N]
+frenzy of rage.[X]
+
+#0x04B8 WarpUsage
+Warps allies to[N]
+other spaces.[X]
+
+#0x04B9 RescueUsage
+Warps allies to a[N]
+space adjacent to[N]
+the staff wielder.[X]
+
+#0x04BA TorchUsage
+Lights up an area.[X]
+
+#0x04BB HammerneUsage
+Restores items to[N]
+new condition.[X]
+
+#0x04BC UnlockUsage
+Opens doors.[X]
+
+#0x04BD BarrierUsage
+Raises resistance.[X]
+
+#0x04BE AgainUsage
+Allows all allies[N]
+to move again.[.][X]
+
+#0x04BF
+Allows allies[N]
+to move again.[X]
+
+#0x04C0
+Allows allies[N]
+to move again.[X]
+
+#0x04C1 RobeUsage
+Raises max HP.[X]
+
+#0x04C2 RingUsage
+Raises strength.[X]
+
+#0x04C3 BookUsage
+Raises skill.[.][X]
+
+#0x04C4 WingUsage
+Raises speed.[.][X]
+
+#0x04C5 IconUsage
+Raises luck.[X]
+
+#0x04C6 ShieldUsage
+Raises defense.[.][X]
+
+#0x04C7 TalismanUsage
+Raises resistance.[X]
+
+#0x04C8 BootsUsage
+Raises movement.[X]
+
+#0x04C9 BodyRingUsage
+Raises constitution.[X]
+
+#0x04CA HeroCrestUsage
+Use this on a worthy[N]
+mercenary, fighter,[N][.]
+or myrmidon.[X]
+
+#0x04CB KnightCrestUsage
+Use this on a worthy[N]
+cavalier or knight.[.][X]
+
+#0x04CC OrionsBoltUsage
+Use this on a worthy[N]
+archer or hunter.[.][X]
+
+#0x04CD ElysianWhipUsage
+Use this on a worthy[N]
+master of a winged[N]
+mount.[X]
+
+#0x04CE GuidingRingUsage
+Use this on a worthy[N]
+wielder of magic[N]
+power and staves.[.][X]
+
+#0x04CF ChestKeyUsage
+Opens chests.[.][X]
+
+#0x04D0 DoorKeyUsage
+Opens doors.[X]
+
+#0x04D1 LockpickUsage
+Universal lockpicks[.][N]
+designed for thieves.[.][X]
+
+#0x04D2 VulneraryUsage
+Restores some HP.[.][X]
+
+#0x04D3 ElixirUsage
+Restores all HP.[X]
+
+#0x04D4 PureWaterUsage
+Reduces damage[N]
+from magic attacks.[.][X]
+
+#0x04D5 AntitoxinUsage
+Cures poison.[.][X]
+
+#0x04D6 TorchItemUsage
+Lights an area.[.][X]
+
+#0x04D7 IotesShieldUsage
+Protects airborne[.][N]
+units from bows.[X]
+
+#0x04D8 MemberCardUsage
+Grants access to[N]
+secret shops.[.][X]
+
+#0x04D9 SilverCardUsage
+Reduces the cost[N]
+of items.[.][X]
+
+#0x04DA NoUsage
+ [.][X]
+
+#0x04DB MineUsage
+Units that enter
+spaces where these
+are take damage.[X]
+
+#0x04DC LightRuneUsage
+Units cannot enter
+spaces where these
+have been placed.[.][X]
+
+#0x04DD HoplonGuardUsage
+Negates enemies'[N]
+critical attacks.[.][X]
+
+#0x04DE MasterSealUsage
+Use this on a unit Lv.[N]
+10 and up who has[.][N]
+yet to change class.[X]
+
+#0x04DF MetisTomeUsage
+Give this to a[N]
+unit you like.[X]
+
+#0x04E0 OceanSealUsage
+Use this on a worthy[N]
+thief or pirate.[X]
+
+#0x04E1
+This ain't needed.[.][X]
+
+#0x04E2
+Neither is this.[X]
+
+#0x04E3
+Use this, and...[X]
+
+#0x04E4 DummyUsage
+Dummy[.][X]
+
+#0x04E5
+Name[X]
+
+#0x04E6
+Class[.][X]
+
+#0x04E7
+Lv[X]
+
+#0x04E8
+Exp[.][X]
+
+#0x04E9
+HP[X]
+
+#0x04EA
+Max[.][X]
+
+#0x04EB
+S/M[.][X]
+
+#0x04EC
+Skill[.][X]
+
+#0x04ED
+Spd[.][X]
+
+#0x04EE
+Luck[X]
+
+#0x04EF
+Def[.][X]
+
+#0x04F0
+Res[.][X]
+
+#0x04F1
+Affin[.][X]
+
+#0x04F2
+Equip[.][X]
+
+#0x04F3
+Atk[.][X]
+
+#0x04F4
+Hit[.][X]
+
+#0x04F5
+Avoid[.][X]
+
+#0x04F6
+Move[X]
+
+#0x04F7
+Con[.][X]
+
+#0x04F8
+Aid[.][X]
+
+#0x04F9
+Trv[.][X]
+
+#0x04FA
+Cond[X]
+
+#0x04FB
+Ally[X]
+
+#0x04FC
+Anim[X]
+
+#0x04FD
+Sort:[.][X]
+
+#0x04FE
+Str[.][X]
+
+#0x04FF
+Mag[.][X]
+
+#0x0500
+Rng[.][X]
+
+#0x0501
+Crit[X]
+
+#0x0502
+Wt[X]
+
+#0x0503
+Mt[X]
+
+#0x0504
+AS[X]
+
+#0x0505
+Sword[.][X]
+
+#0x0506
+Lance[.][X]
+
+#0x0507
+Axe[.][X]
+
+#0x0508
+Bow[.][X]
+
+#0x0509
+Staff[.][X]
+
+#0x050A
+Anima[.][X]
+
+#0x050B
+Light[.][X]
+
+#0x050C
+Dark[X]
+
+#0x050D
+Item[X]
+
+#0x050E
+Bllsta[X]
+
+#0x050F
+Dragon[X]
+
+#0x0510
+Fire[X]
+
+#0x0511
+Thunder[.][X]
+
+#0x0512
+Wind[X]
+
+#0x0513
+Ice[.][X]
+
+#0x0514
+Poison[X]
+
+#0x0515
+Sleep[.][X]
+
+#0x0516
+Silence[.][X]
+
+#0x0517
+Berserk[.][X]
+
+#0x0518
+Sick[X]
+
+#0x0519
+Recovr[X]
+
+#0x051A
+Petrify[.][X]
+
+#0x051B
+Attack[X]
+
+#0x051C
+Defend[X]
+
+#0x051D
+Critical[X]
+
+#0x051E
+Dodge[.][X]
+
+#0x051F
+B[.][X]
+
+#0x0520
+W[.][X]
+
+#0x0521
+L[.][X]
+
+#0x0522
+MP/2[X]
+
+#0x0523
+    1[.][X]
+
+#0x0524
+ 12[.][X]
+
+#0x0525
+ 13[.][X]
+
+#0x0526
+    2[.][X]
+
+#0x0527
+ 23[.][X]
+
+#0x0528
+3[.]10[X]
+
+#0x0529
+3[.]15[X]
+
+#0x052A
+Total[.][X]
+
+#0x052B
+   [.][X]
+
+#0x052C
+[X]
+
+#0x052D
+E[.][X]
+
+#0x052E
+D[.][X]
+
+#0x052F
+C[.][X]
+
+#0x0530
+B[.][X]
+
+#0x0531
+A[.][X]
+
+#0x0532
+S[.][X]
+
+#0x0533
+Prf[.][X]
+
+#0x0534
+[X]
+
+#0x0535
+[X]
+
+#0x0536
+[X]
+
+#0x0537
+[X]
+
+#0x0538
+[X]
+
+#0x0539
+/[.][X]
+
+#0x053A
+-[.][X]
+
+#0x053B
+Assets[X]
+
+#0x053C
+Time[X]
+
+#0x053D
+Total[.][X]
+
+#0x053E
+Normal[X]
+
+#0x053F
+Hard[X]
+
+#0x0540
+Complete[X]
+
+#0x0541
+Total[.][X]
+
+#0x054A LuckDesc
+Luck. Reduces chance of[.][N]
+suffering critical hits.[.][X]
+
+#0x054E ConDesc
+Constitution, or physical size.[.][N]
+Negates weapon weight.[X]
+
+#0x056D WeaponTriangleAdv
+Weapon triangle advantage.[N][.]
+Hit % and power increase.[.][X]
+
+#0x056E
+Weapon triangle advantage.[N][.]
+Hit % and power increase.[.][X]
+
+#0x056F WeaponTriangleDisadv
+Weapon triangle disadvantage.[N][.]
+Hit % and power decrease.[.][X]
+
+#0x0570
+Weapon triangle disadvantage.[N][.]
+Hit % and power decrease.[.][X]
+
+#0x06F5
+The prince of Aritia. A sword fighter[N]
+on an important mission.[X]
+
+#0x06F6
+DUMMY[X]
+
+#0x06F7
+The prince of Aritia. A sword fighter[N]
+on an important mission.[X]
+
+#0x06F8
+Who's this lady? I heard she's quite[N]
+naive, but no matter. TO BE REPLACED[X]
+
+#0x078B
+Tapestry[.][X]
+
+#0x078C
+Fire Emblem Theme[X]
+
+#0x078D
+Mystery of the Emblem[X]
+
+#0x078E
+A New Journey[.][X]
+
+#0x078F
+Seeking the Legend[X]
+
+#0x0790
+War of Heroes[X]
+
+#0x0791
+Dragon's Altar[X]
+
+#0x0792
+Postgame Map[.][X]
+
+#0x0793
+Advance[.][X]
+
+#0x0794
+Expedition[X]
+
+#0x0795
+Liberation[X]
+
+#0x0796
+Map Theme 4[.][X]
+
+#0x0797
+Map Theme 5[X]
+
+#0x0798
+Holy War[.][X]
+
+#0x0799
+NPC Phase[.][X]
+
+#0x079A
+Victory is Ours[X]
+
+#0x079B
+Level Grinding[.][X]
+
+#0x079C
+Fog of War[X]
+
+#0x079D
+Insurrection[.][X]
+
+#0x079E
+Beyond the Silence[.][X]
+
+#0x079F
+For Whose Sake[.][X]
+
+#0x07A0
+Dragon's Altar[.][X]
+
+#0x07A1
+Enemy Phase 5[.][X]
+
+#0x07A2
+Enemy Phase 6[.][X]
+
+#0x07A3
+Attack[X]
+
+#0x07A4
+Defense[.][X]
+
+#0x07A5
+Confront[X]
+
+#0x07A6
+Dark Emperor[X]
+
+#0x07A7
+Vs. Garnef[X]
+
+#0x07A8
+Dark Earth Dragon[X]
+
+#0x07A9
+Casting Starlight[.][X]
+
+#0x07AA
+Dance[X]
+
+#0x07AB
+Healing[.][X]
+
+#0x07AC
+Curing[X]
+
+#0x07AD
+Promotion[.][X]
+
+#0x07AE
+(All is well.)[.][X]
+
+#0x07AF
+Off to War[.][X]
+
+#0x07B0
+Conspiracy[.][X]
+
+#0x07B1
+Theme of Love[.][X]
+
+#0x07B2
+Another World[.][X]
+
+#0x07B3
+Sorrow[X]
+
+#0x07B4
+Ricardo[X]
+
+#0x07B5
+Legacy[X]
+
+#0x07B6
+Evil One[X]
+
+#0x07B7
+Lost Heart[X]
+
+#0x07B8
+Lyon (Organ Arrangement)[X]
+
+#0x07B9
+The Final Battle[X]
+
+#0x07BA
+Solve the Riddle[X]
+
+#0x07BB
+Lights in the Dark[X]
+
+#0x07BC
+Together we Ride[X]
+
+#0x07BD
+Victory[.][X]
+
+#0x07BE
+Into the Shadow of Victory[X]
+
+#0x07BF
+Main Theme (Reprise)[X]
+
+#0x07C0
+Battle Preparations[X]
+
+#0x07C1
+Shops[.][X]
+
+#0x07C2
+Armories[X]
+
+#0x07C3
+Bonds[.][X]
+
+#0x07C4
+Colosseum Entrance[X]
+
+#0x07C5
+In the Colosseum[X]
+
+#0x07C6
+Colosseum Victory[.][X]
+
+#0x07C7
+Colosseum Defeat[X]
+
+#0x07C8
+Victory Song A[X]
+
+#0x07C9
+Victory Song B[X]
+
+#0x07CA
+Game Over[.][X]
+
+#0x07CB
+A Painful Farewell[X]
+
+#0x07CC
+Records[.][X]
+
+#0x07CD
+Ending Medley[X]
+
+#0x07CE
+Warrior's Requiem[.][X]
+
+#0x07CF
+Epilogue[X]
+
+#0x07D0
+?????[.][X]
+
+#0x07D1
+Died at[.][X]
+
+#0x08DB Ch1Opening
+After five long years, the great war[N]
+with the Durhua Empire, which caused[N]
+much suffering and known as the War of[AN]
+Darkness, ended with the defeat of[N]
+Earth Dragon King Mediuth.[N]
+The warriors who had gathered under[AN]
+the Fire Emblem returned to their[N]
+homelands, and to restore the lands[N]
+from devastation, used up much[AN]
+strength. Among the countries that[N]
+once made up the seven Kingdoms of[N]
+Akaneia, Gra and Grunia were ruined.[AN]
+Aritia, Orleans, Macedonia and Talis[N]
+were also deeply scarred.[N]
+Even the grand Kingdom of Akaneia[AN]
+was undergoing restoration.[N]
+Then, at the royal capital Pales,[N]
+which was still shaken by the war,[AN]
+an important event occurred[AN]
+with King Orleans's younger[N]
+brother, Hardin's marriage to[AN]
+Princess Nina and his ascension[N]
+as the 24th King of Akaneia.[AN]
+After becoming king, Hardin,[N]
+although seemingly reluctant,[AN]
+instantly restored the country.[N]
+He gathered many soldiers[AN]
+to create a powerful army.[N]
+Following that, he announced[AN]
+the restoration of the Holy Empire[N]
+of Akaneia, and declared himself Emperor.[AN]
+One year after the end of the war[N]
+with Durhua, the world seems to [AN]
+be entering a state of peace.[N]
+But the wheels of fate...[AN]
+appear to have a fault.[X]
+
+## Ch1Opening2
+A year has passed since the War of[N]
+Darkness. Thanks to the efforts of[N]
+Prince Marth, the Kingdom of Aritia,[AN]
+devastated by war, finally begins to[N]
+stabilise. The knight Jeigan, who[N]
+succeeded the ill Morodof, became the[AN] prince's tactician and helped him rule[N]
+the country by his side. Afterwards,[N]
+Princess Sheeda was welcomed to[AN]
+Aritia, and her marriage with Prince[N]
+Marth was announced. The citizens of[N]
+Aritia were happy for the pair's[AN]
+fortune and Sheeda was passionately[N]
+welcomed to the country. However...[N]
+Nearing the day of the wedding,[AN]
+a letter suddenly comes from the[N]
+imperial palace of Pales, containing[N]
+an imperial order. "Dear Prince Marth[AN]
+of Aritia. At the Kingdom of Grunia,[N]
+occupied by Akaneia, a huge rebellion[N]
+has broken out. I request for your[AN]
+country to subdue Grunia. Your[N]
+highness, please send Aritia's full[N]
+army immediately, to quell Grunia's[AN]
+rebellion. - Emperor Hardin"[N]
+The Kingdom of Akaneia is the[N]
+suzerain state to Aritia, and its[AN]
+orders must be followed.[N]
+The helpless Marth orders the knight[N]
+Kain to protect his kingdom. And he[AN]
+leaves, along with Jeigan and the[N]
+others, on an expedition to Grunia...[A][X]
+
+## Ch2Opening
+Carrying regretful feelings, Marth leaves[N]
+Grunia and lands at Macedonia, to rescue[AN]
+Princess Minerva. After the War of[N]
+Darkness, Macedonia was ruled by[AN]
+Minerva, who removed the generals[N]
+who had caused suffering to her[AN]
+people, and renovated the army.[N]
+However, the powerful General[AN]
+Ryuke opposed Minerva's actions.[N]
+He gathered the removed soldiers to[AN]
+overthrow her in a coup. The unprepared[N]
+Minerva was captured by Ryuke's[AN]
+followers and Macedonia fell[N]
+into the control of the rebels.[AN]
+They then dispatched powerful dragon[N]
+knights to sternly guard the[AN]
+country's bordering forests.[AN]
+[X]
+
+## CasualModeOn
+Welcome to [ToggleRed]Casual Mode![ToggleRed][N]
+In this mode of the game,[N]
+units come back to life.[AN]
+Death is not permanent.[N]
+If you didn't mean to play[N]
+on this difficulty, please[AN]
+restart your game on normal[N]
+or hard mode instead. If you[N]
+are not confident in your[AN]
+Fire Emblem skills, then you[N]
+are in the right place. As[N]
+this is the easiest difficulty,[AN]
+tutorials will be given to[N]
+you, the player. For now, good[N]
+luck in Mystery of the Emblem![A][X]
+
+## Ch3Opening
+At one time, the Macedonia region[N]
+was ruled by the Durhua Empire.[AN]
+100 years ago the whole continent was[N]
+controlled by the dragon tribe, who sent[AN]
+numerous slaves to these undeveloped[N]
+forests. The slaves were forced to[AN]
+excavate ruins and construct the[N]
+country. Many people could not find food,[AN]
+were forced to work, and died from abuse.[N]
+Amongst such tragic conditions,[AN]
+finally one youth stood up. His name was[N]
+Iote. He and his companions escaped[AN]
+from the forests and fought, riding[N] dragons, to continue the battle of[AN]
+liberation. After Durhua's fall, the slaves[N]
+established their own country at these rich[AN]
+and newly developed lands.[N]
+And the heroic Iote was encouraged to[AN]
+become its first king.[N]
+Afterwards the Kingdom of Macedonia was[AN]
+feared as the land of dragon knights,[N]
+and that was how it was born.[AN]
+However, this strong country not only lost[N]
+its Prince Misheil, said to be the[AN]
+second coming of Iote.[N]
+But now, even the "Red Dragon Knight",[AN]
+Princess Minerva, has been lost.[A]
+[X]
+
+## FEE3Intro
+[ML][Load][0x64][0x01]
+FIRE EMBLEM - MYSTERY OF THE EMBLEM[N]
+GAME BOY ADVANCE EDITON, FEE3 BUILD[AN]
+Welcome to the game. Currently,[N]
+things are very much a work in[AN]
+progress, but there should hopefully[N]
+be a public release sooner or later.[AN]
+All maps and almost all portraits are[N]
+in quite a rough state, and all units[AN]
+currently have 100% resistance to avoid[N]
+crashing the game with blank levels.[AN]
+Most of this project was made by[N]
+Darrman, with the actual functional[AN]
+portraits made by Alusq a long time[N]
+ago. ASM hacks were made by Teq and[AN]
+Circles for their respective stuff,[N]
+while the current dismount version[AN]
+was made by Colorz. All names are[N]
+at their FE3 fan translation level,[AN]
+even the basic stuff like Heal.[N]
+The author strongly dislikes some[AN]
+localised character names, like[N]
+Caeda and whatnot, but everything[AN]
+has been reverted because of somebody[N]
+who resides on a certain discord.[AN]
+You know who you are. Regardless,[N]
+sit back, relax, and enjoy the show.[AN]
+Gameplay is functional through[N]
+Chapter 5 out of 22.[A][X]
+
+## Ch4Opening
+Unable to reunite with Princess Minerva,[N]
+Marth, in order to find Oguma and the[AN]
+Grunian royal children, headed to visit[N]
+bishop Wendel, who once protected the[A][N]
+children. However, the bishop resides at[N]
+Holm Beach, ruled by the dreaded Macedonian[AN]
+Vikings. In front of Marth's path[N]
+countless pirates await him.[AN]
+Can they really safely rescue the children?[A][X]
+
+## Ch5Opening
+Following Sheeda's disturbing news,[N]
+Marth suffered a terrible blow.[A][N]
+Hardin was once a companion in battle,[N]
+and an irreplaceable friend.[A][N]
+"But why...? Why has he attacked Aritia?[N]
+What have I done wrong?"[A][N]
+Filled with lament Marth, before hurrying[N]
+back to his homeland, was faced with[A][N]
+his first challenge.[N]
+Led by the corrupt General Lang, Grunia's[A][N]
+occupation army was based at Olbern[N]
+Castle. Its nickname was the[N]
+"Nest of Vice".[A][X]
+
+## Ch6Opening
+Grunia has been liberated.
+All that remains is Olbern Castle,[A]
+held guard by the commander of the
+occupation army, General Lang.[A]
+Lang used his position to steal 
+possessions from the Grunian citizens, to[A]
+steal young girls, and to steal lives.
+Historically has there been a man crueller than him?[A]
+"He cannot be allowed to live.
+I will definitely defeat him!"[A]
+Prince Marth raised his sword towards 
+the skies and shouted out an order.[A]
+"Aritian knights, charge!!"
+[X]
+
+## Ch7Opening
+After liberating Grunia, Marth accepted
+Wendel's request to find the lost[A]
+Orbs, and headed to Raman Temple.
+However the ancient temple, built to[A]
+worship Narga, was wrecked by constant
+warring and has now become a thieves' hideout.[A]
+"They're escaping with the temple's 
+valuable treasures. We mustn't let them[A]
+take them away. We must recover them!!"
+"We mustn't attract the attention of the[A]
+soldiers guarding Cashmere Bridge.
+We don't stand a chance of winning,[A]
+so don't approach at all costs."
+"Also it seems there's a travelling child[A]
+dancer who's lost her way in the
+forests. We must rescue her before she[A]
+gets ambushed by the thieves!"
+After the troops received their orders,[A]
+they surrounded Raman Temple.
+The flame of a new battle was about to ignite.[A][X]
+
+## Ch8Opening
+Soon after reclaiming Raman Temple, 
+Marth was pursued by Akaneia's army and[A]
+headed towards Cashmere Bridge to escape.
+However, after easily reaching the central[A]
+islet, the Aritian army was attacked by a new foe.
+"Akaneia's army is approaching from the north.[A]
+If this continues we'll become surrounded."
+There's no way to go! Can Marth and the[A]
+others safely overcome this danger?[A][X]
+
+#0x08FC
+Retreat?        
+[No][X]
+
+#0x08FD
+Proceed to next floor?
+[Yes][X]
+
+#0x08FE
+[OpenLeft][LoadFace][0x64][0x01][OpenLeft]Do you want to quit?[N]
+[Yes][X]
+
+#0x08FF
+[OpenLeft]Next time, choose Resume[N]
+Chapter to finish this battle.[A][X]
+
+#0x0900
+[OpenFarRight][LoadFace][0x08][0x01][OpenFarRight]Here I come, Tana![A]
+Triangle attack![A][X]
+
+#0x0901
+[OpenFarRight][LoadFace][0x2C][0x01][OpenFarRight]I know we can do this![A]
+Triangle attack![A][X]
+
+#0x0902
+[OpenFarRight][LoadFace][0x2B][0x01][OpenFarRight]Behold, the secret strike of
+Frelia's pegasus knights![.][A]
+Triangle attack![A][X]
+
+#0x0903 Ch1Start
+[OpenMidRight][LoadFace][0x0B][0x01]
+[OpenMidLeft][LoadFace][0x02][0x01]
+Jeigan, we've finally arrived. Is[N]
+this the rebels' fortress?[A][N]
+[OpenMidRight]
+I just saw the occupation army's[N]
+commander, General Lang.[A][N]
+You should ask him directly.[A][N]
+[X]
+
+#0x0904 Ch1Lang
+[OpenRight][LoadFace][0x02][0x01]
+[OpenFarRight][LoadFace][0x0B][0x01]
+[OpenMidLeft][LoadFace][0x36][0x01]
+So you are Lord Marth.[N]
+Currently the situation is relaxed.[A][N]
+We have already subdued most of the rebels.[N]
+All that remains is this fortress.[A][N]
+Since you are here, I will leave the job[N]
+of defeating the rebels' leader,[A][N]
+General Lawrence, to you.[A][N]
+[OpenRight]
+Huh!? The leader of the rebels...[N]
+is General Lawrence!?[A][N]
+Why would he rebel...?[A][N]
+
+[OpenMidLeft]
+Oh... I don't know why. But it[N]
+is a fact that he is hiding Grunia's[A][N]
+prince. He's probably dreaming of[N]
+restoring the Kingdom of Grunia.[A][N]
+What a fool. He really thought his[N]
+rebellion would be victorious?[A][N]
+Lord Marth, you will kill Lawrence and bring[N]
+back the hidden Grunian royal children.[A][N]
+We will leave this place to you,[N]
+and pursue the escaping rebels.[A][N]
+We must show those Grunian fools[N]
+the consequences of opposing us.[A][N]
+
+[OpenRight]
+General Lang...[N]
+What are you planning to do!?[A]
+
+[OpenMidLeft]
+If you want to know, I am going to[N]
+slaughter the families of the rebels.[A][N]
+Then we will burn down any villages[N]
+that harboured the rebels.[A][N]
+That will stop them from contemplating[N]
+rebellion again. Hahaha![A][N]
+I can almost see the tears[N]
+on the faces of those fools.[A][N]
+
+[OpenRight]
+What?![N]
+How can you be so cruel...[A][N]
+
+[OpenMidLeft]
+Th-there's nothing wrong![N]
+You'd best follow my orders and[A][N]
+not think about things too much.[N]
+Or do you also intend to[A][N]
+rebel against Akaneia!?[A][N]
+
+[OpenRight]
+What! Of course not...[A][N]
+
+[OpenMidLeft]
+Then you'd better listen to my orders!![N]
+Lord Marth, don't think too highly[A][N]
+of yourself. In my eyes you are just[N]
+the prince of a weak country.[A][N]
+With its power, Akaneia can destroy[N]
+Aritia at any time. Don't forget this![A][N]
+[X]
+
+#0x0905 Ch1AfterLang
+[OpenMidRight][LoadFace][0x0B][0x01]
+[OpenMidLeft][LoadFace][0x02][0x01]
+...Jeigan, what's going on?[N]
+Why has Hardin handed over[A][N]
+this country to such a man...?[A][N]
+[OpenMidRight]
+General Lang was once a noble of Akaneia.[N]
+However, in the previous war, he supported[A][N]
+the Durhua Empire. I heard that he stole from[N]
+other people to add to his own wealth.[A][N]
+I fear he has continued his ways in Grunia,[N]
+and has caused suffering for its people.[A][N]
+So General Lawrence's rebellion[N]
+is completely understandable.[A][N]
+[OpenMidLeft]
+Jeigan! How can you say things so casually?[N]
+If we don't inform Hardin of the truth,[A][N]
+more innocent people will be killed.[A][N]
+[OpenMidRight]
+Your highness, I understand your feelings.[N]
+However, Lawrence's rebellion is a fact.[A][N]
+First, we must see how we can help him.[N]
+Basically we should listen to what the[A][N]
+citizens have to say, so we can affirm[N]
+what has happened to this country.[A][N]
+Then you can talk to General[N]
+Lawrence personally.[A][N]
+[OpenMidLeft]
+But the rebels don't know that we're from[N]
+Aritia. Can we reach the fortress safely?[A][N]
+[OpenMidRight]
+Don't worry. Most of the rebels[N]
+have already fled.[A][N]
+All that remains is Lawrence,[N]
+and the children in the fortress.[A][N]
+Blocking our path are only bandits,[N]
+who have taken advantage of the confusion[N]
+so they can raid the villages.[A][N]
+They are no problem for us.[N]
+You can order Alan to defeat them[N]
+in one blow if you want.[A][N]
+However, your highness, we have some[N]
+fresh recruits in our army that could use[A][N]
+some fighting experience. To them, bandits[N]
+are relatively strong foes. So be[A][N]
+careful not to push them too much.[N]
+If possible, I would have liked to [A][N]
+fight as well, but my body is not what[N]
+it used to be. I will stay by your[A][N]
+highness's side, as your tactician.[N]
+Well, your highness, we should go![A][X]
+
+#0x0906 RecruitingMalliesia
+[OpenFarLeft][LoadFace][MallGran]
+Oh... Please spare this girl.[N]
+She is just 10 years old.[A][N]
+She hasn't even finished[N]
+her training as a sister.[A][N]
+[OpenRight][LoadFace][0x02][0x01]
+Don't worry, old lady.[N]
+We're not going to take this child.[A][N]
+[OpenFarLeft]
+Huh...? Aren't you a[N]
+soldier of the Empire?[A][N]
+[OpenRight]
+No... You've got the wrong idea.[N]
+We haven't come here to fight.[A][N]
+If you require anything, please ask.[N]
+We can give you some food if you want...[A][N]
+[OpenLeft][LoadFace][0x0C][0x01]
+Wait...[N]
+Please, take me with you...[A][N]
+[OpenRight]
+You...[N]
+You're REALLY only 10 years old?[A][N]
+[OpenLeft]
+Actually I have already become of age...[N]
+But, my grandmother lied for me so[A][N]
+the soldiers wouldn't take me away.[N]
+Well, I know if I stay here I will [A][N]
+eventually be discovered and captured by[N]
+the imperial soldiers.[A][N]
+Lang's soldiers are like beasts.[N]
+But, you're different.[A][N]
+You have very kind eyes.[N]
+Please, take me out of this place[A][N]
+and bring me to your own country.[N]
+Is that alright, grandmother?[A][N]
+[OpenFarLeft]
+Ah, of course. You will be much safer[N]
+compared to here. Young lad, I beg of you.[A][N]
+Please protect this girl. If you want, it would[N]
+be no problem for her to become your bride.[A][N]
+This child, like myself once, is a beautiful girl.[N]
+She will definitely make a fine wife.[A][N]
+Malliesia, if this youth was to be your[N]
+husband, you would be happy, right?[A][N]
+[OpenLeft]
+Honestly, grandmother. It's far too early.[N]
+I don't know what to do.[A]
+[X]
+
+#0x0907 Ch1NearingCastle
+[OpenRight][LoadFace][Oguma]
+[OpenLeft][LoadFace][Lawrence]
+It seems the Empire's reinforcements[N]
+have come. It's already reached this[AN]
+stage... Lord Oguma, I am deeply sorry[N]
+for getting you involved in all of this.[AN]
+But, could you listen to one[N]
+last request of mine?[A][N]
+
+[OpenRight]
+I was sent here by King Talis to[N]
+help you. If there is anything I[AN]
+can do for you, please ask.[AN]
+
+[OpenLeft]
+Is that so...? Then, I ask of you...[N]
+Please send these children to Macedonia.[AN]
+These children... Prince Yubello[N]
+and Princess Yumina are the[AN]
+children of the late King Grunia.[N]
+I have always been protecting them[AN]
+in secret, but that is no longer possible.[N]
+If they fell into General Lang's hands,[AN]
+I bet he would execute them without[N]
+question. Please, take these children[AN]
+to Wendel at Macedonia.[AN]
+
+[OpenRight]
+I understand...[N]
+I will protect these two with my life.[A][N]
+
+[OpenLeft]
+Truly? Thank you...[N]
+Well, Prince Yubello, Princess Yumina,[A][N]
+you will escape with Lord Oguma.[A][N]
+
+[OpenFarLeft][LoadFace][Yumina]
+No! I won't go. If we must escape,[N]
+Lawrence must come with us too.[A][N]
+
+[OpenLeft]
+Princess Yumina...[N]
+I am afraid I cannot leave.[A][N]
+My body is in such agony that [N]
+even walking pains me.[A][N]
+So, please don't worry about me.[N]
+You two must flee.[A][N]
+
+[OpenFarLeft]
+Why... Why must you say that...?[N]
+Lawrence, you fought to protect us.[A][N]
+That's why you suffered such a heavy wound.[N]
+How can you tell us to leave you!?[A][N]
+I will not go.[N]
+I will not leave your side!![A][N]
+
+[OpenRight]
+What should we do, General?[A][N]
+[OpenLeft]
+Hmm... This is troublesome.[N]
+Yumina will undoubtedly stick to her word...[A][N]
+I apologise, Lord Oguma. You may leave.[A][N]
+[OpenRight]
+I understand...[N]
+Then, I will find another way to help you.[A][N]
+I will find Lang and kill him...[N]
+I will use my blade to send him to his grave.[A][N]
+If I succeed, perhaps the nearby[N]
+enemies will retreat.[A][N]
+General Lawrence, you must live to see[N]
+that day. ...Don't get yourself killed!![A][X]
+
+#0x0908 LawrenceConvo
+[OpenRight][LoadFace][Marth]
+[OpenLeft][LoadFace][Lawrence]
+Lord Marth! It's you...[N]
+Although I knew the enemy's[A][N]
+reinforcements had come, but[N]
+I didn't expect it was you...[A][N]
+It is a shame, that we must fight Aritia...[N]
+And fight against your highness...[A][N]
+
+[OpenRight]
+Please wait.[N]
+I don't intend to fight with you.[A][N]
+From the citizens I have discovered[N]
+disturbing facts about the atrocities[A][N]
+performed by the occupation army.[N]
+I will inform Emperor Hardin about[A][N]
+these facts. If I meet him, I will[N]
+definitely be able to rescue Grunia.[A][N]
+So please, put away your weapon.[A][N]
+
+[OpenLeft]
+Your highness... I appreciate[N]
+your favour. But that is impossible.[A][N]
+Your highness, you don't know a thing.[N]
+You think that somebody like Hardin would[A][N]
+send a heartless man like Lang here for[N]
+no reason? He wanted to provoke us into[A][N]
+rebelling, so that the Kingdom of Grunia[N]
+would be completely destroyed and become[A][N]
+ruled by the Empire. That is the reason[N]
+why he sent such a cold-blooded man here.[A][N]
+[OpenRight]
+What? Why would he!? I cannot possibly[N]
+believe that Hardin would do such a thing.[A][N]
+[OpenLeft]
+I didn't expect you to accept the[N]
+truth so quickly. However, since he[AN]
+became Emperor he has completely changed.[N]
+He is no longer the Hardin that your[AN]
+highness once knew. Anyway, I believe we're[N]
+finished here... However, your highness,[AN]
+I have just one last request. In this[N]
+fortress, Grunia's royal princess and[AN]
+prince are hiding. Please save those children.[N]
+If you can promise me that,[AN]
+I will have no regrets.[N]
+Lord Marth... Let's just say that in[AN]
+exchange for my life, these children...[N]
+I will hand them over to you...[A]
+[ClearFace]
+*explosion*
+[OpenRight]
+General Lawrence!![N]
+How could you...[A]
+[X]
+
+#0x0909 Ch1Ending
+[OpenLeft][LoadFace][0x18][0x01]
+[OpenFarLeft][LoadFace][0x19][0x01]
+[OpenRight][LoadFace][Marth]
+You two are Grunia's...[N]
+Prince Yubello and Princess Yumina!?[A][N]
+[OpenFarLeft]
+Waa... Lawrence... He's dead.[N]
+What should we do?[A][N]
+[OpenLeft]
+You fiends!! Don't come near us![N]
+Otherwise, we'll kill ourselves!![A][N]
+[OpenRight]
+No! You've got it wrong...[A][N]
+[OpenFarRight][LoadFace][0x36][0x01]
+Ah... Lord Marth.[N]
+You finally caught the rebels?[A][N]
+[OpenRight]
+General Lang! Wait![N]
+Those children are innocent.[A][N]
+Can you hand them to us?[A][N]
+[OpenFarRight]
+That isn't possible. Prisoners[N]
+of war must be taken to my castle.[A][N]
+I must also execute them as soon as[N]
+possible, so that other people dare not[A][N]
+defy us. Now, your highness.[N]
+You must head immediately to Macedonia.[A][N]
+The Macedonian army has rebelled,[N]
+and its princess appears to have been[A][N]
+captured by them. Emperor Hardin has[N]
+ordered that you go and[A][N]
+rescue Princess Minerva.[A][N]
+[OpenRight]
+What? Macedonia? I understand, General.[N]
+If it's to rescue Princess Minerva,[A][N]
+I will gladly go. But please hand those[N]
+children to me. I beg of you, General Lang![A][N]
+[OpenFarRight]
+Don't be stubborn, your highness![N]
+When I said no, I meant it.[A][N]
+Well, you two, come over here![A][N]
+[OpenLeft]
+No, let go of me![N]
+Yubello, help me![A][N][ClearFace]
+[OpenFarLeft]
+Yumina... Yumina...[A][N][ClearFace]
+[OpenRight]
+Wait, wait!![N]
+Lang! Release those children![A][N]
+[OpenFarRight][ClearFace]
+[OpenFarRight][LoadFace][0x0B][0x01]
+
+Your highness, please calm down![N]
+If we fight with Lang now, we[AN]
+will become traitors. On top of that,[N]
+we currently don't have the[AN]
+strength to oppose Lang's army.[AN]
+[OpenRight]
+But, Jeigan, can we really give[N]
+those children to Lang? That I...[AN]
+[OpenFarRight]
+Right now... No matter what, we must stay[N]
+calm! If we go to Macedonia...[AN]
+And successfully rescue Princess Minerva,[N]
+Macedonia may be able to help us.[AN]
+Your highness, please stay calm for now.[N]
+We must first go to Macedonia![A][X]
+
+#0x090A Ch1HouseOne
+[MR][LoadCurrent]
+[ML][Load][Aunt]
+After the previous war ended, Princess[N]
+Nina handed over this country to[AN]
+General Lawrence, and allowed him[N]
+to freely rule. However, after Hardin[AN]
+became Emperor, he removed General[N]
+Lawrence's power and sent Lang's[AN]
+army here. Lang stole everything[N] 
+from us. Not just money, but also[AN]
+food, clothes and even our loved[N]
+ones were... Ah...[AN]
+If only General Camus was still here.[N]
+Then we wouldn't need to fear Lang.[A][X]
+
+#0x90B Ch1HouseTwo
+[MR][LoadCurrent]
+[ML][Load][Grandad]
+The deceased King Grunia had two children:[N]
+Princess Yumina and Prince Yubello,[AN]
+twins of 13 to 14 years of age.[N]
+The King was scared of Garnef, so he sent[AN]
+the two to Khadein. I heard they were[N]
+held as hostages and locked inside[AN]
+a dark room. When they were finally[N]
+rescued by Wendel, they were on the[AN]
+brink of death. The bishop immediately[N] 
+took them to a monastery in Khadein[AN]
+to care for them.[A][X]
+
+#0x90C Ch1HouseThree
+[MR][LoadCurrent]
+[ML][Load][Uncle]
+General Lawrence recovered the children[N]
+from Wendel, hoping to raise them in Grunia.[AN]
+When the Emperor found out, he ordered[N]
+him to hand over the children.[AN]
+The general hid the children away[N] 
+because he feared they would be killed.[AN]
+Following that, he lost his power and[N]
+then Commander Lang came.[AN]
+In order to find the children,[N] 
+Lang performed many atrocities.[AN]
+Eventually we rebelled because we[N]
+could no longer stand him.[AN]
+But, everything's over.[N]
+The people of this country will[AN]
+all be killed by Lang![A][X]
+
+#0x90D Ch1HouseFour
+[MR][LoadCurrent]
+[ML][Load][Grandad]
+I heard General Lawrence resided at[N]
+Talis island in his youth.[AN]
+At that time, Talis was not unified,[N]
+and there were conflicts between the[AN]
+island tribes. The general helped a[N]
+youthful chief to unite the island.[AN]
+From that day on, the general and[N]
+the chief, now the current King Talis,[AN] 
+have always been in contact.[A][X]
+
+## Ch1HouseFive
+[MR][LoadCurrent]
+[ML][Load][Aunt]
+I only saw a glance of him, but that[N]
+paladin, Alan, didn't look too good.[AN]
+In any case, if he continues fighting[N]
+it will be difficult for others to[AN]
+improve...[A][X]
+
+## Ch1HouseSix
+[MR][LoadCurrent]
+[ML][Load][Grandad]
+This country no longer has any young girls.[N]
+The imperial soldiers took them all away.[AN]
+Especially beautiful girls, who were[N]
+all taken by General Lang.[AN]
+What kind of world has this become?[A][X]
+
+## Ch2Start
+[MR][Load][Marth]
+[ML][Load][Katua]
+Lord Marth!! Great, so you are here.[A]
+[MR]
+Katua!? I heard a rebellion broke[N]
+out in Macedonia. Are you alright?[A]
+[ML]
+Yes. My sister, Paola, and I managed[N]
+to escape, but Minerva was captured[AN]
+by the rebels... Marth, please rescue[N]
+Minerva! If this continues,[AN]
+her life will be in danger![a]
+[MR]
+Of course I will. Katua, please[N]
+take me to where the princess is.[a]
+[ML]
+Yes! But we must break through the[N]
+bordering forests in front of us...[AN]
+These forests are full of General[N]
+Ryuke's dragon knights.[AN]
+If we approach head on, we'll[N]
+be discovered by them.[a]
+[MR]
+Is that so...? Then we will march[N]
+through the left or right side.[AN]
+I understand. Katua, leave[N]
+everything to us![A][X]
+
+## RecruitingWarren
+[ML][Load][Warren]
+[MR][Load][Katua]
+Warren!? Even you've joined the rebels...?[A]
+[ML]
+White knight Katua, it's been a long time.[AN]
+I am just a hunter. I'll do anything[n]
+as long as I get paid.[A]
+[MR]
+Warren, listen to me![n]
+Princess Minerva worked hard to create[AN]
+a country where everybody can live and[n]
+work in peace. That was the reason[AN]
+why she removed those worthless[n]
+generals and soldiers. But, even knowing[AN]
+this, General Ryuke provoked the soldiers[n]
+into joining the coup. His only reason[AN]
+being because he wanted to take this[n]
+country for himself. So do you think[AN]
+what he's doing is right?[A]
+[ML]
+...Is that true?[N]
+I don't like the army doing as they please.[AN]
+I understand. If you're going to rescue[n]
+the princess, let me help as well.[A][X]
+
+## Ch2Ending
+[Right][Load][Marth]
+[FR][Load][Jeigan]
+Your highness, we found an unexpected[n]
+person held captive in the fortress.[A]
+[Right]
+Huh? ...Linda![n]
+What are you doing here?[A]
+[ML][Load][Linda]
+Lord Marth! It's great to finally see you.[n]
+In order to find you, I looked all over[AN]
+for your news. Then the Macedonian soldiers[n]
+captured me, and took me to this fortress...[A]
+[Right]
+I see. It's good to see that[n]
+you're safe. Coming here by[AN]
+yourself was a dangerous thing[n]
+to do. But, why were you looking[AN]
+for me? Shouldn't you be[n]
+by Nina's side?[A]
+[ML]
+Princess Nina wanted me to[n]
+give this to you.[A]
+[Right]
+? ...!![n]
+That's the Fire Emblem![AN]
+Isn't that the Akaneia royal[n]
+family's treasured Emblem shield?![AN]
+But why give it to me?[n]
+Right now, shouldn't Akaneia be[AN]
+prospering under Emperor Hardin's[n]
+mighty rule? In this peaceful age,[AN]
+why has Nina given the "Conqueror's[n]
+Proof" to somebody like me...?[A]
+[ML]
+I don't know either.[n]
+Nina didn't say anything and just[AN]
+told me to give it to you...[n]
+I don't know why, but her eyes[AN]
+seemed so sad... As if she had[n]
+been crying very hard...[AN]
+[Right]
+Nina!? Why... Linda, regardless,[n]
+it's dangerous for you to go alone.[AN]
+After this battle is over, we will[n]
+return to Nina. Before that time[AN]
+comes, you will travel together[n]
+with us.[A]
+[ML]
+Understood, Lord Marth![A][X]
+
+## Ch2HouseOne
+[MR][LoadCurrent]
+[ML][Load][Aunt]
+Be careful of thieves. If they[N]
+steal any precious items, you[AN]
+should take them back from them.[N]
+You mustn't let them escape.[A][X]
+
+## Ch2HouseTwo
+[MR][LoadCurrent]
+[ML][Load][Uncle]
+Warren is such an idiot. He actually[N]
+joined the rebels because of money.[AN]
+Oh, I remember he and Katua[N]
+know one another...[A][X]
+
+## Ch2HouseThree
+[MR][LoadCurrent]
+[ML][Load][Grandad]
+The previous war caused many hardships[N]
+for the continent's people. The only[AN]
+country that had it easy was[N]
+Emperor Hardin's Akaneia...[A][X]
+
+## Ch2HouseFour
+[MR][LoadCurrent]
+[ML][Load][Grandad]
+The thieves escaped with my family's[N]
+treasured Lady Sword. That sword can[AN]
+only be used by females, but it contains[N]
+tremendous power. If possible, please[AN]
+try and recover it.[AN][X]
+
+## Ch2HouseFive
+[MR][LoadCurrent]
+[ML][Load][Man]
+You should be careful of Rumel.[N]
+He is carrying a Knight Killer.[AN]
+Social Knights and Paladins can[N]
+be defeated in one blow with that[AN]
+weapon!! You'd do well to learn[N]
+to walk around on foot instead.[A][X]
+
+## Ch3Start
+[MR][Load][Julian]
+[ML][Load][Paola]
+Julian! Katua has finally brought[N]
+the Aritian knights here. I will[AN]
+go with them to rescue Princess Minerva.[N]
+Please take Rena and hurry to safety.[AN]
+[MR]
+That isn't possible, Paola.[AN]
+Miss Rena's gone missing...[N]
+I'm not leaving just by myself.[AN]
+[ML]
+Huh, Rena's also... Princess[N]
+Maria has also vanished. Why[AN]
+are the sisters the only ones missing...?[AN]
+[MR]
+Anyway, I'm staying to search the village.[AN]
+So, apologies, but I can't help[N]
+you rescue your princess.[AN]
+[ML]
+Oh, it's alright.[AN]
+We should be able to save Minerva[N]
+by ourselves. But Julian, although[AN]
+I know you're worried about Rena,[N]
+don't push yourself.[AN]
+[MR]
+Ah... I'm sorry, Paola.[N]
+Say "hi" to Prince Marth for me.[A][X]
+
+## Ch3MisheilSpeaking
+[Right][Load][Soldier]
+[Left][Load][0x50][0x01] //Misheil placeholder
+Ryuke, a coward like you wouldn't dare[N]
+to do something this big.[AN]
+Did Hardin fool you with his fancy words?[AN]
+[Right]
+Ah! ...You are...[N]
+How are you still...?[AN]
+[Left]
+You thought I was dead?[N]
+Haha... Nevermind.[AN]
+Give Minerva back to me.[N]
+I don't care about this country anymore.[AN]
+You can do what you want with it.[N]
+However, I won't rest until I have[AN]
+dealt with "that guy" personally.[AN]
+[Right]
+Yes... But... Princess Minerva[N]
+has already breathed her last...[AN]
+She cannot be saved...[AN]
+[Left]
+Don't waste my time.[N]
+Hand her over now, or do you[AN]
+prefer to die by my lance?[AN]
+[Right]
+O-okay! I understand.[N]
+Hey, you, bring the princess here![AN]
+[MoveFarRight]
+[Right][Load][Minerva]
+
+[Left]
+Minerva, it's been a while.[N]
+This isn't like you at all.[AN]
+Losing your precious Maria,[N]
+and even being abandoned by your men.[AN]
+Is this really the perfect country[N]
+that you wanted?[AN]
+[Right]
+Mi... Misheil...[N]
+How...?[A][X]
+
+## RecruitingJulian
+[MR][Load][Julian]
+[ML][Load][Marth]
+[MR]
+Your highness, it's been a long time.[N]
+It's me, Julian.[AN]
+[ML]
+Julian!? Even though I heard you went to[N]
+Macedonia with Rena, I didn't expect to see[AN]
+you here... Is Rena well?[N]
+Of course, since she is with you.[AN]
+[MR]
+Well...[N]
+Miss Rena suddenly disappeared...[AN]
+I... What should I do?[AN]
+[ML]
+Huh?[N]
+Wait, Julian, what happened?[AN]
+[MR]
+Miss Rena vanished yesterday.[N]
+I heard from the villagers that a nasty-[AN]
+looking bishop came by.[N]
+It seems Miss Rena was taken by him.[AN]
+[ML]
+A bishop...?[N]
+Julian! I heard Princess Maria has also[AN]
+gone missing. I have a bad feeling about[N]
+all of this. Anyway, staying here won't[AN]
+achieve anything. You should come with us.[N]
+I am also worried about Rena.[AN]
+We can help you look for her.[AN]
+[MR]
+Your highness...[N]
+Thank you.[AN][X]
+
+## RecruitingMachis
+[Left][Load][Machis]
+[Right][Load][Julian]
+Hey! That was uncalled for.[N]
+Why do you always keep picking on me?[AN]
+If you continue like this,[N]
+you'll make Miss Rena sad.[AN]
+[Left]
+Oh, it's Julian. Are you[N]
+still clinging onto Rena?[AN]
+No way, I'm not handing my[N]
+cute sister to a thief like you.[AN]
+[Right]
+Don't worry... Rena and I aren't[N]
+that close. I just want to help[AN]
+her, any little bit I can.[AN]
+[Left]
+Oh, I finally understand.[N]
+You're really cool, Julian![AN]
+[Right]
+Well, I... uh... never expected[N]
+to hear you say that...[AN]
+Nevermind. If you're worried[N]
+about Rena, come with us.[AN]
+[Left]
+Oh, really? Thanks. I was forced to[N]
+join the rebels. I didn't really[AN]
+want to fight. Well, "little brother",[N]
+let's join forces to find my cute Rena![A][X]
+
+## SilverAxeVillageConvo
+[Left][Load][CurrentPortrait]
+[Right][Load][Uncle]
+Thank you for rescuing this village.[N]
+We don't have much to reward you with,[AN]
+but please take this Silver Axe.[N]
+It is a very expensive item, so it should[AN]
+fetch a good price in the shops.[AN][X]
+
+## Ch3BridgeLowering
+[ML][Load][Warren]
+Alright, let's get this thing[N]
+down. Bridge key in...[A][X]
+
+## Ch3Ending
+[FarLeft][Load][Jeigan]
+[Left][Load][Marth]
+Jeigan, how is the situation at the castle?[N]
+Have they found Minerva yet?[AN]
+[FL]
+Right, about that...[AN]
+Although the enemy has fled, there seems[N]
+to be no trace of the princess.[AN]
+[Left]
+Huh, why is that?[N]
+Minerva should have been taken here...[AN]
+[FL]
+Ah... Your highness, General Lang[N]
+appears to have arrived.[AN]
+I wonder what kind of nonsensical request[N]
+he's going to give us this time.[AN]
+
+[MidRight][Load][Lang]
+Ah, I should have expected no[N]
+less from you, Lord Marth.[AN]
+Very impressive. Good work.[N]
+Leave Macedonia to me.[AN]
+Your highness, you have a new mission.[AN]
+[Left]
+General Lang, what is it this time?[AN]
+[MR]
+...Well...[N]
+My castle was attacked, and the[AN]
+captured Grunian royal children[N]
+appear to have been taken.[AN]
+The culprit seems to have escaped to[N]
+Macedonia. Your highness, you will[AN]
+chase after them and bring back[N]
+the royal children![AN]
+[Left]
+What!?[N]
+Really, those children...[N]
+They're safe... That's great.[AN]
+General Lang, I will not[N]
+follow your orders.[AN]
+We're going back to our own country.[AN]
+[MR]
+What did you say!?[N]
+You're going to disobey my orders?[AN]
+So you were behind it, I knew it.[AN]
+[Left]
+What? What do you mean?[AN]
+[MR]
+The one who escaped with the royal children[N]
+was Oguma, the Talis mercenary.[AN]
+He once served under your highness, correct?[N]
+It was you who ordered Oguma to escape[AN]
+with those two![AN]
+[Left]
+I don't know a thing.[N]
+But if I could, I would have done just that.[AN]
+Since that time, when I couldn't rescue[N]
+the two, I have been deeply regretful.[AN]
+Even if I must fight you,[N]
+I will still rescue them.[AN]
+[MR]
+What, you![N]
+Your actions are treasonous![AN]
+Do you want me to inform[N]
+Emperor Hardin about this!?[AN]
+[Left]
+Go ahead.[N]
+We're planning on going to Pales anyway.[N]
+We will inform Hardin and Nina of[AN]
+the truth, and of your crimes.[N]
+Jeigan, I'm sorry, but I can no[AN]
+longer stay silent.[N]
+I want to find Oguma, so we[AN]
+can rescue those children.[AN]
+[FL]
+I understand.[N]
+You've had to stay patient for so long.[AN]
+I have also already reached my limits.[N]
+Lang, you have constantly mocked our[AN]
+prince of Aritia with your actions.[N]
+Even if his highness could forgive you, I[AN]
+certainly could not.[N]
+Come, draw your sword.[AN]
+Even though I, Jeigan, am old,[N]
+I will not lose to somebody like you.[AN]
+[MR]
+Wh-what...![AN]
+Damn you... I will not forgive you for this!![AN]
+I will inform the Emperor, and turn Aritia[AN]
+into dust! Mark my words![AN]
+[ClearFace]
+
+[FL]
+Ha... He fled fast despite his big words.[N]
+He should be pretty far away by now.[AN]
+[Left]
+Jeigan... You really surprised me.[N]
+I couldn't believe you would say[AN]
+something like that.[AN]
+[FL]
+You think I'm too old?[N]
+Haha... Your highness, I won't lose to[AN]
+you youths just yet.[N]
+That said. Even I, who persuaded your[AN]
+highness to stay calm, got into a[N]
+dispute with Lang.[AN]
+I was too careless.[N]
+What should we do next?[AN]
+[Left]
+Hmm. Well, we should go and find Oguma.[N]
+If Lang was correct, he should have[AN]
+come to Macedonia. I bet he's probably[N]
+heading for the village of Wendel's[AN]
+residence. Even though I'm worried about[N]
+Minerva, there's nothing we can do right now.[AN]
+We should go and meet Wendel as well.[AN]
+[FL]
+Understood.[N]
+But, I wonder about Lang...[AN]
+I hope nothing bad will happen...[AN][X]
+
+## Ch3HouseOne
+[MR][LoadCurrent]
+[ML][Load][Uncle]
+I'll tell you a secret.[AN]
+That armoury seems to have[N]
+connections with the rebels.[AN]
+If you're going to visit it,[N]
+be extra careful.[A][X]
+
+## Ch3HouseTwo
+[MR][LoadCurrent]
+[ML][Load][Woman]
+Not long ago, there was a travelling[N]
+paladin who visited here. He was[AN]
+wearing a mask, but I bet he's a[N]
+really handsome person underneath.[AN]
+He was very gentle, but he seemed[N]
+very sorrowful as well.[AN]
+Sigh, will I see him again?[A][X]
+
+## Ch3HouseThree
+[MR][LoadCurrent]
+[ML][Load][Grandad]
+Without Est, the Pegasus sisters have[N]
+become really lonely. I am a fan of[AN]
+their Triangle Attack... Oh, Est...[N]
+Please come back soon.[AN][X]
+
+## Ch3HouseFour
+[MR][LoadCurrent]
+[ML][Load][Aunt]
+What's going to happen to Macedonia now?[N]
+First they said Prince Misheil died, then[AN]
+Princess Maria went missing... And now[N]
+Princess Minerva has been captured, and[AN]
+her life is in danger. Ah... This country[N]
+won't become like Grunia, right...?[A][X]
+
+
+## Ch4Start
+[Right][Load][Yumina]
+[FarRight][Load][Yubello]
+[MidLeft][Load][Oguma]
+Yumina, Yubello. This place is the[N]
+territory of the dreaded Macedonian Vikings.[AN]
+Originally, I didn't want to come here,[N]
+but we must cross through here[AN]
+to reach the bishop.[AN]
+[FR]
+Oguma, I'm scared...[N]
+I want to... go back...[AN]
+[Right]
+Yubello! Be strong, you're a man!![N]
+Remember, you can use fire magic[AN]
+to attack with![AN]
+[FR]
+But Mister Wendel told me not to use[N]
+it to fight with... Not that[AN]
+I like to fight anyway...[AN]
+[Right]
+Honestly, you're still making excuses?[N]
+Right now it's just the two of us.[AN]
+If you don't become strong, I...[N]
+I don't know what to do...[AN]
+[FR]
+Oh... Yumina...[N]
+I will try my best...[AN]
+So please don't cry.[AN]
+[ML]
+Crap... This is bad...[N]
+We've been discovered.[AN]
+No choice, we'll have to break[N]
+through them. You two,[AN]
+stay close to me![A]
+[X]
+
+
+## Ch4ShaverVillage
+[MidLeft][Load][CurrentPortrait]
+[MidRight][Load][BaldMan]
+Oh, aren't you with the Aritian Knights?[N]
+I have heard a lot about them.[AN]
+[ML]
+I heard Bishop Wendel lived in this village.[AN]
+[MR]
+Yes, that's right...[N]
+However, yesterday, some uninvited visitors[AN]
+from Akaneia came and took him away.[N]
+Good sir, the bishop left behind a magic[AN]
+tome. It seems to be the type that controls[N]
+wind... Please take it with you.[AN]
+[X]
+
+
+## RecruitingKashim
+[MidRight][Load][Kashim]
+[MidLeft][Load][Marth]
+Oh, Kashim, is that you?[N]
+What are you doing here?[AN]
+[MR]
+Ah, Marth! Sniff...[N]
+Well, my mother fell ill and I[AN]
+needed gold to pay for her medicine.[N]
+However I couldn't find gold at Talis,[AN]
+so I came here.[AN]
+[ML]
+Really...? That's terrible...[N]
+I hope your mother gets better soon.[AN]
+Well, goodbye...[AN]
+[MR]
+.....[N]
+Please wait!![AN]
+My mother's illness...[N]
+Er... Gold...[AN]
+[ML]
+Huh? Oh, that's right, I'm sorry.[N]
+Will this be enough?[AN]
+[MR]
+Sniff... Marth.[N]
+Thank you so much.[AN]
+You are so kind, even[N]
+to a guy like me.[AN]
+[ML]
+Kashim... What...?[N]
+Aren't you being just a[AN]
+little over the top?[N]
+Helping people in need is[AN]
+the natural thing to do.[AN]
+[MR]
+No, Marth![N]
+You are my saviour.[AN]
+I also wish to help you, Marth.[N]
+Please take me with you.[AN]
+I will lend my life to you!![AN]
+[X]
+
+
+## RecruitingSirius
+[MidRight][Load][Sirius]
+[MidLeft][Load][Oguma]
+Who's there?[N]
+Are you one of the pirates!?[AN]
+[MR]
+I am Sirius, a traveller...[AN]
+[ML]
+Is that so? I'm sorry.[N]
+I overreacted a little.[AN]
+Please accept my apologies.[AN]
+[MR]
+Those children...[AN]
+[ML]
+Something happened, so I'm[N]
+taking care of them now.[AN]
+You know them?[AN]
+[MR]
+No...[N]
+But if you're carrying the children,[AN]
+you won't be able to escape.[N]
+I heard, from a village to the south,[AN]
+that the Aritian army has come. Leave[N]
+this place to me, and make your escape.[AN]
+[ML]
+What!?[AN]
+The Aritian army...?[N]
+So, Prince Marth...[AN]
+I understand. Thanks.[N]
+But, why are you helping me?[AN]
+[MR]
+I want to help those children.[N]
+That's all...[AN]
+[ML]
+Really...?[N]
+So you are Sirius...[AN]
+If we escape safely, I hope we[N]
+can meet again. I plan on killing[AN]
+the ruler of Grunia, Commander Lang.[N]
+So I can avenge a man named Lawrence...[AN]
+You...[N]
+If you could lend me your strength...[AN]
+With you, I believe I will be able to succeed.[AN]
+[MR]
+Hmm...[N]
+Perhaps it might be interesting...[AN]
+However, to do that you must live.[N]
+Well, get going![A]
+[X]
+
+
+## Ch4Ending
+[FarRight][Load][Jeigan]
+[Right][Load][Marth]
+[MidLeft][Load][Sheeda]
+Marth!![AN]
+[Right]
+Sheeda!?[N]
+What, even you've come here...?[AN]
+Could it be that something's[N]
+happened to Aritia?[AN]
+[ML]
+Marth... Aritia...[N]
+Aritia was ambushed by the imperial army...[AN]
+After being ambushed by the Akaneia, Gra[N]
+and Orleans united army, the Aritian[AN]
+knights were decimated...[N]
+Even the castle has fallen...[AN]
+[Right]
+Wh-what!? How could... Aritia...[N]
+Jeigan, what's going on?[AN]
+[FR]
+It is regrettable... What I feared the[N]
+most has happened. Emperor Hardin has[AN]
+listened to Lang's words and declared us[N]
+traitors. Your highness, please forgive me.[AN]
+It is because of me that this has happened.[AN]
+[Right]
+No, I still cannot believe it.[N]
+That Hardin would attack our country.[AN]
+Did Hardin really believe Lang, and thought [N]
+that we wished to rebel against him?[AN]
+[FR]
+No, even if that was the case, everything[N]
+happened too fast. If they hadn't prepared[AN]
+in advance, they wouldn't have been able[N]
+to attack us that quickly. I fear...[AN]
+The Grunia expedition was a trap they[N]
+planned for us all along, as well as the[AN]
+rebellion in Macedonia... They wanted us[N]
+to leave Aritia, to divide our army's[AN]
+strength. Hardin had already decided[N]
+upon this action from the beginning.[AN]
+What happened with Lang was just an[N]
+excuse to attack our country.[AN]
+[Right]
+No, that can't be right![N]
+So you're saying Hardin attacked[AN]
+our country for no reason?[N]
+And everything was a trap[AN]
+that he set up for us?[N]
+I don't believe it.[AN]
+I don't believe that[N]
+Hardin would do that...[AN]
+[FR]
+Your highness, regardless, our country has[N]
+been attacked by Akaneia. Not only that,[AN]
+but we were ambushed without prior warning.[N]
+To us knights, that is the most dishonourable[AN]
+action one could take. In that case, we have[N]
+no choice but to fight back with[AN]
+our full strength.[AN]
+[Right]
+Damn, Hardin... Why...[N]
+Why did you...[AN]
+[FR]
+Your highness... Sheeda, what[N]
+about the others? Is Ellis safe?[AN]
+[ML]
+Ellis... She agreed to be their[N]
+hostage, to allow me to escape...[AN]
+The others... I don't know...[N]
+Abel and Est were still fighting[AN]
+the last time I saw them...[N]
+Marth... I'm sorry.[AN]
+Only I escaped, but I had to[N]
+so I could warn you... So...[AN]
+[Right]
+Sheeda... Don't cry.[N]
+I understand.[AN]
+It's great that you're safe at least.[N]
+I should be the one apologising.[AN]
+It was because of me that you[N]
+experienced such terrible events...[AN]
+I will reclaim Aritia. Even if I[N]
+must fight Hardin to take it back!![A]
+[X]
+
+## Ch4HouseOne
+[MR][LoadCurrent]
+[ML][Load][Woman]
+Have you heard about Rescue magic? It[N]
+can bring faraway allies to your side.[AN]
+If it does exist, it would be impressive[N]
+stuff.[A][X]
+
+## Ch4HouseTwo
+[MR][LoadCurrent]
+[ML][Load][Aunt]
+Recently the influence of bandits and[N]
+pirates has become overwhelming.[AN]
+Honestly, this is all because the[N]
+politics of this country are so poor.[A][X]
+
+## Ch4HouseThree
+[MR][LoadCurrent]
+[ML][Load][Woman]
+Aren't the star shards pretty? If you[N]
+carry them, good things may happen.[A][X]
+
+
+## Ch5Start
+[ML][Load][Lang]
+[MR][Load][Soldier]
+Commander Lang.[N]
+A-Aritia's army has come...[A]
+[ML]
+Get a grip, you fool. Their[N]
+army doesn't amount to anything.[AN]
+They can't possibly defeat us.[A]
+[MR]
+But Lord George's archers left[N]
+to quell the rebellion.[AN]
+Can we win just by ourselves?[AN]
+[ML]
+What did you say!? Call George[N]
+back this instant. While you're[AN]
+there, call that mercenary,[N]
+Navarre, here. Anyway, I'll[AN]
+leave this to you, General Toras.[N]
+I must leave to prepare the[AN]
+defences inside. You will stay[N]
+here and guard to the death.[AN]
+You mustn't let them get close.[N]
+Understood?[A][X]
+
+
+## Ch5GeorgeSpeaking
+[MR][Load][George]
+[ML][Load][Soldier]
+Captain George. The commander[N]
+ordered us to return to[AN]
+the castle immediately.[A]
+[MR]
+Lang...? I hate that guy. He[N]
+treats the civilians like slaves.[AN]
+I'm not seriously going to work[N]
+for a guy like him.[AN]
+Just ignore his order.[A]
+[ML]
+But, Captain George. If we do that,[N]
+you will become a criminal.[AN]
+Captain!? Are you thinking[N]
+of siding with Aritia...?[AN]
+[MR]
+No, I couldn't do that... If I did[N]
+that right now, my men would get[AN]
+into trouble. That's something that[N]
+I must avoid at all costs.[A]
+[ML]
+Captain George...[A]
+[MR]
+Alright, just tell everyone this.[N]
+Tell them to stay where they are.[AN]
+However if the enemy gets close,[N]
+begin to attack.[A][X]
+
+## Ch5HammerneVillage
+[MR][LoadCurrent]
+[ML][Load][Grandad]
+Oh, hello there. It's been a while.[N]
+How is my granddaughter, Rena?[AN]
+What, she's not here? Really...?[N]
+Then, does that mean this Hammerne[AN]
+staff is useless? At least Rena's[N]
+pupil, Malliesia, should be able[AN]
+to use it... Well, please take it.[A][X]
+
+
+## RecruitingRicardo
+[ML][Load][Ricardo]
+[MR][Load][Julian]
+Hey, Ricardo![N]
+What are you doing here?[A]
+[ML]
+Oh, big bro. It's been so long.[N]
+Originally I planned to earn money[AN]
+with you, but you had already[N]
+changed your ways. But even if you[AN]
+found yourself a pretty sister,[N]
+it wasn't nice to just[AN]
+abandon me like that.[N]
+Our love is just like that, huh?[A]
+[MR]
+Hey! Shut up!! Don't spout nonsense[N]
+like that, or other people will get[AN]
+the wrong impression. Anyway, you[N]
+should quit your ways as well,[AN]
+and come with me.[AN]
+[ML]
+Ha... I understand. Wherever you go,[N]
+I'll follow you. Big bro Julian <3[A][X]
+
+## Ch5Ending
+[MR][Load][Marth]
+[ML][Load][Jeigan]
+Your highness, we've finally[N]
+subdued Grunia. However, many[AN]
+enemies are hiding inside the[N]
+castle. So we must be careful.[AN]
+[MR]
+Hmm, I understand. Still... If we[N]
+don't defeat Lang, the citizens[AN]
+of this country cannot be saved.[AN]
+[ML]
+That's right. He must be defeated[N]
+at all costs... Yet, we don't know[AN]
+what dastardly plans he has prepared[N]
+for us. So, if we're fighting inside,[AN]
+we must be extremely careful![A][X]
+
+#0x0C23 MarthDeath
+[OpenMidRight][LoadFace][Marth][OpenMidRight]Forgive me[.][ToggleMouthMove]... [N][ToggleMouthMove]my friends...[A][OpenMidRight][CloseEyes][....][N]
+[OpenMidRight][LoadFace][Sheeda]
+Ah, Lord Marth...[N]
+How could you die...[A][X]
+
+#0x0C24 MachisDeath
+[OpenMidRight][LoadFace][0x14][0x01][OpenMidRight]Rena... Forgive[N]
+this useless brother.[.][A][OpenMidRight][CloseEyes][X]
+
+#0x0C25 AlanDeath
+[OpenMidRight][LoadFace][0x04][0x01][OpenMidRight]To die in battle is my wish[ToggleMouthMove]...[.][ToggleMouthMove][A][CloseEyes][X]
+
+#0x0C26 GordonDeath
+[OpenMidRight][LoadFace][0x06][0x01][OpenMidRight]Ryan, forgive me[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C27 DogaDeath
+[OpenMidRight][LoadFace][0x05][0x01][OpenMidRight]Lord Marth, good luck[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C28 RyanDeath
+[OpenMidRight][LoadFace][0x07][0x01][OpenMidRight]Gordon, brother[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C29 LukeDeath
+[OpenMidRight][LoadFace][0x08][0x01][OpenMidRight]Urgh, it hurts[ToggleMouthMove]...[.][N][ToggleMouthMove]
+I'm done for[ToggleMouthMove]...![.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C2A KatuaDeath
+[ToggleSmile][OpenMidRight][LoadFace][0x0E][0x01][OpenMidRight]Prince Marth[ToggleMouthMove]...[A][OpenMidRight][CloseEyes][X]
+
+#0x0C2B RodyDeath
+[ToggleSmile][OpenMidRight][LoadFace][0x09][0x01][OpenMidRight]Cecil[.][ToggleMouthMove]...[.][N][ToggleMouthMove]I'm sorry.[A][OpenMidRight][CloseEyes][X]
+
+#0x0C2C MalliesiaDeath
+[OpenMidRight][LoadFace][0x0C][0x01][OpenMidRight]How annoying[ToggleMouthMove]... [ToggleMouthMove]Why here[ToggleMouthMove]...?[.][AN][ToggleMouthMove]
+Lord Marth[.][ToggleMouthMove]... [ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C2D CecilDeath
+[OpenMidRight][LoadFace][0x0A][0x01][OpenMidRight]Lord Marth[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C2E SiriusDeath
+[OpenMidRight][LoadFace][0x1A][0x01][OpenMidRight]I'm sorry[ToggleMouthMove]...[.][A][OpenMidRight][CloseEyes][X]
+
+#0x0C2F LindaDeath
+[OpenMidRight][LoadFace][0x10][0x01][OpenMidRight]Ah, Nina[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C30 PaolaDeath
+[OpenMidRight][LoadFace][0x11][0x01][OpenMidRight]
+Abel[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C31 EllereanDeath
+[ToggleSmile][OpenMidRight][LoadFace][0x2A][0x01][OpenMidRight]Master Wendel[.]
+[ToggleMouthMove]... [ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C32 YuminaDeath
+[OpenMidRight][LoadFace][0x18][0x01][OpenMidRight]Ahh[.][ToggleMouthMove]...[.][ToggleMouthMove]Yubello[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C33 OgumaDeath
+[ToggleSmile][OpenMidRight][LoadFace][0x16][0x01][OpenMidRight]This is the end[ToggleMouthMove]... [ToggleMouthMove][.][A][OpenMidRight][CloseEyes][X]
+
+#0x0C34 ChikiDeath
+[OpenMidRight][LoadFace][0x2C][0x01][OpenMidRight]Marth[ToggleMouthMove]... [ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C35 WarrenDeath
+[OpenMidRight][LoadFace][0x0F][0x01][OpenMidRight]Damn[.][ToggleMouthMove]... [ToggleMouthMove]How could this be[ToggleMouthMove]...[.][ToggleMouthMove][CloseEyes]
+[A][X]
+
+#0x0C36 KashimDeath
+[OpenMidRight][LoadFace][0x1B][0x01][OpenMidRight]Mother[.][ToggleMouthMove]... [.][ToggleMouthMove]I'm sorry I can't send[N]
+any more gold.[A][OpenMidRight][CloseEyes][X]
+
+#0x0C37 SheedaDeath
+[ToggleSmile][OpenMidRight][LoadFace][0x1C][0x01][OpenMidRight]Marth[ToggleMouthMove]...[.][N][ToggleMouthMove]
+Please take care[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C38 RicardoDeath
+[OpenMidRight][LoadFace][0x1E][0x01][OpenMidRight]Big bro[ToggleMouthMove]...[.][ToggleMouthMove][A][N]I won't be around anymore.[N]You mustn't be lonely[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C39 SamtoDeath
+[OpenMidRight][LoadFace][0x20][0x01][OpenMidRight]Pretty boys don't have it easy[ToggleMouthMove]...[.][ToggleMouthMove]
+[A][OpenMidRight][CloseEyes][X]
+
+#0x0C3A WendelDeath
+[OpenMidRight][LoadFace][0x21][0x01][OpenMidRight]This is fate[ToggleMouthMove]...[.][ToggleMouthMove]
+[A][OpenMidRight][CloseEyes][X]
+
+#0x0C3B NavarreDeath
+[OpenMidRight][LoadFace][0x22][0x01][OpenMidRight]Prince Marth[.][ToggleMouthMove]...[.][ToggleMouthMove][N]Don't die.[A][CloseEyes][X]
+
+#0x0C3C FeenaDeath
+[ToggleSmile][OpenMidRight][LoadFace][0x23][0x01][OpenMidRight]Navarre[ToggleMouthMove]...[.][ToggleMouthMove][N]Save me[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C3D JulianDeath
+[OpenMidRight][LoadFace][0x13][0x01][OpenMidRight]Miss Rena[.][ToggleMouthMove]...[.][ToggleMouthMove]I'm sorry.[A][OpenMidRight][CloseEyes][X]
+
+#0x0C3E YubelloDeath
+[OpenMidRight][LoadFace][0x19][0x01][OpenMidRight]Yumina[.][ToggleMouthMove]... [ToggleMouthMove]I'm sorry[ToggleMouthMove]...[.][ToggleMouthMove][.][A][OpenMidRight][CloseEyes][X]
+
+#0x0C3F BanutuDeath
+[OpenMidRight][LoadFace][0x24][0x01][OpenMidRight]Chiki, forgive me[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C40 GeorgeDeath
+[OpenMidRight][LoadFace][0x25][0x01][OpenMidRight]Nina, please forgive me[ToggleMouthMove]... [ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C41 MinervaDeath
+[OpenMidRight][LoadFace][0x26][0x01][OpenMidRight]Maria[ToggleMouthMove]... [.][ToggleMouthMove][A]
+I'm sorry[ToggleMouthMove]... [ToggleMouthMove][A][X]
+
+#0x0C42 MarichDeath
+[OpenMidRight][LoadFace][0x29][0x01][OpenMidRight]Ellis[ToggleMouthMove]...[ToggleMouthMove][.][N]
+You must be safe[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+#0x0C43 ChainyDeath
+[OpenMidRight][LoadFace][0x2B][0x01][OpenMidRight]Prince Marth, we won't[N]
+meet again[.][.....]
+[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]

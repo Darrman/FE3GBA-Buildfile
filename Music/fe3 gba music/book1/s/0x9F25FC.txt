@@ -1,0 +1,34 @@
+400D000065640808	//Party switching Eliq
+20123100	//Change to[Song:0x31 Lights in the Dark]
+4005020010000000400A0000E8E29E08	//Change to[Background:0x10]
+201BE109201D0000221B0000	//Conversation event (abbreviation of conversation start command)[conversation text:0x9E1 We've secured the en]
+21171000	//Fade in the screen and make it dark[Speed:16]
+2413FF7F	//[Speed:32767]
+2A3400002C3400002B340000	//Erase all units(CLEA+CLEN+CLEE)
+20220000	//Erase the background(CLEAN)
+28260D09	//Move around[X:13][Y:9]
+222B0000	//_0x2B22
+412C0100485D8B0820300000	//Load units and Move[Units:0x88B5D48]
+20171000	//Fade out screen (return from pitch dark)[Speed:16]
+402C0100485D8B0820300000	//Load units and Move, If Player Unit,Join your party[Units:0x88B5D48]
+213B1000200E3C00223B0000	//[frame seconds:60][Character:0x10 Forde]
+201A0000201BE209201D0000221B0000	//Conversation event[conversation text:0x9E2 Prince Ephraim, thin]
+21171000	//Fade in the screen and make it dark[Speed:16]
+2A3400002C3400002B340000	//Erase all units(CLEA+CLEN+CLEE)
+40050B000A00040020250800	//[Chapter_ID:0x8 Ch7 Waterside Renvall][X:10][Y:4]
+402C0100CC5F8B0820300000	//Load units and Move, If Player Unit,Join your party[Units:0x88B5FCC]
+20171000	//Fade out screen (return from pitch dark)[Speed:16]
+28020900	//Automatically fit camera to main character(EVBIT_T)
+412C01007C5F8B0820300000	//Load units and Move[Units:0x88B5F7C]
+20020900	//Canceling automatically matching camera to main character(EVBIT_F)
+20122600	//Change to[Song:0x26 Raid!]
+402C0100A8608B0820300000	//Load units and Move, If Player Unit,Join your party[Units:0x88B60A8]
+402C010020618B0820300000	//Load units and Move, If Player Unit,Join your party[Units:0x88B6120]
+213B4300200E3C00223B0000	//[frame seconds:60][Character:0x43 Valter]
+4005020021000000400A0000E8E29E08	//Change to[Background:0x21]
+201BE309201D0000221B0000	//Conversation event (abbreviation of conversation start command)[conversation text:0x9E3 So, you've captured ]
+21171000	//Fade in the screen and make it dark[Speed:16]
+2413FF7F	//[Speed:32767]
+40A6000000000500	//_0xA640[Value1:0x0][Value2:0x0][Value3:0x5]
+212A0700	//Goto Next Chapter With Worldmap[Chapter_ID:0x7 Ch6 Victims of War]
+20010000	//Return

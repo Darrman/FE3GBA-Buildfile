@@ -1,0 +1,2 @@
+[ToggleSmile][OpenMidRight][LoadFace][0x1C][0x01][OpenMidRight]Marth[ToggleMouthMove]...[.][N][ToggleMouthMove]
+Please take care[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]

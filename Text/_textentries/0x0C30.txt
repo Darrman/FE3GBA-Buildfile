@@ -1,0 +1,2 @@
+[OpenMidRight][LoadFace][0x11][0x01][OpenMidRight]
+Abel[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]

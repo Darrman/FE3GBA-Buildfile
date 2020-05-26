@@ -1,0 +1,2 @@
+[OpenMidRight][LoadFace][0x1B][0x01][OpenMidRight]Mother[.][ToggleMouthMove]... [.][ToggleMouthMove]I'm sorry I can't send[N]
+any more gold.[A][OpenMidRight][CloseEyes][X]

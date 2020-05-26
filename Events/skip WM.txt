@@ -1,0 +1,5 @@
+PUSH
+ORG 0xBD07C
+
+BYTE $08
+POP

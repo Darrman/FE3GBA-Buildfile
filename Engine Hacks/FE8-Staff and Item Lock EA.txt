@@ -1,0 +1,42 @@
+//FE8-Staff and Item Lock
+//Originally by jjl2357, modified by Tequila to work with EA and fix some errors in the patch
+
+#ifdef _FE8_
+	#include EAstdlib.event
+	#include "Extensions/Hack Installation.txt"
+	
+	#define Free_Space_In_BL_Range 0x1C2000
+	#define Free_Space 0xBAB000
+	//#define Item_Table 0x809B1A
+	
+	//Item lock check
+	PUSH
+	ORG $28876
+	SHORT 0x1C28 //mov r0,r5
+	BL(0x1756C)
+	SHORT 0x2104 0x4001 0x2900 0xD005 0x1C20 0x1C29 //mov r1,4; and r1,r0; cmp r1,0; beq item check; mov r0,r4; mov r1,r5
+	BL(0x167A4)
+	SHORT 0x2800 0xD007 0x1C29 //cmp r0,0; beq RetFalse; mov r1,r5
+	BL(Item_Lock_Jump)
+	SHORT 0x2800 0xD002
+	
+	//Staff lock check
+	ORG $167AC
+	BL(Staff_Lock_Jump)
+	
+	ORG Free_Space_In_BL_Range
+	ALIGN 4
+	Item_Lock_Jump:
+	SHORT 0x1C20 0x46C0	
+	Staff_Lock_Jump:
+	jumpToHack(Check_Lock)
+
+	ORG Free_Space
+	ALIGN 4
+	Check_Lock:
+	#incbin "FE8-Staff Item Lock.dmp"
+	POIN Item_Table
+	POP
+#else
+	ERROR "You're not assembling FE8 events!
+#endif

@@ -1,0 +1,12 @@
+The Sacred Stone of Renais has been 
+broken.[.][A]
+Constant strife with dark creatures has[.]
+made the group's progress near impossible.[A]
+[LoadOverworldFaces]Princess L'Arachel of Rausten suggests they[.]
+pay a visit to Rausten Court.[.][A]
+
+It is here that the final Sacred Stone
+is sealed away.[.][A]
+[LoadOverworldFaces]L'Arachel rides cheerfully toward her homeland [.]
+with the company in tow.[A]
+[LoadOverworldFaces][X]

@@ -1,0 +1,8 @@
+[MR][LoadCurrent]
+[ML][Load][Man]
+You should be careful of Rumel.[N]
+He is carrying a Knight Killer.[AN]
+Social Knights and Paladins can[N]
+be defeated in one blow with that[AN]
+weapon!! You'd do well to learn[N]
+to walk around on foot instead.[A][X]

@@ -1,0 +1,5 @@
+A simple game for[N][.]
+newcomers. Enemies[N]
+are weak and units[N]
+come back to life[N]
+if defeated.[X]

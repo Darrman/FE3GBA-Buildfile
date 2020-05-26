@@ -1,0 +1,2 @@
+Increases maximum HP by[N]
+7 points. Vanishes after use.[.][X]

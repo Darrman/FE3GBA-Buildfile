@@ -1,0 +1,112 @@
+#include EAstdlib.event
+
+EventPointerTable(0x1E,Chapter6)
+
+ORG 0xE82800
+
+Chapter6:
+POIN Ch6TurnBasedEvents
+POIN Ch6CharacterBasedEvents
+POIN Ch6LocationBasedEvents
+POIN Ch6MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN Ch6TrapData Ch6TrapData
+POIN Ch6Units Ch6Units
+POIN $0 $0 $0 $0 $0 $0
+POIN Ch6BeginningScene Ch6EndingScene
+
+Ch6Units:
+UNIT Marth Lord Marth Level(5, Ally, 1) [16,20] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Doga Lord Marth Level(5, Ally, 1) [16,21] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Gordon Lord Marth Level(5, Ally, 1) [15,20] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Luke Lord Marth Level(5, Ally, 1) [17,21] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Cecil Lord Marth Level(5, Ally, 1) [17,20] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Malliesia Lord Marth Level(5, Ally, 1) [14,21] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Katua Lord Marth Level(5, Ally, 1) [18,21] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Linda Lord Marth Level(5, Ally, 1) [15,22] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Paola Lord Marth Level(5, Ally, 1) [16,19] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Julian Lord Marth Level(5, Ally, 1) [17,22] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Ogma Lord Marth Level(5, Ally, 1) [19,22] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Sirius Lord Marth Level(5, Ally, 1) [14,19] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT
+
+
+Ch6TurnBasedEvents:
+TurnEventPlayer(0x0,EventAfterExitingCh6PrepScreen,1)
+END_MAIN
+
+Ch6CharacterBasedEvents:
+END_MAIN
+
+Ch6LocationBasedEvents:
+END_MAIN
+
+Ch6MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+Ch6TrapData:
+END_MAIN
+
+ALIGN 4
+
+Ch6BeginningScene:
+LOAD1 0x1 Ch6Bad
+ENDB
+
+Ch6EndingScene:
+MNC2 0x06
+ENDA
+
+// Events
+EventAfterExitingCh6PrepScreen:
+ENDA
+
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Ch6Bad:
+UNIT Akaneia Armour_Knight Lang Level(1, Enemy, 0) [6,18] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Armour_Knight Lang Level(1, Enemy, 0) [5,17] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Armour_Knight Lang Level(1, Enemy, 0) [5,15] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Armour_Knight Lang Level(1, Enemy, 0) [4,15] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Armour_Knight Lang Level(1, Enemy, 0) [6,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Armour_Knight Lang Level(1, Enemy, 1) [5,13] 0x2 0x00 0x0 0x00 [SteelLance, DoorKey] PursueWithoutHeedAI 
+UNIT Akaneia Bishop Lang Level(8, Enemy, 1) [28,13] 0x2 0x00 0x0 0x00 [Physic, SecretBook] HealUnits 
+UNIT Akaneia Bishop Lang Level(1, Enemy, 1) [28,15] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
+UNIT Akaneia Mage Lang Level(10, Enemy, 1) [26,20] 0x00 0x00 0x0 0x00 [Elfire] AttackInRangeAI 
+UNIT Akaneia Armour_Knight Lang Level(8, Enemy, 1) [17,4] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Akaneia Armour_Knight Lang Level(8, Enemy, 1) [16,4] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Akaneia Armour_Knight Lang Level(8, Enemy, 1) [15,4] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Akaneia Armour_Knight Lang Level(8, Enemy, 1) [17,3] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Akaneia Armour_Knight Lang Level(8, Enemy, 1) [15,3] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Akaneia Priest Lang Level(1, Enemy, 1) [13,3] 0x2 0x00 0x0 0x00 [Heal] HealUnits 
+UNIT Akaneia Priest Lang Level(1, Enemy, 1) [19,3] 0x2 0x00 0x0 0x00 [Heal] HealUnits 
+UNIT Akaneia Mage Lang Level(5, Enemy, 1) [27,8] 0x00 0x00 0x0 0x00 [Elfire] AttackInRangeAI 
+UNIT Samto Mercenary Lang Level(5, Enemy, 1) [5,7] 0x00 0x00 0x0 0x00 [KillingEdge] AttackInRangeAI 
+UNIT Lang General Lang Level(10, Enemy, 1) [16,3] 0x2 0x00 0x0 0x00 [Javelin, Cancer] AttackInRangeAI 
+UNIT
+
+Ch6Reinforcements:
+UNIT Akaneia Archer Lang Level(5, Enemy, 1) [16,30] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT Akaneia Armour_Knight Lang Level(5, Enemy, 1) [18,30] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Soldier Lang Level(5, Enemy, 1) [14,30] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT Akaneia Soldier Lang Level(5, Enemy, 1) [13,30] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT
+
+
+// Shop Data
+
+MESSAGE Events end at offset currentOffset

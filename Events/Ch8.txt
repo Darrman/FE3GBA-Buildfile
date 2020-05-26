@@ -1,0 +1,125 @@
+#include EAstdlib.event
+
+EventPointerTable(0x24,Chapter8)
+
+ORG 0xE83800
+
+Chapter8:
+POIN Ch8TurnBasedEvents
+POIN Ch8CharacterBasedEvents
+POIN Ch8LocationBasedEvents
+POIN Ch8MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN Ch8TrapData Ch8TrapData
+POIN Ch8Units Ch8Units
+POIN $0 $0 $0 $0 $0 $0
+POIN Ch8BeginningScene Ch8EndingScene
+
+Ch8Units:
+UNIT Marth Lord Marth Level(1, Ally, 0) [16,17] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [16,16] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [17,17] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [18,18] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [18,17] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [17,18] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [14,18] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [19,18] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [21,18] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [22,17] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [20,17] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [19,16] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [24,17] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [22,18] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Marth Lord Marth Level(1, Ally, 0) [21,16] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT
+
+
+Ch8TurnBasedEvents:
+TurnEventPlayer(0x0,EventAfterExitingCh8PrepScreen,1)
+END_MAIN
+
+Ch8CharacterBasedEvents:
+END_MAIN
+
+Ch8LocationBasedEvents:
+END_MAIN
+
+Ch8MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+Ch8TrapData:
+END_MAIN
+
+ALIGN 4
+
+Ch8BeginningScene:
+LOAD1 0x1 Ch8Bad
+ENDB
+
+Ch8EndingScene:
+MNC2 0x08
+ENDA
+
+// Events
+EventAfterExitingCh8PrepScreen:
+LOAD1 0x1 KainRecruit
+ENDA
+
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Ch8Bad:
+UNIT Akaneia General Hardin Level(1, Enemy, 1) [24,5] 0x2 0x00 0x0 0x00 [SilverLance, 1G] PursueWithoutHeedAI 
+UNIT Akaneia General Hardin Level(1, Enemy, 1) [21,5] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Akaneia General Hardin Level(1, Enemy, 1) [19,5] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Akaneia General Hardin Level(1, Enemy, 1) [22,3] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Akaneia General Hardin Level(1, Enemy, 1) [22,4] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Akaneia Paladin Hardin Level(1, Enemy, 1) [14,6] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT Akaneia Paladin Hardin Level(1, Enemy, 1) [15,7] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT Akaneia Sniper Hardin Level(1, Enemy, 1) [10,3] 0x2 0x00 0x0 0x00 [SilverBow] AttackInRangeAI 
+UNIT George Sniper Hardin Level(5, Enemy, 1) [9,2] 0x2 0x00 0x0 0x00 [Partia, GoldGem] GuardTileAI 
+UNIT Hardin Necromancer 0x00 Level(20, Enemy, 1) [29,3] 0x2 0x00 0x0 0x00 [Gradius, BlackGem] AttackInRangeAI 
+UNIT Thief Thief Hardin Level(1, Enemy, 1) [14,13] 0x2 0x00 0x0 0x00 [IronSword, FireBreath] LootingThiefAI 
+UNIT Thief Thief Hardin Level(1, Enemy, 1) [14,23] 0x2 0x00 0x0 0x00 [IronSword, GoldGem] LootingThiefAI 
+UNIT Akaneia Hero Astram Level(1, Enemy, 1) [13,27] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT Akaneia Hero Astram Level(1, Enemy, 1) [12,28] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT Akaneia Hero Astram Level(1, Enemy, 1) [11,28] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT Akaneia Hero Astram Level(1, Enemy, 1) [9,30] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT Akaneia Hero Astram Level(1, Enemy, 1) [8,30] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT Akaneia Hero Astram Level(1, Enemy, 1) [11,30] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT Akaneia Hero Astram Level(1, Enemy, 1) [6,30] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT Akaneia Hero Astram Level(1, Enemy, 1) [12,26] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT Astram Hero 0x00 Level(4, Enemy, 1) [11,29] 0x2 0x00 0x0 0x00 [Miracle] AttackInRangeAI 
+
+HardinReinforcements:
+UNIT Akaneia General Hardin Level(1, Enemy, 1) [30,2] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Akaneia General Hardin Level(1, Enemy, 1) [30,3] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Akaneia General Hardin Level(1, Enemy, 1) [30,4] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Akaneia General Hardin Level(1, Enemy, 1) [30,5] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT
+
+KainRecruit:
+UNIT Kain Cavalier Marth Level(9, Ally, 0) [15,17] 0x00 0x00 0x0 0x00 [KillerLance, IronSword] NoAI 
+UNIT
+
+BantuRecruit:
+UNIT Bantu Mamkute Marth Level(3, Ally, 0) [30,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+
+// Shop Data
+
+MESSAGE Events end at offset currentOffset

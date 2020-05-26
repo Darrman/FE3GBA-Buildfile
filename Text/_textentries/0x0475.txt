@@ -1,0 +1,2 @@
+Restores 10+Mag HP to[N]
+all allies on the field.[.][X]

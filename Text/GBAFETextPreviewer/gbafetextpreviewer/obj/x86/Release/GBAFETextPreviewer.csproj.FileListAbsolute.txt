@@ -1,0 +1,14 @@
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\bin\x86\Release\GBAFETextPreviewer.exe
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\bin\x86\Release\GBAFETextPreviewer.pdb
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\GBAFETextPreviewer.csprojResolveAssemblyReference.cache
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\MainWindow.g.cs
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\App.g.cs
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\GBAFETextPreviewer_MarkupCompile.cache
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\GBAFETextPreviewer_MarkupCompile.lref
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\MainWindow.baml
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\GBAFETextPreviewer.g.resources
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\GBAFETextPreviewer.Properties.Resources.resources
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\GBAFETextPreviewer.csproj.GenerateResource.Cache
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\GBAFETextPreviewer.exe
+F:\BwdYeti Documents\My Documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Release\GBAFETextPreviewer.pdb

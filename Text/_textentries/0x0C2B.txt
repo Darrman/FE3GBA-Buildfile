@@ -1,0 +1,1 @@
+[ToggleSmile][OpenMidRight][LoadFace][0x09][0x01][OpenMidRight]Cecil[.][ToggleMouthMove]...[.][N][ToggleMouthMove]I'm sorry.[A][OpenMidRight][CloseEyes][X]

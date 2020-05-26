@@ -1,0 +1,13 @@
+Thanks to the arrival of reinforcements[.]
+from Princess L'Arachel of Rausten,[.][A]
+[LoadOverworldFaces]Eirika and her allies successfully repel the [.]
+Grado invaders.[.][A]
+[LoadOverworldFaces]Still, Jehanna Hall remains under siege, on 
+the edge of ruin.[.][A]
+[LoadOverworldFaces]En route, Eirika learns that the hall has 
+indeed been captured by Grado.[A]
+[LoadOverworldFaces]To rescue Queen Ismaire and recover 
+Jehanna's Sacred Stone,[.][A]
+
+Eirika leads an assault on the royal hall.[A]
+[LoadOverworldFaces][X]

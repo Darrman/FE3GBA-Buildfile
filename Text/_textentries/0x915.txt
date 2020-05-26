@@ -1,0 +1,6 @@
+[MR][LoadCurrent]
+[ML][Load][Grandad]
+The previous war caused many hardships[N]
+for the continent's people. The only[AN]
+country that had it easy was[N]
+Emperor Hardin's Akaneia...[A][X]

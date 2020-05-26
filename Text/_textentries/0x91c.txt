@@ -1,0 +1,7 @@
+[Left][Load][CurrentPortrait]
+[Right][Load][Uncle]
+Thank you for rescuing this village.[N]
+We don't have much to reward you with,[AN]
+but please take this Silver Axe.[N]
+It is a very expensive item, so it should[AN]
+fetch a good price in the shops.[AN][X]

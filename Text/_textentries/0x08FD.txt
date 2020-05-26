@@ -1,0 +1,2 @@
+Proceed to next floor?
+[Yes][X]

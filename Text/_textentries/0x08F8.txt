@@ -1,0 +1,11 @@
+The Sacred Stones that defeated the Demon[.]
+King radiate a constant and dazzling light.[.][A]
+[LoadOverworldFaces]The Sacred Stones are the only power against
+the dark, the last hope of humanity. [.][A]
+[LoadOverworldFaces]It is only natural that evil would seek[.]
+to destroy the Sacred Stones...[.][A]
+
+There can be no other force behind this[.]
+attempt to gain the stones.[.][A]
+[LoadOverworldFaces]A childhood friend appears before Ephraim.[A]
+[LoadOverworldFaces][X]

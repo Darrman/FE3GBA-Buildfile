@@ -1,0 +1,12 @@
+Jehanna Hall has capitulated to Grado's 
+forces and the Knights of Rausten,[A]
+
+who rode to Jehanna's aid, have been routed 
+by General Valter.[A]
+[LoadOverworldFaces]On their own again, Eirika and company flee 
+into the desert.[A]
+[LoadOverworldFaces]Without mercy, Generals Valter and Caellach 
+come hunting.[.][A]
+[LoadOverworldFaces]Eirika is soon brought to ground.[.]
+Enemy forces close in on all sides.[.][A]
+LoadOverworldFaces][X]

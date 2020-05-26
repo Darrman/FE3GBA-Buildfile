@@ -1,0 +1,2 @@
+Repairs an ally's weapon.[N]
+Malliesia only.[X]

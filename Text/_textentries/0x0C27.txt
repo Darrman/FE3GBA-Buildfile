@@ -1,0 +1,1 @@
+[OpenMidRight][LoadFace][0x05][0x01][OpenMidRight]Lord Marth, good luck[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]

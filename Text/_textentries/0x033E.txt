@@ -1,0 +1,2 @@
+A knight who has dismounted. As a[N]
+result, they must now use swords.[X]

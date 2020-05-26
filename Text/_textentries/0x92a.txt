@@ -1,0 +1,4 @@
+[MR][LoadCurrent]
+[ML][Load][Woman]
+Aren't the star shards pretty? If you[N]
+carry them, good things may happen.[A][X]
