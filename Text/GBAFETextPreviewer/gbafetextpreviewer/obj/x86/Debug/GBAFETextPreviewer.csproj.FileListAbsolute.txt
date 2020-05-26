@@ -1,0 +1,14 @@
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\bin\x86\Debug\GBAFETextPreviewer.exe
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\bin\x86\Debug\GBAFETextPreviewer.pdb
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\MainWindow.baml
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\MainWindow.g.cs
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\App.g.cs
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\GBAFETextPreviewer_MarkupCompile.cache
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\GBAFETextPreviewer.g.resources
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\GBAFETextPreviewer.Properties.Resources.resources
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\GBAFETextPreviewer.csproj.GenerateResource.Cache
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\GBAFETextPreviewer.exe
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\GBAFETextPreviewer.pdb
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\GBAFETextPreviewer.csprojResolveAssemblyReference.cache
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+f:\bwdyeti documents\my documents\Visual Studio 2010\Projects\GBAFETextPreviewer\GBAFETextPreviewer\obj\x86\Debug\GBAFETextPreviewer_MarkupCompile.lref

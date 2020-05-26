@@ -1,0 +1,36 @@
+
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.0.0.0                              //
+// Game: FE8                                      //
+// File: fe8_clean.gba                            //
+// Offset: $A39768                                //
+//                                                //
+////////////////////////////////////////////////////
+
+
+
+ORG $A39768
+EVBIT_MODIFY 0x1
+_0xC220
+WM_SPAWNLORD 0x0 0x0 0x1 0x0 0x0
+WM_CENTERCAMONLORD
+MUSCFAST 0x7FFF
+STAL 32
+MUSC 0x4
+WM_SHOWDRAWNMAP 0x0 0x0 0x0 0x10 0x0
+STAL 2
+WM_FADEOUT 0x0 0x0 0x0
+WM_TEXTDECORATE
+EVBIT_MODIFY 0x0
+STAL 60
+WM_SHOWTEXTWINDOW 0x0 0x28 0x1
+WM_WAITFORTEXT
+WM_TEXTSTART
+WM_TEXT 0x8DB
+ENDA
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $A39D00 - currentOffset

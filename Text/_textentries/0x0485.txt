@@ -1,0 +1,2 @@
+Increases skill by 5 points.[N]
+Vanishes after use.[.][X]

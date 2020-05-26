@@ -1,0 +1,2 @@
+A light healing item that[N]
+restores 10 HP when used.[.][X]

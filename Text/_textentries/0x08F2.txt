@@ -1,0 +1,14 @@
+A former lance instructor to Ephraim,[.][A]
+Grado's General Duessel often came to Renais [.]
+as an emissary of his empire.[.][A]
+[LoadOverworldFaces]Despite their stations, the two men share 
+similar dispositions and a warm relationship.[.][A]
+[LoadOverworldFaces]Why has Grado started this war?[.][A]
+What is the miasma of evil emanating [.]
+from the country?[.][A]
+
+Ephraim believes that Duessel can answer
+these questions.[A]
+[LoadOverworldFaces]It is this belief that propels Ephraim
+forward into Grado territory.[.][A]
+[LoadOverworldFaces][X]

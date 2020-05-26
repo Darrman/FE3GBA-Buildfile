@@ -1,0 +1,2 @@
+[OpenMidRight][LoadFace][0x20][0x01][OpenMidRight]Pretty boys don't have it easy[ToggleMouthMove]...[.][ToggleMouthMove]
+[A][OpenMidRight][CloseEyes][X]

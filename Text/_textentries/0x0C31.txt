@@ -1,0 +1,2 @@
+[ToggleSmile][OpenMidRight][LoadFace][0x2A][0x01][OpenMidRight]Master Wendel[.]
+[ToggleMouthMove]... [ToggleMouthMove][A][OpenMidRight][CloseEyes][X]

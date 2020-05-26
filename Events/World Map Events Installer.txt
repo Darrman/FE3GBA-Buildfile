@@ -1,0 +1,67 @@
+//World Map Events Installer
+#define WorldMapIntroPointerTable(id,offset) "PUSH; ORG 0x8B3ad8+(4*id); POIN offset; POP"
+
+
+  #define Ch1WMEventsID 0x1
+  ALIGN 4
+  #include "Ch1WM.event"
+
+  ALIGN 4
+  #include "Ch1WMIntro.event"
+
+  ALIGN 4
+  #include "Ch2WM.event"
+
+  ALIGN 4
+  #include "Ch2WMIntro.event"
+
+  ALIGN 4
+  #include "Ch3WM.event"
+
+  ALIGN 4
+  #include "Ch3WMIntro.event"
+
+  ALIGN 4
+  #include "Ch4WM.event"
+
+  ALIGN 4
+  #include "Ch4WMIntro.event"
+
+  ALIGN 4
+  #include "Ch5WM.event"
+
+  ALIGN 4
+  #include "Ch5WMIntro.event"
+
+  ALIGN 4
+  #include "Ch6WM.event"
+
+  ALIGN 4
+  #include "Ch6WMIntro.event"
+
+  ALIGN 4
+  #include "Ch7WM.event"
+
+  ALIGN 4
+  #include "Ch7WMIntro.event"
+
+  ALIGN 4
+  #include "Ch8WM.event"
+
+  ALIGN 4
+  #include "Ch8WMIntro.event"
+
+  ALIGN 4
+  #include "Ch9WM.event"
+
+  ALIGN 4
+  #include "Ch9WMIntro.event"
+
+  ALIGN 4
+  #include "Ch10WM.event"
+
+  ALIGN 4
+  #include "Ch10WMIntro.event"
+
+ALIGN 4
+//#include "EpilogueEvents.txt"

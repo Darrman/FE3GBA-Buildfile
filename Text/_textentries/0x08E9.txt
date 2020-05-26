@@ -1,0 +1,17 @@
+Jehanna, home of dancing white sands.[.][A]
+This largely barren desert nation is infamous 
+for its mercenary forces.[.][A]
+[LoadOverworldFaces]In accordance with her husband's dying wish, [.]
+the beautiful Ismaire rules Jehanna.[A]
+
+The Queen of the White Dunes governs [.]
+Jehanna with grace and honor.[.][A]
+
+When he was young, her son left Jehanna.
+His whereabouts remain unknown.[.][A]
+[LoadOverworldFaces]After passing through Caer Pelyn, Eirika [.]
+arrives in Jehanna.[.][A]
+
+There, she finds the nation embroiled in [.]
+combat with Grado's forces.[.][A]
+[LoadOverworldFaces][X]

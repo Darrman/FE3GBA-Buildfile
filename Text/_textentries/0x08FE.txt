@@ -1,0 +1,2 @@
+[OpenLeft][LoadFace][0x64][0x01][OpenLeft]Do you want to quit?[N]
+[Yes][X]

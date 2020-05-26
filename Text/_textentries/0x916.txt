@@ -1,0 +1,7 @@
+[MR][LoadCurrent]
+[ML][Load][Grandad]
+The thieves escaped with my family's[N]
+treasured Lady Sword. That sword can[AN]
+only be used by females, but it contains[N]
+tremendous power. If possible, please[AN]
+try and recover it.[AN][X]

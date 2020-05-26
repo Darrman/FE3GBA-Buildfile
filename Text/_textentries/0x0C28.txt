@@ -1,0 +1,1 @@
+[OpenMidRight][LoadFace][0x07][0x01][OpenMidRight]Gordon, brother[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]

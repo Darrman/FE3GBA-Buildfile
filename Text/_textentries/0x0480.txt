@@ -1,0 +1,2 @@
+Allows all allies to take[N]
+another turn in combat.[X]

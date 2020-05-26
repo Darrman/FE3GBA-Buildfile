@@ -1,0 +1,16 @@
+Eirika chooses to travel by sea to the [.]
+theocracy of Rausten.[.][A]
+[LoadOverworldFaces]Her search for a ship leads her to Port Kiris 
+in Carcino.[.][A]
+[LoadOverworldFaces]Carcino is a young nation ruled by a council
+of merchants, and it is an ally of Frelia.[A]
+[LoadOverworldFaces]Carcino council leader Klimt, a staunch 
+opponent of Grado's imperialistic actions,[A]
+[LoadOverworldFaces]has pledged Carcino's support to Frelia in [.]
+this conflict.[A]
+[LoadOverworldFaces]Prince Innes also intends to pass through 
+Carcino on his way to Jehanna.[A]
+
+Eirika believes there is nothing to fear [.]
+in Carcino, but she is wrong.[.][A]
+[LoadOverworldFaces][X]

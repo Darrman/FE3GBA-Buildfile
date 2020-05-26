@@ -1,0 +1,7 @@
+[MR][LoadCurrent]
+[ML][Load][Grandad]
+This country no longer has any young girls.[N]
+The imperial soldiers took them all away.[AN]
+Especially beautiful girls, who were[N]
+all taken by General Lang.[AN]
+What kind of world has this become?[A][X]

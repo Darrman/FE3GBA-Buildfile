@@ -1,0 +1,18 @@
+Ephraim begins his march south toward[.]
+Grado from Castle Frelia.[.][A]
+[LoadOverworldFaces]Upon conquering Renais, the Grado Empire
+has set its sights on Frelia.[.][A]
+[LoadOverworldFaces]However, Innes and his troop meet the 
+invaders at the waters' edge.[.][A]
+[LoadOverworldFaces]Against all odds, Innes halts the invasion, 
+keeping Frelia's border intact.[.][A]
+[LoadOverworldFaces]Ephraim coordinates Frelia's troops in an[.]
+effort to advance the front lines.[A]
+[LoadOverworldFaces]Unbeknownst to Ephraim, Grado forces are [.]
+waiting for them at Fort Rigwald.[.][A]
+
+They've fortified their positions and plan
+to wait out Frelia's siege.[.][A]
+[LoadOverworldFaces]Undaunted, Ephraim remains determined 
+to root out Grado.[A]
+[LoadOverworldFaces][X]

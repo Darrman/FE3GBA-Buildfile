@@ -1,0 +1,159 @@
+#include EAstdlib.event
+
+EventPointerTable(0x17,Chapter5)
+
+ORG 0xE82000
+
+Chapter5:
+POIN Ch5TurnBasedEvents
+POIN Ch5CharacterBasedEvents
+POIN Ch5LocationBasedEvents
+POIN Ch5MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN Ch5TrapData Ch5TrapData
+POIN Ch5Units Ch5Units
+POIN $0 $0 $0 $0 $0 $0
+POIN Ch5BeginningScene Ch5EndingScene
+
+Ch5Units:
+UNIT Marth Lord 0x00 Level(1, Ally, 0) [30,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Arran Paladin 0x00 Level(1, Ally, 0) [28,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Doga Armour_Knight 0x00 Level(1, Ally, 0) [28,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Gordon Archer 0x00 Level(1, Ally, 0) [28,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Oguma Mercenary 0x00 Level(1, Ally, 0) [29,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Luke Cavalier 0x00 Level(1, Ally, 0) [28,23] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Rody Cavalier 0x00 Level(1, Ally, 0) [29,23] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Cecil Cavalier 0x00 Level(1, Ally, 0) [29,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Malliesia Cleric 0x00 Level(1, Ally, 0) [30,24] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Katua PegasusKnight 0x00 Level(1, Ally, 0) [27,24] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Kashim Hunter 0x00 Level(1, Ally, 0) [27,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Linda Mage_F 0x00 Level(1, Ally, 0) [27,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Paola PegasusKnight 0x00 Level(1, Ally, 0) [28,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Julian Thief 0x00 Level(1, Ally, 0) [29,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Sirius Paladin 0x00 Level(1, Ally, 0) [27,18] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+
+Ch5TurnBasedEvents:
+TurnEventPlayer(0x0,EventAfterExitingCh5PrepScreen,1)
+TurnEventEnemy(0x0,GeorgeSpeaks,2)
+END_MAIN
+
+Ch5CharacterBasedEvents:
+CharacterEventBothWays(0xC,RicardoTalk,Julian,Ricardo)
+END_MAIN
+
+Ch5LocationBasedEvents:
+Seize(0x0,Ch5EndingScene,10,20)
+Armory(Ch5Armoury,6,20)
+SecretShop(Ch5Secret,8,1)
+Village(0x0A,HammereneVillage,2,3)
+END_MAIN
+
+Ch5MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+Ch5TrapData:
+END_MAIN
+
+ALIGN 4
+
+Ch5BeginningScene:
+LOAD1 0x1 Ch5Bad
+FADU 10
+MUSC 0x04
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+TEXTSHOW Ch5Opening
+TEXTEND
+GotoPrepScreen
+ENDB
+
+Ch5EndingScene:
+Text(Ch5Ending)
+MNC2 0x05
+ENDA
+
+// Events
+EventAfterExitingCh5PrepScreen:
+MUSC 0x25
+Text(Ch5Start)
+ENDA
+
+RicardoTalk:
+MUSC 0x2A
+Text(RecruitingRicardo)
+TurnAlly(Ricardo)
+ENDA
+
+GeorgeSpeaks:
+MUSC 0x26
+Text(Ch5GeorgeSpeaking)
+ENDA
+
+HammereneVillage:
+MUSC 0x10
+Text(Ch5HammerneVillage)
+REMA
+SVAL 0x3 Hammerne
+GIVEITEMTO 0xFFFF
+ENDA
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Ch5Bad:
+UNIT Akaneia Cavalier Toras Level(7, Enemy, 0) [15,1] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT Akaneia Cavalier Toras Level(7, Enemy, 0) [14,1] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT Akaneia Cavalier Toras Level(5, Enemy, 0) [18,4] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Cavalier Toras Level(5, Enemy, 0) [17,3] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Cavalier Toras Level(5, Enemy, 0) [16,2] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Cavalier Toras Level(5, Enemy, 0) [4,17] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Cavalier Toras Level(5, Enemy, 0) [3,16] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Cavalier Toras Level(5, Enemy, 0) [2,16] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT Akaneia Cavalier Toras Level(7, Enemy, 0) [1,15] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT Akaneia Cavalier Toras Level(7, Enemy, 0) [1,14] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT Akaneia Cavalier Toras Level(7, Enemy, 0) [13,20] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT Akaneia Cavalier Toras Level(7, Enemy, 0) [13,19] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT Akaneia Sniper George Level(1, Enemy, 1) [28,5] 0x00 0x00 0x0 0x00 [SilverBow] MoveWithLeaderAI 
+UNIT Akaneia Sniper George Level(1, Enemy, 1) [26,3] 0x00 0x00 0x0 0x00 [SilverBow] MoveWithLeaderAI 
+UNIT Akaneia Sniper George Level(1, Enemy, 1) [27,4] 0x00 0x00 0x0 0x00 [SilverBow] MoveWithLeaderAI 
+UNIT Akaneia Sniper George Level(1, Enemy, 1) [28,6] 0x00 0x00 0x0 0x00 [SilverBow] MoveWithLeaderAI 
+UNIT Akaneia Bishop George Level(1, Enemy, 1) [28,2] 0x2 0x00 0x0 0x00 [Physic] MoveWithLeaderAI 
+UNIT Akaneia ArmourKnight Toras Level(5, Enemy, 1) [15,20] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
+UNIT George Sniper George Level(5, Enemy, 1) [27,5] 0x2 0x00 0x0 0x00 [Partia] AttackInRangeAI 
+UNIT Akaneia WyvernLord Toras Level(3, Enemy, 1) [7,8] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Akaneia WyvernLord Toras Level(3, Enemy, 1) [6,8] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Akaneia WyvernLord Toras Level(3, Enemy, 1) [5,8] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Akaneia WyvernLord Toras Level(3, Enemy, 1) [6,9] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Akaneia WyvernLord Toras Level(3, Enemy, 1) [5,9] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Akaneia Mage Toras Level(1, Enemy, 1) [20,3] 0x00 0x00 0x0 0x00 [Fire] DefaultAI 
+UNIT Akaneia Mage Toras Level(1, Enemy, 1) [20,5] 0x00 0x00 0x0 0x00 [Fire] DefaultAI 
+UNIT Akaneia Thief Toras Level(3, Enemy, 1) [25,14] 0x00 0x00 0x0 0x00 [IronSword] BrigandAI 
+UNIT Akaneia Thief Toras Level(3, Enemy, 1) [24,9] 0x2 0x00 0x0 0x00 [IronSword, KnightCrest] BrigandAI 
+UNIT Ricardo Thief Toras Level(3, Enemy, 1) [25,12] 0x2 0x00 0x0 0x00 [IronSword, MemberCard] BrigandAI 
+UNIT
+
+ThiefReinforcement:
+UNIT Akaneia Thief Toras Level(5, Enemy, 1) [3,19] 0x2 0x00 0x0 0x00 [SteelSword] BrigandAI 
+UNIT
+
+
+// Shop Data
+Ch5Secret:
+SHLI KnightCrest HeroCrest OrionsBolt ElysianWhip GuidingRing
+Ch5Armoury:
+SHLI IronLance SteelLance Javelin SlimLance IronBow SteelBow
+
+MESSAGE Events end at offset currentOffset

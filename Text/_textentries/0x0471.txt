@@ -1,0 +1,2 @@
+Restores 10+Mag HP to an[N]
+adjacent ally.[X]

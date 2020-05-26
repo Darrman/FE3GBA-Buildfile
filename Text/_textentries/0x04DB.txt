@@ -1,0 +1,3 @@
+Units that enter
+spaces where these
+are take damage.[X]

@@ -1,0 +1,18 @@
+General Duessel tells them of the enigmatic 
+Dark Stone.[.][A]
+
+The product of Grado's research into [.]
+the dark arts, [.][A]
+
+the Dark Stone possesses power far beyond 
+that of the Sacred Stones.[A]
+[LoadOverworldFaces]According to the rumors swirling about, [A]
+
+Vigarde's descent into madness coincides [.]
+with the creation of the Dark Stone.[A]
+[LoadOverworldFaces]Ephraim must confirm the existence of[.]
+the Dark Stone. [A]
+He decides to travel to Grado by sea.[.][A]
+[LoadOverworldFaces]Midway through their passage, however,
+an eerie fog begins to form...[A]
+[LoadOverworldFaces][X]

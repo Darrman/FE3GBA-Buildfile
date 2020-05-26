@@ -1,0 +1,15 @@
+The group sets off in search of Grado's 
+elusive Imperial Prince Lyon.[.][A]
+
+Innes has ordered Frelian troops to aid in [.]
+the hunt.[.][A]
+The troops return with news that Lyon has 
+moved north.[A]
+[LoadOverworldFaces]The group's search for Lyon leads them to[.]
+Mt. Neleras, deep within Darkling Woods.[A]
+
+The scorching heat and sulphur stench render [.]
+the area unfit for human habitation...[A]
+[LoadOverworldFaces]Endless numbers of gorgon eggs stud the 
+forbidding landscape. [A]
+[LoadOverworldFaces][X]

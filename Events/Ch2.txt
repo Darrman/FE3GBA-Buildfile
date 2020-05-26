@@ -1,0 +1,159 @@
+#include EAstdlib.event
+
+EventPointerTable(0x0A,Chapter2)
+
+ORG 0xE80800
+
+Chapter2:
+POIN Ch2TurnBasedEvents
+POIN Ch2CharacterBasedEvents
+POIN Ch2LocationBasedEvents
+POIN Ch2MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN Ch2TrapData Ch2TrapData
+POIN Ch2Units Ch2Units
+POIN $0 $0 $0 $0 $0 $0
+POIN Ch2BeginningScene Ch2EndingScene
+
+Ch2Units:
+UNIT Marth Lord Marth Level(3, Ally, 0) [17,27] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Arran Paladin Marth Level(3, Ally, 0) [16,27] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Doga Armour_Knight Marth Level(3, Ally, 0) [18,27] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Gordon Archer Marth Level(3, Ally, 0) [15,28] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Ryan Archer Marth Level(3, Ally, 0) [14,28] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Luke Cavalier Marth Level(3, Ally, 0) [17,28] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Rody Cavalier Marth Level(3, Ally, 0) [18,28] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Cecil Cavalier_F Marth Level(3, Ally, 0) [19,28] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Malliesia Cleric Marth Level(3, Ally, 0) [18,26] 0x00 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT
+
+
+Ch2TurnBasedEvents:
+TurnEventPlayer(0x0,EventAfterExitingCh2PrepScreen,1)
+END_MAIN
+
+Ch2CharacterBasedEvents:
+CharacterEventBothWays(0xA,WarrenTalk,Katua,Warren)
+END_MAIN
+
+Ch2LocationBasedEvents:
+Seize(0x0,Ch2EndingScene,16,9)
+House(0x0,Ch2House1,12,26)
+House(0x0,Ch2House2,11,26)
+House(0x0,Ch2House3,9,26)
+House(0x0,Ch2House4,10,24)
+House(0x0,Ch2House5,12,24)
+END_MAIN
+
+Ch2MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+Ch2TrapData:
+END_MAIN
+
+ALIGN 4
+
+Ch2BeginningScene:
+LOAD1 0x1 Ch2Bad
+FADU 10
+MUSC 0x04
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+TEXTSHOW Ch2Opening
+TEXTEND
+REMA
+GotoPrepScreen
+ENDB
+
+Ch2EndingScene:
+LOAD1 0x1 LindaRecruit
+MUSC 0x31
+Text(Ch2Ending)
+SVAL 0x3 FireEmblem
+GIVEITEMTO 0xFFFF
+MNC2 0x2
+ENDA
+
+// Events
+EventAfterExitingCh2PrepScreen:
+LOAD1 0x1 KatuaRecruit
+MUSC 0x25
+Text(Ch2Start)
+ENDA
+
+WarrenTalk:
+MUSC 0x30
+Text(RecruitingWarren)
+REMA
+TurnAlly(Warren)
+ENDA
+
+Ch2House1:
+Text(Ch2HouseOne)
+REMA
+ENDA
+
+Ch2House2:
+Text(Ch2HouseTwo)
+REMA
+ENDA
+
+Ch2House3:
+Text(Ch2HouseThree)
+REMA
+ENDA
+
+Ch2House4:
+Text(Ch2HouseFour)
+REMA
+ENDA
+
+Ch2House5:
+Text(Ch2HouseFive)
+REMA
+ENDA
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Ch2Bad:
+UNIT Rumel WyvernLord 0x00 Level(1, Enemy, 0) [16,9] 0x2 0x00 0x0 0x00 [Horseslayer] AttackInRangeAI 
+UNIT Macedonia WyvernLord Rumel Level(1, Enemy, 1) [8,7] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT Macedonia WyvernLord Rumel Level(1, Enemy, 1) [23,7] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT Macedonia Cavalier Rumel Level(1, Enemy, 1) [11,4] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT Macedonia Cavalier Rumel Level(1, Enemy, 1) [15,2] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT Macedonia Cavalier Rumel Level(1, Enemy, 1) [16,2] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT Macedonia Cavalier Rumel Level(1, Enemy, 1) [20,4] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT Macedonia Cavalier Rumel Level(1, Enemy, 1) [16,7] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT Macedonia Soldier Rumel Level(1, Enemy, 1) [15,11] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT Macedonia Soldier Rumel Level(1, Enemy, 1) [17,11] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT Macedonia Soldier Rumel Level(1, Enemy, 1) [16,11] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT Warren Hunter Rumel Level(3, Enemy, 0) [16,15] 0x00 0x00 0x0 0x00 [IronBow, DoorKey] PursueWithoutHeedAI 
+UNIT Macedonia Hunter Rumel Level(1, Enemy, 1) [17,17] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT Macedonia Hunter Rumel Level(1, Enemy, 1) [20,16] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT Macedonia Thief Rumel Level(1, Enemy, 1) [18,18] 0x00 0x00 0x0 0x00 [IronSword, ShadowKiller] LootingThiefAI 
+UNIT
+
+KatuaRecruit:
+UNIT Katua PegasusKnight Marth Level(6, Ally, 0) [17,26] 0x00 0x00 0x0 0x00 [SlimLance] NoAI 
+UNIT
+
+LindaRecruit:
+UNIT Linda Mage_F Marth Level(4, Ally, 0) [16,10] 0x00 0x00 0x0 0x00 [Aura, Nosferatu, Thunder] NoAI
+UNIT
+
+// Shop Data
+
+MESSAGE Events end at offset currentOffset

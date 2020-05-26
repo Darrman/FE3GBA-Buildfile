@@ -1,0 +1,14 @@
+The Caer Pelyn Range...[.][A]
+
+According to Ewan, a little-known passage 
+to Jehanna lies there,[A]
+
+hidden within its cracked red bedrock and 
+knife-edged peaks.[A]
+[LoadOverworldFaces]To avoid Carcino and combat, Eirika's[.]
+troops take the mountain path.[A]
+[LoadOverworldFaces]They begin climbing higher and higher toward [.]
+Caer Pelyn.[.][A]
+[LoadOverworldFaces]Unbeknownst to the group, hordes of dark [.]
+creatures now roam the peaks.[.][A]
+[LoadOverworldFaces][X]

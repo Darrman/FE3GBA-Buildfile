@@ -1,0 +1,1 @@
+[ToggleSmile][OpenMidRight][LoadFace][0x16][0x01][OpenMidRight]This is the end[ToggleMouthMove]... [ToggleMouthMove][.][A][OpenMidRight][CloseEyes][X]

@@ -1,0 +1,6 @@
+[MR][LoadCurrent]
+[ML][Load][Woman]
+Have you heard about Rescue magic? It[N]
+can bring faraway allies to your side.[AN]
+If it does exist, it would be impressive[N]
+stuff.[A][X]

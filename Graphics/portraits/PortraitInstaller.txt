@@ -1,0 +1,235 @@
+#include "Tools/Tool Helpers.txt"
+
+//setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
+
+MarthMug:
+#incext PortraitFormatter "marth.png"
+setMugEntry(0x02, MarthMug, 2, 6, 2, 4)
+
+AlanMug:
+#incext PortraitFormatter "alan.png"
+setMugEntry(0x04, AlanMug, 4, 6, 3, 4)
+
+DogaMug:
+#incext PortraitFormatter "doga.png"
+setMugEntry(0x05, DogaMug, 2, 6, 3, 4)
+
+GordonMug:
+#incext PortraitFormatter "gordon.png"
+setMugEntry(0x06, GordonMug, 2, 6, 2, 4)
+
+RyanMug:
+#incext PortraitFormatter "ryan.png"
+setMugEntry(0x07, RyanMug, 4, 6, 3, 4)
+
+LukeMug:
+#incext PortraitFormatter "luke.png"
+setMugEntry(0x08, LukeMug, 4, 6, 4, 4)
+
+RodyMug:
+#incext PortraitFormatter "rody.png"
+setMugEntry(0x09, RodyMug, 4, 7, 4, 5)
+
+CecilMug:
+#incext PortraitFormatter "cecil.png"
+setMugEntry(0x0A, CecilMug, 4, 6, 4, 4)
+
+JeiganMug:
+#incext PortraitFormatter "jeigan.png"
+setMugEntry(0x0B, JeiganMug, 3, 6, 4, 4)
+
+MalliesiaMug:
+#incext PortraitFormatter "malliesia.png"
+setMugEntry(0x0C, MalliesiaMug, 1, 6, 2, 4)
+
+KatuaMug:
+#incext PortraitFormatter "katua.png"
+setMugEntry(0x0E, KatuaMug, 3, 6, 4, 4)
+
+WarrenMug:
+#incext PortraitFormatter "warren.png"
+setMugEntry(0x0F, WarrenMug, 4, 6, 4, 4)
+
+LindaMug:
+#incext PortraitFormatter "linda.png"
+setMugEntry(0x10, LindaMug, 3, 7, 3, 5)
+
+PaolaMug:
+#incext PortraitFormatter "paola.png"
+setMugEntry(0x11, PaolaMug, 4, 7, 4, 5)
+
+JulianMug:
+#incext PortraitFormatter "julian.png"
+setMugEntry(0x13, JulianMug, 4, 6, 4, 4)
+
+MachisMug:
+#incext PortraitFormatter "machis.png"
+setMugEntry(0x14, MachisMug, 5, 7, 5, 4)
+
+OgumaMug:
+#incext PortraitFormatter "oguma.png"
+setMugEntry(0x16, OgumaMug, 3, 6, 3, 4)
+
+YuminaMug:
+#incext PortraitFormatter "yumina.png"
+setMugEntry(0x18, YuminaMug, 3, 6, 4, 4)
+
+YubelloMug:
+#incext PortraitFormatter "yubello.png"
+setMugEntry(0x19, YubelloMug, 3, 6, 3, 4)
+
+SiriusMug:
+#incext PortraitFormatter "sirius.png"
+setMugEntry(0x1A, SiriusMug, 4, 7, 4, 5)
+
+KashimMug:
+#incext PortraitFormatter "kashim.png"
+setMugEntry(0x1B, KashimMug, 4, 6, 4, 4)
+
+SheedaMug:
+#incext PortraitFormatter "sheeda.png"
+setMugEntry(0x1C, SheedaMug, 4, 7, 3, 5)
+
+RicardoMug:
+#incext PortraitFormatter "ricardo.png"
+setMugEntry(0x1E, RicardoMug, 4, 7, 4, 5)
+
+KainMug:
+#incext PortraitFormatter "kain.png"
+setMugEntry(0x1F, KainMug, 3, 6, 4, 4)
+
+SamtoMug:
+#incext PortraitFormatter "samto.png"
+setMugEntry(0x20, SamtoMug, 4, 6, 4, 4)
+
+WendelMug:
+#incext PortraitFormatter "wendel.png"
+setMugEntry(0x21, WendelMug, 4, 7, 4, 5)
+
+NavarreMug:
+#incext PortraitFormatter "navarre.png"
+setMugEntry(0x22, NavarreMug, 3, 6, 3, 4)
+
+FeenaMug:
+#incext PortraitFormatter "feena.png"
+setMugEntry(0x23, FeenaMug, 4, 7, 4, 5)
+
+BanutuMug:
+#incext PortraitFormatter "banutu.png"
+setMugEntry(0x24, BanutuMug, 4, 6, 4, 4)
+
+GeorgeMug:
+#incext PortraitFormatter "george.png"
+setMugEntry(0x25, GeorgeMug, 4, 7, 4, 5)
+
+MinervaMug:
+#incext PortraitFormatter "minerva.png"
+setMugEntry(0x26, MinervaMug, 4, 7, 4, 5)
+
+MarichMug:
+#incext PortraitFormatter "marich.png"
+setMugEntry(0x29, MarichMug, 2, 6, 3, 4)
+
+EllereanMug:
+#incext PortraitFormatter "ellerean.png"
+setMugEntry(0x2A, EllereanMug, 4, 7, 4, 5)
+
+ChainyMug:
+#incext PortraitFormatter "chainy.png"
+setMugEntry(0x2B, ChainyMug, 4, 6, 4, 4)
+
+ChikiMug:
+#incext PortraitFormatter "chiki.png"
+setMugEntry(0x2C, ChikiMug, 4, 7, 4, 5)
+
+LawrenceMug:
+#incext PortraitFormatter "lawrence.png"
+setMugEntry(0x31, LawrenceMug, 4, 6, 4, 4)
+
+LangMug:
+#incext PortraitFormatter "lang.png"
+setMugEntry(0x36, LangMug, 4, 7, 4, 5)
+
+SamsonMug:
+#incext PortraitFormatter "samson.png"
+setMugEntry(0x3F, SamsonMug, 4, 6, 4, 4)
+
+SheemaMug:
+#incext PortraitFormatter "sheema.png"
+setMugEntry(0x42, SheemaMug, 4, 6, 4, 4)
+
+MidiaMug:
+#incext PortraitFormatter "midia.png"
+setMugEntry(0x43, MidiaMug, 3, 6, 3, 5)
+
+EstMug:
+#incext PortraitFormatter "est.png"
+setMugEntry(0x45, EstMug, 4, 7, 4, 5)
+
+AbelMug:
+#incext PortraitFormatter "abel.png"
+setMugEntry(0x46, AbelMug, 2, 6, 3, 4)
+
+RosheMug:
+#incext PortraitFormatter "roshe.png"
+setMugEntry(0x48, RosheMug, 4, 7, 4, 5)
+
+AstriaMug:
+#incext PortraitFormatter "astria.png"
+setMugEntry(0x4B, AstriaMug, 4, 7, 4, 5)
+
+EllisMug:
+#incext PortraitFormatter "ellis.png"
+setMugEntry(0x4F, EllisMug, 3, 6, 4, 4)
+
+RenaMug:
+#incext PortraitFormatter "rena.png"
+setMugEntry(0x51, RenaMug, 4, 6, 4, 4)
+
+NinaMug:
+#incext PortraitFormatter "nina.png"
+setMugEntry(0x52, NinaMug, 4, 7, 4, 5)
+
+MariaMug:
+#incext PortraitFormatter "maria.png"
+setMugEntry(0x56, MariaMug, 4, 7, 4, 5)
+
+AnnaMug:
+#incext PortraitFormatter "Anna.png"
+setMugEntry(0x64, AnnaMug, 4, 4, 3, 6)
+
+BaldManMug:
+#incext PortraitFormatter "BaldMan.png"
+setMugEntry(0x58, BaldManMug, 4, 6, 4, 4)
+
+ManMug:
+#incext PortraitFormatter "Man.png"
+setMugEntry(0x5D, ManMug, 4, 6, 4, 4)
+
+WomanMug:
+#incext PortraitFormatter "Woman.png"
+setMugEntry(0x61, WomanMug, 4, 6, 4, 4)
+
+UncleMug:
+#incext PortraitFormatter "Uncle.png"
+setMugEntry(0x5A, UncleMug, 4, 6, 4, 4)
+
+AuntMug:
+#incext PortraitFormatter "Aunt.png"
+setMugEntry(0x60, AuntMug, 4, 4, 4, 6)
+
+GrandadMug:
+#incext PortraitFormatter "Grandad.png"
+setMugEntry(0x59, GrandadMug, 4, 6, 4, 4)
+
+GrannyMug:
+#incext PortraitFormatter "Granny.png"
+setMugEntry(0x5F, GrannyMug, 4, 6, 4, 4)
+
+MallGranMug:
+#incext PortraitFormatter "MalliesiaGranny.png"
+setMugEntry(0x62, MallGranMug, 4, 7, 4, 5)
+
+SoldierMug:
+#incext PortraitFormatter "Soldier.png"
+setMugEntry(0x6A, SoldierMug, 3, 6, 3, 4)

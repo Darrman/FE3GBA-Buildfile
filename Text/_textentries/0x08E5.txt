@@ -1,0 +1,23 @@
+The [ToggleRed]Tower of Valni[ToggleRed] has appeared to the
+east of Castle Frelia on the world map.[.][A]
+Once held by Grado's troops, it has become
+home to a host of [ToggleRed]dark creatures[ToggleRed].[.][A]
+Battling these monstrosities is a good [.]
+way for units to gain strength.[.][A]
+Try using the tower as a training area [.]
+to gain extra experience.[.][A][0x02]
+Be aware: you cannot save your battle 
+preparations for tower skirmishes.[A]
+Once you clear a tower map, you'll have 
+access to the next floor.[.][A]
+Each floor is more difficult than the last, 
+so come prepared![.][A][0x02]
+Dark creatures also may appear on other 
+bases on the world map.[.][A]
+To engage these demons in combat,[.][A]
+simply place the cursor on their location 
+and press the A Button.[.][A][0x02]
+If the battle goes poorly and you're in 
+danger of losing units,[.][A]
+use the [ToggleRed]retreat[.][ToggleRed] command on the map 
+menu to withdraw your troops.[.][A][X]

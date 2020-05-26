@@ -1,0 +1,23 @@
+
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.0.0.0                              //
+// Game: FE8                                      //
+// File: fe8_clean.gba                            //
+// Offset: $A3974C                                //
+//                                                //
+////////////////////////////////////////////////////
+
+
+
+ORG $A3974C
+_SATURATE_COLORS 0x0 0x3C 0x0
+WM_SHOWTEXTWINDOW 0x0 0x28 0x1
+WM_WAITFORTEXT
+WORD 0xAE20
+ENDA
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $A39768 - currentOffset

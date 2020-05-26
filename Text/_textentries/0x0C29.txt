@@ -1,0 +1,2 @@
+[OpenMidRight][LoadFace][0x08][0x01][OpenMidRight]Urgh, it hurts[ToggleMouthMove]...[.][N][ToggleMouthMove]
+I'm done for[ToggleMouthMove]...![.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]

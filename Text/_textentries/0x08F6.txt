@@ -1,0 +1,12 @@
+Ephraim's sister is in danger.[A]
+[LoadOverworldFaces]Grado's General Caellach has attacked 
+Jehanna Hall, forcing its surrender.[A]
+[LoadOverworldFaces]Though Eirika and her troop have left the 
+Hall, Grado's forces pursue them relentlessly.[A]
+
+Trapped in the burning desert, enemy forces[.]
+close in on them from all sides. [.][A]
+[LoadOverworldFaces]With no time to wait for Frelia's troops, 
+Ephraim leaves for Jehanna immediately.[.][A]
+[LoadOverworldFaces]He must go to his sister's aid.[.][A]
+[LoadOverworldFaces][X]

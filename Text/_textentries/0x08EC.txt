@@ -1,0 +1,11 @@
+The capital of Renais.[A]
+
+After the twins' absence, seeing their home[.]
+ruined by war brings them terrible grief.[.][A]
+[LoadOverworldFaces]Orson, a former Knight of Renais, had been [.]
+assigned to guard Castle Renais.[A]
+However, he switched allegiances, betraying 
+his oaths of loyalty to his homeland.[.][A]
+[LoadOverworldFaces]Eirika marks her homecoming by vowing to see [.]
+Renais healed.[A]
+[LoadOverworldFaces][X]

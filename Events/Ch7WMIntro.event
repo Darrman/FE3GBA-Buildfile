@@ -1,0 +1,21 @@
+
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.0.0.0                              //
+// Game: FE8                                      //
+// File: fe8_clean.gba                            //
+// Offset: $A3A2D8                                //
+//                                                //
+////////////////////////////////////////////////////
+
+
+
+ORG $A3A2D8
+ EVBIT_MODIFY 0x1
+ SKIPWN
+ ENDA
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $A3A4D0 - currentOffset

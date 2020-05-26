@@ -1,0 +1,43 @@
+#ifdef _FE8_
+    #include "EAstdlib.event"
+    #include "Custom Definitions.event"
+
+    ORG FreeSpace
+
+    //Graphics
+    #include "Graphics/Graphics Installer.txt"
+	MESSAGE Graphics Used free space ends at currentOffset
+	
+    //Music
+    //#include "Music/Music Installer.txt"
+	 //MESSAGE Music Used free space ends at currentOffset
+
+
+    //Text
+    #include "Text/Install Text Data.event"
+	 MESSAGE Text Used free space ends at currentOffset
+
+    //CSV tables
+    #include "Tables/Table Installer.txt"
+	 MESSAGE Tables  Used free space ends at currentOffset
+
+ALIGN 4
+
+    //Maps
+    #include "Maps/Master Map Installer.event"
+	 MESSAGE Maps Used free space ends at currentOffset
+
+    //Events
+    #include "Events/World Map Events Installer.txt"
+    #include "Events/Chapter Events Installer.txt"
+	 MESSAGE Events Used free space ends at currentOffset
+
+    //Engine Hacks
+    #include "Engine Hacks/_MasterHackInstaller.txt"
+	MESSAGE ASM Hacks Used free space ends at currentOffset
+
+    MESSAGE Used free space ends at currentOffset
+
+#else
+    ERROR You see the "FE8" button? Click it, you idiot!
+#endif

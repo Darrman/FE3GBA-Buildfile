@@ -1,0 +1,27 @@
+//Battle Frame Installer
+
+//Frame proper
+PUSH
+  ORG $801C14
+  #incext Png2Dmp "BattleFrame.png" --lz77
+POP
+
+PUSH
+  ORG $801f7c
+  #incext Png2Dmp "nameframeenemy.png" --lz77
+POP
+
+PUSH
+  ORG $801ff4
+  #incext Png2Dmp "enemy weapon name.png" --lz77
+POP
+
+PUSH
+  ORG $802044
+  #incext Png2Dmp "nameframeplayer.png" --lz77
+POP
+
+PUSH
+  ORG $8020bc
+  #incext Png2Dmp "player weapon name less detailed.png" --lz77
+POP

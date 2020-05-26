@@ -1,0 +1,6 @@
+[MR][LoadCurrent]
+[ML][Load][Aunt]
+Be careful of thieves. If they[N]
+steal any precious items, you[AN]
+should take them back from them.[N]
+You mustn't let them escape.[A][X]

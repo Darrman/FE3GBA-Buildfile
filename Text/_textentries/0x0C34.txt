@@ -1,0 +1,1 @@
+[OpenMidRight][LoadFace][0x2C][0x01][OpenMidRight]Marth[ToggleMouthMove]... [ToggleMouthMove][A][OpenMidRight][CloseEyes][X]

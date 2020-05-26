@@ -1,0 +1,47 @@
+//assumed to be at free space
+#define ChapterGraphic(id,graphic) "PUSH; ORG $a01208+(12*id);POIN graphic 0 0;POP"
+
+ORG 0xB2AD00 //should stop Marth breaking?
+
+//Map Sprites Install
+#include "map_sprites/MapSprites.txt"
+
+//Portraits Install
+#include "portraits/PortraitInstaller.txt"
+
+//Animations Install
+#include "Animations/Master Animation Installer.txt"
+
+//Palettes install
+#include "pal2EA/Palette Setup.event"
+
+//The battle frame
+//#include "Battle Frame/battle frame installer.txt"
+
+//Title Screen scroll
+PUSH
+  ORG $aacedc
+  #incext Png2Dmp "title.png" --lz77
+POP
+
+//Weapon Icon Install
+PUSH
+  ORG 0x36b4
+  //POIN WeaponIcons
+	BYTE $00 $00 $F0 $08
+  ORG 0x3788
+  //POIN WeaponIcons
+	BYTE $00 $00 $F0 $08
+POP
+
+WeaponIcons:
+PUSH
+ORG 0xF00000
+#incext Png2Dmp "Weapon Icons/bluebackgroundicons.png"
+
+ORG 0x5996F4
+//BYTE 0x60 0x3C 0x4E 0x19 0x2D 0x5F 0xC4 0x10 0xCB 0x1B 0xF6 0x66 0xFF 0x7F 0x35 0x04 0x02 0x32 0xFB 0x12 0x47 0x79 0x98 0x01 0xBC 0x4B 0xEA 0x20 0x10 0x46 0x13 0x3A
+#incbin "Weapon Icons/itemiconpalette.dmp"
+POP
+
+//ORG 0xB71F44

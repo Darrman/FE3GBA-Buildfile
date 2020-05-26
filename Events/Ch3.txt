@@ -1,0 +1,220 @@
+#include EAstdlib.event
+
+EventPointerTable(0x0D,Chapter3)
+
+ORG 0xE81000
+
+Chapter3:
+POIN Ch3TurnBasedEvents
+POIN Ch3CharacterBasedEvents
+POIN Ch3LocationBasedEvents
+POIN Ch3MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN Ch3TrapData Ch3TrapData
+POIN Ch3Units Ch3Units
+POIN $0 $0 $0 $0 $0 $0
+POIN Ch3BeginningScene Ch3EndingScene
+
+Ch3Units:
+UNIT Marth Lord 0x00 Level(1, Ally, 0) [24,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Arran Lord 0x00 Level(1, Ally, 0) [23,29] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Doga Lord 0x00 Level(1, Ally, 0) [24,29] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Gordon Lord 0x00 Level(1, Ally, 0) [23,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Ryan Lord 0x00 Level(1, Ally, 0) [24,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Luke Lord 0x00 Level(1, Ally, 0) [21,29] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Rody Lord 0x00 Level(1, Ally, 0) [25,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Cecil Lord 0x00 Level(1, Ally, 0) [26,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Malliesia Lord 0x00 Level(1, Ally, 0) [26,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Katua Lord 0x00 Level(1, Ally, 0) [25,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Warren Lord 0x00 Level(1, Ally, 0) [25,29] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Linda Lord 0x00 Level(1, Ally, 0) [26,29] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+
+Ch3TurnBasedEvents:
+TurnEventPlayer(0x0,EventAfterExitingCh3PrepScreen,1)
+TurnEventEnemy(0x0,MisheilSpeaks,2)
+END_MAIN
+
+Ch3CharacterBasedEvents:
+CharacterEventBothWays(0xC,MatthisTalk,Julian,Matthis)
+END_MAIN
+
+Ch3LocationBasedEvents:
+Seize(0x00,Ch3EndingScene,20,18)
+Village(0x0A,SilverAxeVillage,2,25)
+Village(0x0B,JulianVillage,29,4)
+Armory(Ch3Shop,21,14)
+//Arena(22,14)
+House(0x00,Ch3House1,4,26)
+House(0x00,Ch3House2,9,27)
+House(0x00,Ch3House3,10,27)
+House(0x00,Ch3House4,13,1)
+END_MAIN
+
+Ch3MiscBasedEvents:
+//AREA 0x0D IotesShieldGet [19,18] [21,19]
+AREA 0x0E LowerBridge [14,26] [16,27]
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+	
+Ch3TrapData:
+END_MAIN
+
+ALIGN 4
+
+Ch3BeginningScene:
+LOAD1 0x1 Ch3Bad
+FADU 10
+MUSC 0x04
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+TEXTSHOW Ch3Opening
+TEXTEND
+REMA
+GotoPrepScreen
+ENDB
+
+Ch3EndingScene:
+MUSC 0x25
+Text(Ch3Ending)
+MNC2 0x03
+ENDA
+
+// Events
+EventAfterExitingCh3PrepScreen:
+LOAD1 0x1 PaolaRecruit
+CAM1 Paola
+MUSC 0x25
+Text(Ch3Start)
+REMA
+ENDA
+
+//IotesShieldGet:
+//SVAL 0x2 0x0
+//_0x0A40
+//CHECK_LUCK 0xFFFF
+//SADD 0xC2
+//SVAL 0x3 0x71
+//_0x0A40
+//BNE 0x8205 0xC 0x0
+//_0x0A40
+//LABEL 0x8205
+//EVBIT_T 0x7
+//ENDA
+
+JulianVillage:
+MUSC 0x30
+LOAD1 0x1 JulianRecruit
+Text(RecruitingJulian)
+REMA
+ENDA
+
+SilverAxeVillage:
+Text(SilverAxeVillageConvo)
+REMA
+SVAL 0x3 0x21 //set value to 0x21, which should be the silver axe
+GIVEITEMTO 0xFFFF //give it to the current unit... i think
+ENDA
+
+MatthisTalk:
+MUSC 0x32
+Text(RecruitingMachis)
+REMA
+TurnAlly(Matthis)
+ENDA
+
+MisheilSpeaks:
+MUSC 0x20
+Text(Ch3MisheilSpeaking)
+ENDA
+
+Ch3House1:
+Text(Ch3HouseOne)
+REMA
+ENDA
+
+Ch3House2:
+Text(Ch3HouseTwo)
+REMA
+ENDA
+
+Ch3House3:
+Text(Ch3HouseThree)
+REMA
+ENDA
+
+Ch3House4:
+Text(Ch3HouseFour)
+REMA
+ENDA
+
+LowerBridge:
+CHECK_ACTIVE
+SETVAL 7 Warren; BEQ 0x1 0xC 7
+BNE 0x2 0xC 0x0
+LABEL 0x1
+Text(Ch3BridgeLowering)
+REMA
+SETVAL 0xB 0x19000E
+TILECHANGE 0xFFFF
+GOTO 0x3
+LABEL 0x2
+ENUF 0x0E
+LABEL 0x3
+NoFade
+ENDA
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+
+Ch3Bad:
+UNIT Macedonia WyvernLord Ryuke Level(1, Enemy, 0) [9,12] 0x2 0x00 0x0 0x00 [IronLance, KnightCrest] DoNothing 
+UNIT Macedonia WyvernLord Ryuke Level(1, Enemy, 1) [11,12] 0x00 0x00 0x0 0x00 [IronLance] DoNothing 
+UNIT Macedonia WyvernLord Ryuke Level(1, Enemy, 1) [14,13] 0x00 0x00 0x0 0x00 [IronLance] DoNothing 
+UNIT Macedonia WyvernLord Ryuke Level(1, Enemy, 1) [24,15] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Macedonia WyvernLord Ryuke Level(1, Enemy, 1) [25,16] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT Macedonia WyvernLord Ryuke Level(1, Enemy, 1) [24,17] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT Macedonia WyvernLord Ryuke Level(1, Enemy, 1) [27,15] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT Macedonia WyvernLord Ryuke Level(1, Enemy, 1) [28,16] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT Macedonia WyvernLord Ryuke Level(1, Enemy, 1) [27,17] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT Macedonia WyvernLord Ryuke Level(1, Enemy, 0) [12,11] 0x2 0x00 0x0 0x00 [IronLance, SilverLance] DoNothing 
+UNIT Macedonia Thief Ryuke Level(1, Enemy, 1) [11,1] 0x00 0x00 0x0 0x00 [IronSword] BrigandAI 
+UNIT Macedonia Cavalier Ryuke Level(4, Enemy, 1) [20,19] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT Macedonia Cavalier Ryuke Level(4, Enemy, 1) [19,18] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT Macedonia Cavalier Ryuke Level(4, Enemy, 1) [21,18] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT Machis Cavalier Ryuke Level(4, Enemy, 1) [18,19] 0x00 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
+UNIT Ryuke General 0x0 Level(1, Enemy, 1) [20,18] 0x2 0x00 0x0 0x00 [SteelLance, Taurus] GuardTileAI //Taurus
+UNIT Macedonia Archer Ryuke Level(4, Enemy, 1) [19,21] 0x00 0x0 0x00 0x00 [QuickRain] GuardTileAI
+UNIT
+
+PaolaRecruit:
+UNIT Paola PegasusKnight Marth Level(10, Ally, 0) [22,7] 0x00 0x00 0x0 0x00 [SilverLance, IronSword, Vulnerary] NoAI 
+UNIT
+
+JulianRecruit:
+UNIT Julian Thief Marth Level(6, Ally, 0) [29,5] 0x00 0x00 0x0 0x00 [IronSword, Mend] NoAI 
+UNIT
+
+Ch3Reinforcements:
+UNIT Macedonia Cavalier Marth Level(4, Enemy, 1) [18,1] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT Macedonia Cavalier Marth Level(4, Enemy, 1) [24,3] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT Macedonia Cavalier Marth Level(4, Enemy, 1) [27,7] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT
+
+// Shop Data
+Ch3Shop:
+SHLI IronSword SteelSword IronLance SteelLance Javelin IronBow
+MESSAGE Events end at offset currentOffset

@@ -1,0 +1,5 @@
+
+//Map_Ruby_Stand:
+//#incext Png2Dmp "Ruby_Standing_16x32.png" --lz77
+//Map_Ruby_Move:
+//#incext Png2Dmp "Ruby_Moving_32x32.png" --lz77
