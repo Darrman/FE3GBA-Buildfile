@@ -13,3 +13,5 @@ Special Thanks: Shouzou Kaga and company, for making the original game.
 The FEU regulars, for dealing with all of my shenagains and grouching about names.
 
 Enjoy! - Darrman
+
+2023 note: The project is cancelled. Development will not resume.
